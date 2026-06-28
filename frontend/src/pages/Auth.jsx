@@ -4,7 +4,7 @@ import { loginUser, registerUser } from "@/services/api";
 import { useAppStore } from "@/store/useAppStore";
 import { setStoredUser, setToken } from "@/lib/store";
 import { Eye, EyeOff } from "lucide-react";
-
+import { motion, AnimatePresence } from "framer-motion";
 // Maps backend redirectTo string → frontend route
 const REDIRECT_MAP = {
   "path-selection": "/path-selection",
