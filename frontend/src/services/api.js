@@ -1,113 +1,150 @@
-import { getToken } from "@/utils/auth";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 
-const BASE_URL = "http://localhost:5000/api";
+// ─────────────────────────────────────────────────────────
+// PROGRESS ENDPOINTS
+// ─────────────────────────────────────────────────────────
 
-// ================= GENERIC REQUEST =================
-const request = async (endpoint, options = {}) => {
-  const token = getToken();
-
-  try {
-    const res = await fetch(`${BASE_URL}${endpoint}`, {
-      ...options,
-      headers: {
-        "Content-Type": "application/json",
-        ...(token && { Authorization: `Bearer ${token}` }),
-        ...options.headers,
-      },
-    });
-
-    // 🔥 Handle unauthorized (future-ready)
-    if (res.status === 401) {
-      console.error("Unauthorized - token expired");
-      localStorage.removeItem("token");
-      window.location.href = "/auth";
-      return;
-    }
-
-    if (!res.ok) {
-      const text = await res.text();
-      try {
-        const errorData = JSON.parse(text);
-        throw new Error(errorData.message || "API error");
-      } catch {
-        throw new Error(text || "API error");
-      }
-    }
-
-    return res.json();
-
-  } catch (err) {
-    console.error("API ERROR:", err.message);
-    throw err;
-  }
+export const getUserProgress = async () => {
+  const response = await fetch(`${API_BASE}/progress`, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${localStorage.getItem("token")}`,
+    },
+  });
+  if (!response.ok) throw new Error(`Failed to fetch progress: ${response.statusText}`);
+  return response.json();
 };
 
-
-// ================= AUTH =================
-export const loginUser = (data) =>
-  request("/auth/login", {
+export const completeTask = async (dayNumber, taskId) => {
+  const response = await fetch(`${API_BASE}/progress/complete-task`, {
     method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${localStorage.getItem("token")}`,
+    },
+    body: JSON.stringify({ dayNumber, taskId }),
+  });
+  if (!response.ok) throw new Error(`Failed to complete task: ${response.statusText}`);
+  return response.json();
+};
+
+export const completeDay = async (dayNumber, quizCorrect, quizTotal, isPerfect) => {
+  const response = await fetch(`${API_BASE}/progress/complete-day`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${localStorage.getItem("token")}`,
+    },
+    body: JSON.stringify({ dayNumber, quizCorrect, quizTotal, isPerfect }),
+  });
+  if (!response.ok) throw new Error(`Failed to complete day: ${response.statusText}`);
+  return response.json();
+};
+
+export const saveOnboardingData = async (onboardingData) => {
+  const response = await fetch(`${API_BASE}/progress/update-onboarding`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${localStorage.getItem("token")}`,
+    },
+    body: JSON.stringify(onboardingData),
+  });
+  if (!response.ok) throw new Error(`Failed to save onboarding data: ${response.statusText}`);
+  return response.json();
+};
+
+export const resetProgress = async () => {
+  const response = await fetch(`${API_BASE}/progress/reset`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${localStorage.getItem("token")}`,
+    },
+  });
+  if (!response.ok) throw new Error(`Failed to reset progress: ${response.statusText}`);
+  return response.json();
+};
+
+// ─────────────────────────────────────────────────────────
+// AUTH ENDPOINTS
+// ─────────────────────────────────────────────────────────
+
+export const registerUser = async (formData) => {
+  const response = await fetch(`${API_BASE}/auth/register`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      name:     formData.name,
+      mobile:   formData.mobile,
+      email:    formData.email,
+      password: formData.password,
+    }),
+  });
+
+  if (!response.ok) {
+    const err = await response.json().catch(() => ({}));
+    throw new Error(err.message || `Registration failed: ${response.statusText}`);
+  }
+
+  return response.json();
+};
+
+export const loginUser = async (formData) => {
+  const response = await fetch(`${API_BASE}/auth/login`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      email:    formData.email,
+      password: formData.password,
+    }),
+  });
+
+  if (!response.ok) {
+    const err = await response.json().catch(() => ({}));
+    throw new Error(err.message || `Login failed: ${response.statusText}`);
+  }
+
+  return response.json();
+};
+
+export const logoutUser = () => {
+  localStorage.removeItem("token");
+  localStorage.removeItem("user");
+};
+
+export const getCurrentUser = async () => {
+  const response = await fetch(`${API_BASE}/auth/me`, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${localStorage.getItem("token")}`,
+    },
+  });
+  if (!response.ok) throw new Error(`Failed to fetch current user: ${response.statusText}`);
+  return response.json();
+};
+
+// ─────────────────────────────────────────────────────────
+// USER SETUP — saves onboarding fields to DB
+// ─────────────────────────────────────────────────────────
+
+// Called from PathSelection (selectedPath) and Step4 (all fields).
+// This is what makes getRedirectTo() in authController return "dashboard"
+// on subsequent logins instead of "path-selection".
+export const updateUserSetup = async (data) => {
+  const response = await fetch(`${API_BASE}/users/setup`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${localStorage.getItem("token")}`,
+    },
     body: JSON.stringify(data),
   });
-
-export const registerUser = (data) =>
-  request("/auth/register", {
-    method: "POST",
-    body: JSON.stringify(data),
-  });
-
-
-// ================= USER =================
-export const getDashboard = (userId) =>
-  request(`/user/dashboard/${userId}`);
-
-export const selectPath = (data) =>
-  request("/user/select-path", {
-    method: "POST",
-    body: JSON.stringify(data),
-  });
-
-
-// ================= PROGRESS =================
-// REPLACE the 3 progress functions with these:
-
-export const getUserProgress = () =>
-  request("/progress/me"); // no userId — token handles it
-
-export const updateTask = (data) =>
-  request("/progress/update-task", {
-    method: "POST",
-    body: JSON.stringify({ day: data.day, taskId: data.taskId }), // no userId
-  });
-
-export const completeDay = (data) =>
-  request("/progress/complete-day", {
-    method: "POST",
-    body: JSON.stringify({ day: data.day }), // no userId
-  });
-
-// ================= ROADMAP (NEW - PHASE 1 & 2) =================
-
-// 🔥 Rule-based roadmap generator
-export const generateRoadmap = (data) =>
-  request("/roadmap/generate", {
-    method: "POST",
-    body: JSON.stringify(data),
-  });
-
-// 🔥 (Future) Get stored roadmap
-export const getUserRoadmap = (userId) =>
-  request(`/roadmap/user/${userId}`);
-
-
-// ================= AI (FUTURE READY) =================
-export const generateAIRoadmap = (data) =>
-  request("/ai/generate-roadmap", {
-    method: "POST",
-    body: JSON.stringify(data),
-  });
-
-
-// ================= ANALYTICS (FUTURE) =================
-export const getAnalytics = (userId) =>
-  request(`/analytics/${userId}`);
+  if (!response.ok) {
+    const err = await response.json().catch(() => ({}));
+    throw new Error(err.message || "Failed to update user setup");
+  }
+  return response.json();
+};

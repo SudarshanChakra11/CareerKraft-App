@@ -15,6 +15,7 @@ import Step1 from "@/pages/onboarding/Step1";
 import Step2 from "@/pages/onboarding/Step2";
 import Step3 from "@/pages/onboarding/Step3";
 import Step4 from "@/pages/onboarding/Step4";
+import Roadmap from "@/pages/Roadmap";
 
 function PrivateRoute({ children }) {
   const token = localStorage.getItem("token") || sessionStorage.getItem("token");
@@ -83,6 +84,7 @@ export default function App() {
             <Route path="/onboarding/step4"  element={<PrivateRoute><Step4 /></PrivateRoute>} />
             <Route path="/dashboard"         element={<PrivateRoute><Dashboard /></PrivateRoute>} />
             <Route path="/day/:dayNumber"    element={<PrivateRoute><DayPage /></PrivateRoute>} />
+            <Route path="/roadmap"           element={<PrivateRoute><Roadmap /></PrivateRoute>} />
 
             {/* FALLBACK */}
             <Route path="*" element={<Navigate to="/" replace />} />

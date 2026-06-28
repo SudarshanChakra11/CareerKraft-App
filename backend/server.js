@@ -1,55 +1,74 @@
-import dotenv from "dotenv";
-import path from "path";
-
-dotenv.config({
-  path: path.resolve("./.env"),
-});
-console.log("EMAIL_USER:", process.env.EMAIL_USER);
-console.log("EMAIL_PASS:", process.env.EMAIL_PASS);
-
 import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+
 import connectDB from "./config/db.js";
+import authMiddleware from "./middleware/authMiddleware.js";
+
+// Routes
 import authRoutes from "./routes/authRoutes.js";
 import progressRoutes from "./routes/progressRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
-import cors from "cors";
-import chatRoutes from "./routes/chatRoutes.js";
-import authMiddleware from "./middleware/authMiddleware.js"; // ✅ ADD THIS
 import roadmapRoutes from "./routes/roadmapRoutes.js";
-import errorMiddleware from "./middleware/errorMiddleware.js";
+import chatRoutes from "./routes/chatRoutes.js"; // Add if using chatbot routes
 
-
-connectDB();
+dotenv.config();
 
 const app = express();
 
-// Debug log (optional)
-console.log("JWT:", process.env.JWT_SECRET);
-
-// CORS — fix for prod
-app.use(cors({
-  origin: process.env.ALLOWED_ORIGIN || "http://localhost:5173"
-}));
-
-// ✅ Middleware
+// ===============================
+// Middleware
+// ===============================
+app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-// ✅ TEST ROUTE (ADD THIS)
-app.get("/api/test", authMiddleware, (req, res) => {
-  res.json({ user: req.user });
+// ===============================
+// Database Connection
+// ===============================
+connectDB();
+
+// ===============================
+// Public Routes
+// ===============================
+app.use("/api/auth", authRoutes);
+
+// ===============================
+// Protected Routes
+// ===============================
+app.use("/api/progress", authMiddleware, progressRoutes);
+app.use("/api/user", authMiddleware, userRoutes);
+app.use("/api/roadmap", authMiddleware, roadmapRoutes);
+app.use("/api/chat", authMiddleware, chatRoutes); // Remove if not used
+
+// ===============================
+// Health Check
+// ===============================
+app.get("/api/health", (req, res) => {
+  res.status(200).json({
+    success: true,
+    status: "ok",
+    message: "CareerKraft API is running",
+  });
 });
 
-// ✅ Routes
-app.use("/api/auth", authRoutes);
-app.use("/api/progress", progressRoutes);
-app.use("/api/user", userRoutes);
-app.use("/api/chat", chatRoutes);
-app.use("/api/roadmap", roadmapRoutes);
-// Add at bottom (after all routes)
+// ===============================
+// Global Error Handler
+// ===============================
+app.use((err, req, res, next) => {
+  console.error(err);
 
-app.use(errorMiddleware);
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || "Internal Server Error",
+  });
+});
 
-// ✅ Server start
-app.listen(process.env.PORT, () => {
-  console.log(`🚀 Server running on port ${process.env.PORT}`);
+// ===============================
+// Start Server
+// ===============================
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`🚀 CareerKraft Backend started successfully on port ${PORT}`);
 });

@@ -39,8 +39,8 @@ export const getPathDays = (track) => {
 
   console.log("✅ Path Loaded:", {
     track,
-    normalizedTrack,
-    daysCount: Object.keys(result).length
+      normalizedTrack,
+      daysCount: Object.keys(result).length
   });
 
   return result;

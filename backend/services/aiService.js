@@ -1,18 +1,27 @@
 import Groq from "groq-sdk";
 
-// Lazy initialize Groq client
+// ===============================
+// Groq Client
+// ===============================
 let groq = null;
 
 const getGroqClient = () => {
+  if (!process.env.GROQ_API_KEY) {
+    throw new Error("GROQ_API_KEY is not configured.");
+  }
+
   if (!groq) {
-    console.log("🚀 Initializing Groq with API Key:", process.env.GROQ_API_KEY ? "✓ Present" : "✗ Missing");
     groq = new Groq({
       apiKey: process.env.GROQ_API_KEY,
     });
   }
+
   return groq;
 };
 
+// ===============================
+// AI Response Generator
+// ===============================
 export const generateAIResponse = async (messages) => {
   try {
     const chatHistory = messages
@@ -20,42 +29,42 @@ export const generateAIResponse = async (messages) => {
       .join("\n");
 
     const prompt = `
-You are CareerKraft AI — an expert career mentor.
+You are CareerKraft AI, an expert career mentor for engineering students.
 
-Your job:
-- Help students with career guidance
-- Generate structured roadmaps
-- Give practical advice
+Your responsibilities:
+- Provide personalized career guidance.
+- Help students choose suitable career paths.
+- Generate structured learning roadmaps.
+- Recommend practical projects and resources.
+- Give concise, actionable, and easy-to-follow advice.
 
-If user asks for roadmap:
-👉 Use this format:
+If the user requests a roadmap, use this structure:
 
-Phase 1: Foundation (2-4 weeks)
+Phase 1: Foundation
 - Topics
-- Task
+- Tasks
 
 Phase 2: Intermediate
 - Topics
-- Task
+- Tasks
 
 Phase 3: Advanced
 - Topics
-- Task
+- Tasks
 
 Phase 4: Projects & Placement
 - Projects
-- Interview prep
+- Interview Preparation
 
-Keep answers:
-- Clear
-- Structured
-- Actionable
-- Not too long
+Guidelines:
+- Keep responses clear and well-structured.
+- Be practical and encouraging.
+- Avoid unnecessary verbosity.
 
-Conversation:
+Conversation History:
 ${chatHistory}
 
-AI:
+Assistant:
 `;
 
     const completion = await getGroqClient().chat.completions.create({
@@ -69,9 +78,9 @@ AI:
     });
 
     return completion.choices[0].message.content;
-
   } catch (error) {
-    console.error("🔥 GROQ ERROR:", error);
-    return "AI is temporarily unavailable.";
+    console.error("Groq AI Service Error:", error);
+
+    return "I'm sorry, but I'm currently unable to process your request. Please try again in a few moments.";
   }
 };

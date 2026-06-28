@@ -91,7 +91,7 @@ const ROADMAP_CONFIG = {
           label: "Python & Math Foundations",
           duration: "2–4 weeks",
           description:
-            "Learn Python, NumPy, and the core statistics/linear algebra you’ll use daily.",
+            "Learn Python, NumPy, and the core statistics/linear algebra you'll use daily.",
           resources: [
             {
               type: "Course",
@@ -410,7 +410,7 @@ function saveProgress(path, interest, completedIds) {
   }
 }
 
-export default function Roadmap() {
+export default function StaticRoadmapPage() {
   const navigate = useNavigate();
   const [selectedPath, setSelectedPath] = useState(null);
   const [careerInterest, setCareerInterest] = useState(null);
@@ -489,10 +489,10 @@ export default function Roadmap() {
                 Tell us about yourself so we can build a personalized roadmap.
               </p>
               <button
-                onClick={() => navigate("/path-selection")}
+                onClick={() => navigate("/onboarding/step1")}
                 className="px-5 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-semibold shadow-md hover:shadow-lg"
               >
-                Go to Path Selection
+                Go to Onboarding
               </button>
             </div>
           )}
@@ -660,7 +660,7 @@ export default function Roadmap() {
                   {completedCount === 0
                     ? "Start with the first milestone and block 1–2 hours this week."
                     : completedCount === totalSteps
-                      ? "Amazing! You’ve completed this roadmap. Keep revising and deepening your knowledge."
+                      ? "Amazing! You've completed this roadmap. Keep revising and deepening your knowledge."
                       : "Pick the next milestone and schedule focused study/practice time."}
                 </p>
               </div>
@@ -679,4 +679,3 @@ export default function Roadmap() {
     </div>
   );
 }
-

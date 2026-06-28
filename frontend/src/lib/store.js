@@ -1,6 +1,7 @@
 // ================= USER STORAGE =================
 
 const USER_KEY = "ck-user";
+const TOKEN_KEY = "token";
 
 // Get user safely
 export function getStoredUser() {
@@ -9,7 +10,7 @@ export function getStoredUser() {
     if (!user) return null;
 
     return JSON.parse(user);
-  } catch (error) {
+  } catch {
     return null;
   }
 }
@@ -22,4 +23,23 @@ export function setStoredUser(user) {
 // Clear user (logout)
 export function clearStoredUser() {
   localStorage.removeItem(USER_KEY);
+}
+
+// ================= TOKEN STORAGE =================
+
+// Save token
+export function setToken(token) {
+  if (token) {
+    localStorage.setItem(TOKEN_KEY, token);
+  }
+}
+
+// Get token
+export function getToken() {
+  return localStorage.getItem(TOKEN_KEY);
+}
+
+// Clear token
+export function clearToken() {
+  localStorage.removeItem(TOKEN_KEY);
 }

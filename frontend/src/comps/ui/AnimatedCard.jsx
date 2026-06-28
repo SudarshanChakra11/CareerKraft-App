@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 
 const AnimatedCard = ({ children, delay = 0 }) => {
   return (

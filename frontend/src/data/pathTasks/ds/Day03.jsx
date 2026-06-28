@@ -42,7 +42,7 @@ export const Day03 = {
     options: [
       "print(\"Hello\")",
       "echo(\"Hello\")",
-      "console.log(\"Hello\")",
+
       "printf(\"Hello\")"
     ],
     answer: "print(\"Hello\")"

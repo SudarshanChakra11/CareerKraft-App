@@ -42,7 +42,6 @@ export const Day11 = {
     options: [
       "print(\"Hello\")",
       "echo(\"Hello\")",
-      "console.log(\"Hello\")",
       "printf(\"Hello\")"
     ],
     answer: "print(\"Hello\")"

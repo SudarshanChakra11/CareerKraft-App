@@ -32,37 +32,37 @@ export const useAppStore = create(
       setUser: (user) => set({ user }),
 
       // ── PROGRESS ──
-      streak: 0,
+      streak:     0,
+      xp:         0,
+      level:      1,
+      badges:     [],
       currentDay: 1,
-
-      // completedTasks: PER-DAY map  { 1: ["1","2"], 2: ["1"], ... }
       completedTasks: {},
+      completedDays:  [],
 
-      completedDays: [],
-
+      // ✅ Direct setters — used by Dashboard to sync DB values into store
       setStreak: (streak) => set({ streak }),
+      setXP:     (xp)     => set({ xp }),
+      setLevel:  (level)  => set({ level }),
+      setBadges: (badges) => set({ badges }),
       setCurrentDay: (day) => set({ currentDay: day }),
 
       // Get completed task IDs for a specific day
-      getTasksForDay: (dayNumber) => {
-        return get().completedTasks[dayNumber] || [];
-      },
+      getTasksForDay: (dayNumber) => get().completedTasks[dayNumber] || [],
 
       // Check if a specific task is done on a specific day
-      isTaskDone: (dayNumber, taskId) => {
-        return (get().completedTasks[dayNumber] || []).includes(String(taskId));
-      },
+      isTaskDone: (dayNumber, taskId) =>
+        (get().completedTasks[dayNumber] || []).includes(String(taskId)),
 
-      // +50 XP per task, keyed by dayNumber
+      // +50 XP per task
       addCompletedTask: (dayNumber, taskId) =>
         set((state) => {
           const dayTasks = state.completedTasks[dayNumber] || [];
-          if (dayTasks.includes(String(taskId))) return {}; // already done
+          if (dayTasks.includes(String(taskId))) return {};
 
-          const newDayTasks = [...dayTasks, String(taskId)];
+          const newDayTasks      = [...dayTasks, String(taskId)];
           const newCompletedTasks = { ...state.completedTasks, [dayNumber]: newDayTasks };
-
-          const newXP = state.xp + 50;
+          const newXP    = state.xp + 50;
           const newLevel = Math.floor(newXP / 200) + 1;
           const newBadges = [...state.badges];
           if (!newBadges.includes("first_step")) newBadges.push("first_step");
@@ -74,7 +74,7 @@ export const useAppStore = create(
       // +10 XP per correct quiz answer
       addQuizXP: () =>
         set((state) => {
-          const newXP = state.xp + 10;
+          const newXP    = state.xp + 10;
           const newLevel = Math.floor(newXP / 200) + 1;
           const newBadges = [...state.badges];
           if (!newBadges.includes("rising_star") && newXP >= 500) newBadges.push("rising_star");
@@ -87,9 +87,9 @@ export const useAppStore = create(
           if (state.completedDays.includes(dayNumber)) return {};
           const newStreak = state.streak + 1;
           const newBadges = [...state.badges];
-          if (!newBadges.includes("on_fire") && newStreak >= 3) newBadges.push("on_fire");
+          if (!newBadges.includes("on_fire")      && newStreak >= 3) newBadges.push("on_fire");
           if (!newBadges.includes("week_warrior") && newStreak >= 7) newBadges.push("week_warrior");
-          if (perfectQuiz && !newBadges.includes("quiz_master")) newBadges.push("quiz_master");
+          if (perfectQuiz && !newBadges.includes("quiz_master"))      newBadges.push("quiz_master");
           return {
             completedDays: [...state.completedDays, dayNumber],
             streak: newStreak,
@@ -99,12 +99,6 @@ export const useAppStore = create(
 
       isDayCompleted: (dayNumber) => get().completedDays.includes(dayNumber),
 
-      // ── XP & LEVEL ──
-      xp: 0,
-      level: 1,
-      badges: [],
-
-      // ── ONBOARDING ──
       onboardingData: {
         qualification: "",
         branch: "",
@@ -130,7 +124,6 @@ export const useAppStore = create(
           }
         }),
 
-      // ── RESET ──
       resetStore: () =>
         set({
           user: null, streak: 0, xp: 0, level: 1, badges: [],
@@ -144,17 +137,16 @@ export const useAppStore = create(
     {
       name: "careerkraft-store",
       partialize: (state) => ({
-        onboardingData: state.onboardingData,
-        completedDays: state.completedDays,
-        completedTasks: state.completedTasks,
-        currentDay: state.currentDay,
-        streak: state.streak,
-        xp: state.xp,
-        level: state.level,
-        badges: state.badges,
-        user: state.user,
+        onboardingData:  state.onboardingData,
+        completedDays:   state.completedDays,
+        completedTasks:  state.completedTasks,
+        currentDay:      state.currentDay,
+        streak:          state.streak,
+        xp:              state.xp,
+        level:           state.level,
+        badges:          state.badges,
+        user:            state.user,
       }),
     }
   )
 );
-

@@ -3,6 +3,7 @@ import { Button } from "@/comps/ui/button";
 import { Zap, LogOut, Menu, X, Sun, Moon } from "lucide-react";
 import { getStoredUser, clearStoredUser } from "@/lib/store";
 import { useAppStore } from "@/store/useAppStore";
+import { getUserProgress } from "@/services/api"; // ← ADD THIS IMPORT
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -10,16 +11,41 @@ const Header = () => {
   const user = getStoredUser();
   const isLoggedIn = !!user && !!user.name;
 
-  // ── Live XP + streak from store ──
-  const streak     = useAppStore((s) => s.streak);
-  const xp         = useAppStore((s) => s.xp);
-  const resetStore = useAppStore((s) => s.resetStore); // ✅ add this
+  // ── DB-sourced progress state (from database, not store) ──
+  const [dbProgress, setDbProgress] = useState(null);
+  const [setLoading] = useState(false);
+
+  // Use DB data, fallback to 0
+  const streak = dbProgress?.streak ?? 0;
+  const xp = dbProgress?.xp ?? 0;
+
+  const resetStore = useAppStore((s) => s.resetStore);
 
   const [mobileOpen, setMobileOpen] = useState(false);
   const [dark, setDark] = useState(() => {
     const stored = localStorage.getItem("ck-theme");
     return stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
   });
+
+  // ── FETCH PROGRESS ON MOUNT (only if logged in) ──
+  useEffect(() => {
+    if (!isLoggedIn) return;
+
+    const fetchProgress = async () => {
+      try {
+        setLoading(true);
+        const data = await getUserProgress(); // ✅ Fetch from backend
+        setDbProgress(data);
+      } catch (err) {
+        console.error("Failed to fetch progress in header:", err);
+        setDbProgress({ streak: 0, xp: 0 });
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProgress();
+  }, [isLoggedIn]);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
@@ -36,6 +62,9 @@ const Header = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("selectedPath");
     if (theme) localStorage.setItem("ck-theme", theme); // restore theme
+
+    // Clear progress from header
+    setDbProgress(null);
 
     navigate("/");
   };
@@ -76,11 +105,11 @@ const Header = () => {
               </Link>
 
               <div className="flex items-center gap-3">
-                {/* Live streak */}
+                {/* Live streak — from DB ✅ */}
                 <span className="flex items-center gap-1 text-sm font-bold text-orange-500">
                   🔥 {streak}
                 </span>
-                {/* Live XP */}
+                {/* Live XP — from DB ✅ */}
                 <span className="flex items-center gap-1 text-sm font-bold text-purple-600">
                   ⚡ {xp} XP
                 </span>
@@ -117,7 +146,7 @@ const Header = () => {
           )}
         </nav>
 
-        {/* Mobile: streak + xp inline when logged in */}
+        {/* Mobile: streak + xp inline when logged in — from DB ✅ */}
         {isLoggedIn && (
           <div className="flex md:hidden items-center gap-2 text-xs font-bold mr-2">
             <span className="text-orange-500">🔥 {streak}</span>

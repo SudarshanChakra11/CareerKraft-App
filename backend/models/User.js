@@ -1,77 +1,42 @@
-// models/User.js
 import mongoose from "mongoose";
-import bcrypt from "bcryptjs";
 
 const userSchema = new mongoose.Schema(
   {
-    name: {
-      type: String,
-      required: [true, "Name is required"],
-      trim: true,
-    },
+    // ── Basic Info ──────────────────────────────────
+    name: { type: String, required: true, trim: true },
+    email: { type: String, required: true, unique: true, lowercase: true, trim: true },
+    mobile: { type: String, required: true, trim: true },
+    password: { type: String, required: true, minlength: 6 },
 
-    email: {
-      type: String,
-      required: [true, "Email is required"],
-      unique: true,
-      lowercase: true,
-      trim: true,
-    },
+    // ── Onboarding ──────────────────────────────────
+    selectedPath:   { type: String, default: null },
+    qualification:  { type: String, default: null },
+    branch:         { type: String, default: null },
+    year:           { type: String, default: null },
+    careerInterest: { type: String, default: null },
+    skillLevel:     { type: String, default: null },
+    duration:       { type: String, default: null },
 
-    mobile: {
-      type: String,
-      required: [true, "Mobile is required"],
-      trim: true,
-    },
+    // ── Progress pointer ────────────────────────────
+    currentDay: { type: Number, default: 1 },
 
-    password: {
-      type: String,
-      required: [true, "Password is required"],
-      minlength: 6,
-      select: false, // never returned in queries by default
-    },
-
-    // ── OTP fields ──────────────────────────────────
-    otp: {
-      type: String,
-      select: false,
-    },
-    otpExpiry: {
-      type: Date,
-      select: false,
-    },
+    // ── Auth / OTP ──────────────────────────────────
     isVerified: {
       type: Boolean,
-      default: false,
+      default: false,       // false until OTP verified
     },
 
-    // ── CareerKraft profile ─────────────────────────
-    careerInterest: {
+    otp: {
       type: String,
-      default: null,
+      default: null,        // 6-digit OTP, cleared after verify
     },
-    onboardingComplete: {
-      type: Boolean,
-      default: false,
-    },
-    selectedPath: {
-      type: String,
-      default: null,
+
+    otpExpiry: {
+      type: Date,
+      default: null,        // 5 min window
     },
   },
   { timestamps: true }
 );
-
-// Hash password before save
-userSchema.pre("save", async function (next) {
-  if (!this.isModified("password")) return next();
-  this.password = await bcrypt.hash(this.password, 12);
-  next();
-});
-
-// Compare password helper
-userSchema.methods.comparePassword = async function (candidatePassword) {
-  return await bcrypt.compare(candidatePassword, this.password);
-};
 
 export default mongoose.model("User", userSchema);

@@ -2,10 +2,9 @@ import express from "express";
 import {
   getUserProgress,
   updateTask,
-  completeDay
+  completeDay,
+  updateUserSetup,         // ✅ comes from userController, not a separate file
 } from "../controllers/userController.js";
-
-import { updateUserSetup } from "../controllers/userSetupController.js"; // ✅ NEW
 
 import authMiddleware from "../middleware/authMiddleware.js";
 
@@ -24,10 +23,11 @@ router.post("/update-task", authMiddleware, updateTask);
 router.post("/complete-day", authMiddleware, completeDay);
 
 
-// ================= ONBOARDING (NEW CLEAN SYSTEM) =================
+// ================= ONBOARDING =================
 
-// Save selected path + setup
-router.patch("/setup", authMiddleware, updateUserSetup);
+// Save selected path + setup fields to DB
+// PUT to match frontend api.js → updateUserSetup()
+router.put("/setup", authMiddleware, updateUserSetup);
 
 
 export default router;

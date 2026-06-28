@@ -1,5 +1,3 @@
-import { useNavigate } from "react-router-dom";
-
 export default function OnboardingLayout({
   step,
   totalSteps = 5,

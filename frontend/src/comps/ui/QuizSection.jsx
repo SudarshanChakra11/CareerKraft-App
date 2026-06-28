@@ -1,10 +1,8 @@
 export default function QuizSection({
-  quiz,
-  tasks,
-  completedTasks,
-  selectedOption,
-  quizResult,
-  onAnswer
+    quiz,
+    selectedOption,
+    quizResult,
+    onAnswer
 }) {
 
   // Safety check: if quiz is not provided or has no options
