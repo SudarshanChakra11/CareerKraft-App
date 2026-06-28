@@ -37,7 +37,7 @@ app.use("/api/auth", authRoutes);
 // Protected Routes
 // ===============================
 app.use("/api/progress", authMiddleware, progressRoutes);
-app.use("/api/user", authMiddleware, userRoutes);
+app.use("/api/users", authMiddleware, userRoutes);
 app.use("/api/roadmap", authMiddleware, roadmapRoutes);
 app.use("/api/chat", authMiddleware, chatRoutes); // Remove if not used
 
