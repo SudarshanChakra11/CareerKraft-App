@@ -1,31 +1,33 @@
-
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
-import path from "path";
-import { fileURLToPath } from "url";
 
-// Load environment variables
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-dotenv.config({ path: path.resolve(__dirname, "../.env") });
+// Load .env only in development
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config();
+}
 
 const createTransporter = () => {
   const user = process.env.EMAIL_USER;
   const pass = process.env.EMAIL_PASS;
 
   if (!user || !pass) {
-    throw new Error("Email credentials are not configured.");
+    throw new Error("EMAIL_USER or EMAIL_PASS is missing.");
   }
 
   return nodemailer.createTransport({
-    service: "gmail",
+    host: "smtp.gmail.com",
+    port: 587,
+    secure: false, // true only for port 465
     auth: {
       user,
       pass,
     },
+    connectionTimeout: 15000,
+    greetingTimeout: 15000,
+    socketTimeout: 15000,
+    family: 4, // Force IPv4 to avoid IPv6 ENETUNREACH issues on Render
   });
 };
-
 
 export const sendOTPEmail = async (
   toEmail,
@@ -34,6 +36,10 @@ export const sendOTPEmail = async (
 ) => {
   try {
     const transporter = createTransporter();
+
+    // Verify SMTP connection before sending
+    await transporter.verify();
+    console.log("✅ SMTP connection verified.");
 
     const mailOptions = {
       from:
@@ -113,10 +119,19 @@ Never share your OTP with anyone.
 `,
     };
 
-    await transporter.sendMail(mailOptions);
+    const info = await transporter.sendMail(mailOptions);
 
+    console.log("✅ OTP email sent successfully.");
+    console.log("Message ID:", info.messageId);
+
+    return info;
   } catch (error) {
-    console.error("Failed to send OTP email:", error);
+    console.error("❌ Failed to send OTP email");
+    console.error("Error Code:", error.code);
+    console.error("Response Code:", error.responseCode);
+    console.error("Response:", error.response);
+    console.error(error);
+
     throw error;
   }
 };
