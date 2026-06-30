@@ -1,4 +1,5 @@
 
+import axios from 'axios';
 import RoadmapGeneratorService from './roadmapGeneratorService.js';
 import UserRoadmap from '../models/UserRoadmap.js';
 import User from '../models/User.js';
@@ -42,32 +43,44 @@ class RoadmapService {
       let generatedBy = null;
 
       // ──────────────────────────────────────────
-      // STRATEGY 1: Try AI Generation
+      // STRATEGY 1: Try Local ML Engine
       // ──────────────────────────────────────────
-      const aiAvailable = this.initializeAIService();
-      
-      if (aiAvailable) {
-        try {
-          const aiResult = await this.aiService.generateRoadmap(studentProfile);
-          
-          if (aiResult.success) {
-            roadmap = aiResult.roadmap;
-            generatedBy = 'AI (Groq)';
-           
+      try {
+        const localResult = await this.callLocalMlEngine(studentProfile);
+        if (localResult && localResult.success && localResult.data) {
+          roadmap = localResult.data;
+          generatedBy = 'Local ML Engine';
+        }
+      } catch (localError) {
+        console.warn(`⚠️  Local ML engine failed: ${localError.message}`);
+      }
+
+      // ──────────────────────────────────────────
+      // STRATEGY 2: Try Groq AI Generation
+      // ──────────────────────────────────────────
+      if (!roadmap) {
+        const aiAvailable = this.initializeAIService();
+        
+        if (aiAvailable) {
+          try {
+            const aiResult = await this.aiService.generateRoadmap(studentProfile);
+            
+            if (aiResult.success) {
+              roadmap = aiResult.roadmap;
+              generatedBy = 'AI (Groq)';
+            }
+          } catch (aiError) {
+            console.warn(`⚠️  AI generation failed: ${aiError.message}`);
           }
-        } catch (aiError) {
-          console.warn(`⚠️  AI generation failed: ${aiError.message}`);
-          
         }
       }
 
       // ──────────────────────────────────────────
-      // STRATEGY 2: Fallback to Static Roadmap
+      // STRATEGY 3: Fallback to Static Roadmap
       // ──────────────────────────────────────────
       if (!roadmap) {
         roadmap = this.generateStaticRoadmap(studentProfile);
         generatedBy = 'Static (Hardcoded)';
-    
       }
 
       // ──────────────────────────────────────────
@@ -164,6 +177,37 @@ class RoadmapService {
       learningPace: intensity.pace,
       focusArea: intensity.focus,
     };
+  }
+
+  mapYearToExperience(year) {
+    if (year >= 4) return 'Advanced';
+    if (year >= 3) return 'Intermediate';
+    return 'Beginner';
+  }
+
+  deriveHoursPerDay(year) {
+    if (year >= 4) return 4;
+    if (year === 3) return 3;
+    return 2;
+  }
+
+  async callLocalMlEngine(studentProfile) {
+    const url = process.env.ML_ENGINE_URL || 'http://localhost:5001/generate-roadmap';
+    const payload = {
+      career: studentProfile.careerInterest,
+      experience: this.mapYearToExperience(studentProfile.currentYear),
+      skills: `${studentProfile.branch}, ${studentProfile.careerInterest}`,
+      hoursPerDay: this.deriveHoursPerDay(studentProfile.currentYear),
+    };
+
+    const response = await axios.post(url, payload, {
+      timeout: 5000,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+
+    return response.data;
   }
 
 

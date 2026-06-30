@@ -236,7 +236,6 @@ const UserRoadmapSchema = new mongoose.Schema(
 // Indexes for efficient queries
 UserRoadmapSchema.index({ userId: 1, createdAt: -1 });
 UserRoadmapSchema.index({ userId: 1, status: 1 });
-UserRoadmapSchema.index({ roadmapId: 1 });
 
 // Update progress percentage before saving
 UserRoadmapSchema.pre('save', function (next) {

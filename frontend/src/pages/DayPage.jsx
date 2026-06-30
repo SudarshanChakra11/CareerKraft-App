@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useAppStore } from "@/store/useAppStore";
 import { getPathDays } from "@/data/pathTasks/pathMapper";
 import { completeTask, completeDay } from "@/services/api"; // ← ADD THESE IMPORTS
+import { enqueue } from "@/services/syncService";
 
 export default function DayPage() {
   const { dayNumber } = useParams();
@@ -107,9 +108,20 @@ export default function DayPage() {
 
       // ✅ Save to backend
       await completeTask(dayNum, taskId);
+
+      // Refresh authoritative progress from server and sync into store
+      try {
+        const serverProgress = await (await import("@/services/api")).getUserProgress();
+        const setProgress = (await import("@/store/useAppStore")).useAppStore.getState().setProgress;
+        setProgress(serverProgress);
+      } catch (e) {
+        // Ignore - we'll rely on sync queue / header refresh
+        console.warn('Failed to refresh progress after completing task:', e);
+      }
     } catch (err) {
       console.error("Failed to save task completion:", err);
-      // Still mark as complete locally, but warn user
+      // Still mark as complete locally, enqueue for retry and warn user
+      enqueue({ type: 'completeTask', payload: { dayNumber: dayNum, taskId } });
       alert("Warning: Task saved locally but sync with server failed");
     }
   };
@@ -159,11 +171,22 @@ export default function DayPage() {
       // ✅ SAVE TO BACKEND
       await completeDay(dayNum, quizCorrect, quizData.length, perfect);
 
+      // Refresh authoritative progress from server and sync into store
+      try {
+        const serverProgress = await (await import("@/services/api")).getUserProgress();
+        const setProgress = (await import("@/store/useAppStore")).useAppStore.getState().setProgress;
+        setProgress(serverProgress);
+      } catch (e) {
+        console.warn('Failed to refresh progress after completing day:', e);
+      }
+
       setDayDone(true);
     } catch (err) {
       console.error("Failed to save day completion:", err);
+      // enqueue for retry and notify user
+      enqueue({ type: 'completeDay', payload: { dayNumber: dayNum, quizCorrect, quizTotal: quizData.length, isPerfect: perfect } });
       alert(
-        "Error saving day completion. Your progress may not be saved. Please try again."
+        "Warning: Day completion saved locally but sync with server failed. It will be retried automatically."
       );
       setSaving(false);
     }

@@ -1,8 +1,11 @@
-import { useState } from "react";
-import axios from "axios";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { createRoadmap, getRoadmap } from "@/services/api";
+import { getStoredUser } from "@/lib/store";
 import "./RoadmapGenerator.css";
 
 const RoadmapGenerator = () => {
+  const navigate = useNavigate();
   const [step, setStep] = useState('form'); // 'form' | 'generating' | 'display'
   const [formData, setFormData] = useState({
     qualification: '',
@@ -15,6 +18,7 @@ const RoadmapGenerator = () => {
   const [loading, setLoading] = useState(false);
   const [selectedPhase, setSelectedPhase] = useState(null);
   const [currentDay, setCurrentDay] = useState(1);
+  const [savedRoadmap, setSavedRoadmap] = useState(null);
 
   const qualifications = ['BE/BTech', 'ME/MTech'];
   const years = [1, 2, 3, 4];
@@ -38,6 +42,7 @@ const RoadmapGenerator = () => {
     'Others',
   ];
 
+  const user = getStoredUser();
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -56,6 +61,37 @@ const RoadmapGenerator = () => {
     return true;
   };
 
+  const loadSavedRoadmap = async () => {
+    if (!user) return;
+
+    try {
+      const response = await getRoadmap(user._id || user.id);
+      if (response.success && response.data) {
+        const roadmapData = response.data;
+        setRoadmap(roadmapData);
+        setSavedRoadmap(roadmapData);
+        setSelectedPhase(roadmapData.phases?.[0] || null);
+        setFormData({
+          qualification: roadmapData.studentProfile?.qualification || '',
+          currentYear: roadmapData.studentProfile?.currentYear?.toString() || '',
+          branch: roadmapData.studentProfile?.branch || '',
+          careerInterest: roadmapData.studentProfile?.careerInterest || '',
+        });
+        setStep('display');
+      } else {
+        setStep('form');
+      }
+    } catch (err) {
+      setStep('form');
+      if (!err.message.includes('404')) {
+        setError(err.message || 'Unable to load your saved roadmap');
+      }
+    }
+  };
+
+  useEffect(() => {
+    loadSavedRoadmap();
+  }, [user]);
 
   const handleGenerateRoadmap = async (e) => {
     e.preventDefault();
@@ -66,26 +102,24 @@ const RoadmapGenerator = () => {
     setStep('generating');
 
     try {
-      const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/api/roadmap/generate`,
-        formData,
-        {
-          headers: {
-            Authorization: `Bearer ${localStorage.getItem('token')}`,
-          },
-        }
-      );
-
-      if (response.data.success) {
-        setRoadmap(response.data.data);
+      const response = await createRoadmap(formData);
+      if (response.success) {
+        setRoadmap(response.data);
+        setSavedRoadmap(response.data);
+        setSelectedPhase(response.data.phases?.[0] || null);
+        setFormData({
+          qualification: response.data.studentProfile?.qualification || '',
+          currentYear: response.data.studentProfile?.currentYear?.toString() || '',
+          branch: response.data.studentProfile?.branch || '',
+          careerInterest: response.data.studentProfile?.careerInterest || '',
+        });
         setStep('display');
-        setSelectedPhase(response.data.data.phases[0]);
       } else {
-        setError(response.data.message || 'Failed to generate roadmap');
+        setError(response.message || 'Failed to generate roadmap');
         setStep('form');
       }
     } catch (err) {
-      setError(err.response?.data?.message || 'An error occurred. Please try again.');
+      setError(err.message || 'An error occurred. Please try again.');
       setStep('form');
     } finally {
       setLoading(false);
@@ -202,6 +236,11 @@ const RoadmapGenerator = () => {
       {/* Header */}
       <div className="roadmap-header">
         <h1>Your Personalized Learning Roadmap</h1>
+        {savedRoadmap && (
+          <div className="roadmap-saved-badge">
+            Saved roadmap loaded from your profile
+          </div>
+        )}
         <div className="roadmap-meta">
           <span className="meta-item">
             <strong>Career Goal:</strong> {roadmap?.studentProfile?.careerInterest}
@@ -388,7 +427,7 @@ const RoadmapGenerator = () => {
 
       {/* Action Buttons */}
       <div className="action-buttons">
-        <button className="btn-start" onClick={() => alert('Starting roadmap...')}>
+        <button className="btn-start" onClick={() => navigate('/day/1')}>
           Start Roadmap
         </button>
         <button

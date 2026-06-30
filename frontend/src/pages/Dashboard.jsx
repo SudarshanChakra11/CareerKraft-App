@@ -23,21 +23,18 @@ export default function Dashboard() {
 
   const onboardingData = useAppStore((s) => s.onboardingData);
   const getPathKey = useAppStore((s) => s.getPathKey);
+  const setProgress = useAppStore((s) => s.setProgress);
+  const completedDays = useAppStore((s) => s.completedDays);
+  const streak = useAppStore((s) => s.streak);
+  const badges = useAppStore((s) => s.badges);
+  const xp = useAppStore((s) => s.xp);
+  const level = useAppStore((s) => s.level);
 
   // ✅ ADD THIS STATE - manages which tab is active
   const [activeTab, setActiveTab] = useState('dashboard');
 
-  // ── DB-sourced progress state ────────────────────────
-  const [dbProgress, setDbProgress] = useState(null);
   const [loadingProgress, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
-  // Derive these from DB, not store
-  const completedDays = dbProgress?.completedDaysList || [];
-  const streak = dbProgress?.streak ?? 0;
-  const badges = dbProgress?.badges || [];
-  const xp = dbProgress?.xp ?? 0;
-  const level = dbProgress?.level ?? 1;
 
   // ── FETCH PROGRESS ON MOUNT ──
   useEffect(() => {
@@ -45,27 +42,18 @@ export default function Dashboard() {
       try {
         setLoading(true);
         const data = await getUserProgress(); // ✅ Fetch from backend
-        setDbProgress(data);
+        setProgress(data);
         setError(null);
       } catch (err) {
         console.error("Failed to fetch progress:", err);
         setError(err.message);
-        // Fallback to empty progress
-        setDbProgress({
-          completedDaysList: [],
-          streak: 0,
-          badges: [],
-          xp: 0,
-          level: 1,
-          completedDays: {},
-        });
       } finally {
         setLoading(false);
       }
     };
 
     fetchProgress();
-  }, []);
+  }, [setProgress]);
 
   const pathKey = getPathKey();
   const pathDays = getPathDays(pathKey);

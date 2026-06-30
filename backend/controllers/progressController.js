@@ -66,11 +66,25 @@ export const completeTask = async (req, res) => {
     }
 
     const dayKey = String(dayNumber);
-    let dayTasks = progress.completedTasks.get(dayKey) || [];
+
+    // Progress.completedTasks may be a Mongoose Map or a plain object
+    let dayTasks = [];
+    if (progress.completedTasks instanceof Map) {
+      dayTasks = progress.completedTasks.get(dayKey) || [];
+    } else if (typeof progress.completedTasks === 'object') {
+      dayTasks = progress.completedTasks[dayKey] || [];
+    }
 
     if (!dayTasks.includes(String(taskId))) {
       dayTasks.push(String(taskId));
-      progress.completedTasks.set(dayKey, dayTasks);
+      if (progress.completedTasks instanceof Map) {
+        progress.completedTasks.set(dayKey, dayTasks);
+      } else if (typeof progress.completedTasks === 'object') {
+        progress.completedTasks[dayKey] = dayTasks;
+      } else {
+        // fallback
+        progress.completedTasks = new Map([[dayKey, dayTasks]]);
+      }
     }
 
     const taskXP = 50;
@@ -89,7 +103,7 @@ export const completeTask = async (req, res) => {
     });
   } catch (err) {
     console.error("Error completing task:", err);
-    res.status(500).json({ error: "Failed to complete task" });
+    res.status(500).json({ error: "Failed to complete task", detail: err.message });
   }
 };
 
@@ -109,24 +123,46 @@ export const completeDay = async (req, res) => {
     }
 
     const dayKey = String(dayNumber);
-    progress.completedDays.set(dayKey, true);
 
-    const daysArray = Array.from(progress.completedDays.entries())
-      .filter(([_, completed]) => completed)
-      .map(([day]) => parseInt(day))
-      .sort((a, b) => a - b);
-    progress.completedDaysList = daysArray;
+    // completedDays may be a Map or plain object
+    if (progress.completedDays instanceof Map) {
+      progress.completedDays.set(dayKey, true);
+      const daysArray = Array.from(progress.completedDays.entries())
+        .filter(([_, completed]) => completed)
+        .map(([day]) => parseInt(day))
+        .sort((a, b) => a - b);
+      progress.completedDaysList = daysArray;
+    } else if (typeof progress.completedDays === 'object') {
+      progress.completedDays[dayKey] = true;
+      progress.completedDaysList = Object.keys(progress.completedDays)
+        .filter((k) => progress.completedDays[k])
+        .map((d) => parseInt(d))
+        .sort((a, b) => a - b);
+    } else {
+      progress.completedDays = new Map([[dayKey, true]]);
+      progress.completedDaysList = [parseInt(dayKey)];
+    }
 
     const quizXP = (quizCorrect || 0) * 10;
     progress.xp += quizXP;
 
     progress.level = Math.floor(progress.xp / 200) + 1;
 
-    progress.quizScores.set(dayKey, {
-      correct: quizCorrect || 0,
-      total: quizTotal || 0,
-      isPerfect: isPerfect || false,
-    });
+    if (progress.quizScores instanceof Map) {
+      progress.quizScores.set(dayKey, {
+        correct: quizCorrect || 0,
+        total: quizTotal || 0,
+        isPerfect: isPerfect || false,
+      });
+    } else if (typeof progress.quizScores === 'object') {
+      progress.quizScores[dayKey] = {
+        correct: quizCorrect || 0,
+        total: quizTotal || 0,
+        isPerfect: isPerfect || false,
+      };
+    } else {
+      progress.quizScores = new Map([[dayKey, { correct: quizCorrect || 0, total: quizTotal || 0, isPerfect: isPerfect || false }]]);
+    }
 
     const today = new Date();
     today.setHours(0, 0, 0, 0);

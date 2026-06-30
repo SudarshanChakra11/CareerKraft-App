@@ -45,6 +45,15 @@ export const useAppStore = create(
       setXP:     (xp)     => set({ xp }),
       setLevel:  (level)  => set({ level }),
       setBadges: (badges) => set({ badges }),
+      setProgress: (progress) =>
+        set({
+          streak: progress.streak ?? 0,
+          xp: progress.xp ?? 0,
+          level: progress.level ?? 1,
+          badges: progress.badges || [],
+          completedDays: progress.completedDaysList || [],
+          completedTasks: progress.completedTasks || {},
+        }),
       setCurrentDay: (day) => set({ currentDay: day }),
 
       // Get completed task IDs for a specific day

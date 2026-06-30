@@ -11,14 +11,9 @@ const Header = () => {
   const user = getStoredUser();
   const isLoggedIn = !!user && !!user.name;
 
-  // ── DB-sourced progress state (from database, not store) ──
-  const [dbProgress, setDbProgress] = useState(null);
-  const [setLoading] = useState(false);
-
-  // Use DB data, fallback to 0
-  const streak = dbProgress?.streak ?? 0;
-  const xp = dbProgress?.xp ?? 0;
-
+  const streak = useAppStore((s) => s.streak);
+  const xp = useAppStore((s) => s.xp);
+  const setProgress = useAppStore((s) => s.setProgress);
   const resetStore = useAppStore((s) => s.resetStore);
 
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -33,19 +28,15 @@ const Header = () => {
 
     const fetchProgress = async () => {
       try {
-        setLoading(true);
-        const data = await getUserProgress(); // ✅ Fetch from backend
-        setDbProgress(data);
+        const data = await getUserProgress();
+        setProgress(data);
       } catch (err) {
         console.error("Failed to fetch progress in header:", err);
-        setDbProgress({ streak: 0, xp: 0 });
-      } finally {
-        setLoading(false);
       }
     };
 
     fetchProgress();
-  }, [isLoggedIn]);
+  }, [isLoggedIn, setProgress]);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
@@ -62,9 +53,6 @@ const Header = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("selectedPath");
     if (theme) localStorage.setItem("ck-theme", theme); // restore theme
-
-    // Clear progress from header
-    setDbProgress(null);
 
     navigate("/");
   };
@@ -92,16 +80,15 @@ const Header = () => {
             Features
           </Link>
 
-          {isLoggedIn && (
-            <Link to="/roadmap" className="text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors">
-              Roadmap
-            </Link>
-          )}
 
           {isLoggedIn ? (
             <>
               <Link to="/dashboard" className="text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors">
                 Dashboard
+              </Link>
+
+              <Link to="/roadmap" className="text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors">
+                Roadmap
               </Link>
 
               <div className="flex items-center gap-3">
@@ -172,16 +159,14 @@ const Header = () => {
             Features
           </Link>
 
-          {isLoggedIn && (
-            <Link to="/roadmap" onClick={() => setMobileOpen(false)} className="text-sm font-semibold">
-              Roadmap
-            </Link>
-          )}
-
           {isLoggedIn ? (
             <>
               <Link to="/dashboard" onClick={() => setMobileOpen(false)} className="text-sm font-semibold">
                 Dashboard
+              </Link>
+
+              <Link to="/roadmap" onClick={() => setMobileOpen(false)} className="text-sm font-semibold">
+                Roadmap
               </Link>
 
               <button
