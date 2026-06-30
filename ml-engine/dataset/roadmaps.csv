@@ -1,0 +1,1801 @@
+career,experience,hoursPerDay,skills,target
+Frontend Developer,Beginner,1,"Figma,Git,TensorFlow",Frontend Developer
+Frontend Developer,Beginner,1,"Sketch,Vue,Node.js",Frontend Developer
+Frontend Developer,Beginner,1,"Vue,Pandas,Angular",Frontend Developer
+Frontend Developer,Beginner,1,"AWS,Kubernetes,React",Frontend Developer
+Frontend Developer,Beginner,1,"Angular,Figma,NoSQL",Frontend Developer
+Frontend Developer,Beginner,1,"Docker,Angular,Swift",Frontend Developer
+Frontend Developer,Beginner,1,"Security,PostgreSQL,Microservices",Frontend Developer
+Frontend Developer,Beginner,1,"PyTorch,NoSQL,GCP",Frontend Developer
+Frontend Developer,Beginner,1,"Sketch,Swift,JavaScript",Frontend Developer
+Frontend Developer,Beginner,1,"GCP,AWS,Azure",Frontend Developer
+Frontend Developer,Beginner,2,"Vue,TensorFlow,Pandas",Frontend Developer
+Frontend Developer,Beginner,2,"HTML,Microservices,CI/CD",Frontend Developer
+Frontend Developer,Beginner,2,"Express,Microservices,NoSQL",Frontend Developer
+Frontend Developer,Beginner,2,"MongoDB,Sketch,Security",Frontend Developer
+Frontend Developer,Beginner,2,"PostgreSQL,NumPy,CSS",Frontend Developer
+Frontend Developer,Beginner,2,"Swift,JavaScript,Scikit-Learn",Frontend Developer
+Frontend Developer,Beginner,2,"Scikit-Learn,PyTorch,Node.js",Frontend Developer
+Frontend Developer,Beginner,2,"Scikit-Learn,Security,Pandas",Frontend Developer
+Frontend Developer,Beginner,2,"Microservices,JavaScript,APIs",Frontend Developer
+Frontend Developer,Beginner,2,"Scikit-Learn,Security,TensorFlow",Frontend Developer
+Frontend Developer,Beginner,3,"Vue,Kubernetes,Scikit-Learn",Frontend Developer
+Frontend Developer,Beginner,3,"Kubernetes,Express,HTML",Frontend Developer
+Frontend Developer,Beginner,3,"Docker,Security,JavaScript",Frontend Developer
+Frontend Developer,Beginner,3,"PyTorch,MongoDB,SQL",Frontend Developer
+Frontend Developer,Beginner,3,"Azure,AWS,Angular",Frontend Developer
+Frontend Developer,Beginner,3,"Figma,Scikit-Learn,Sketch",Frontend Developer
+Frontend Developer,Beginner,3,"Scikit-Learn,TensorFlow,APIs",Frontend Developer
+Frontend Developer,Beginner,3,"Node.js,JavaScript,Docker",Frontend Developer
+Frontend Developer,Beginner,3,"TensorFlow,GCP,PostgreSQL",Frontend Developer
+Frontend Developer,Beginner,3,"PyTorch,Swift,Git",Frontend Developer
+Frontend Developer,Beginner,4,"Sketch,CI/CD,NoSQL",Frontend Developer
+Frontend Developer,Beginner,4,"CSS,Pandas,Express",Frontend Developer
+Frontend Developer,Beginner,4,"PostgreSQL,Git,Security",Frontend Developer
+Frontend Developer,Beginner,4,"NumPy,Azure,Angular",Frontend Developer
+Frontend Developer,Beginner,4,"Git,SQL,React",Frontend Developer
+Frontend Developer,Beginner,4,"Azure,CI/CD,Kubernetes",Frontend Developer
+Frontend Developer,Beginner,4,"Microservices,Angular,HTML",Frontend Developer
+Frontend Developer,Beginner,4,"HTML,TensorFlow,APIs",Frontend Developer
+Frontend Developer,Beginner,4,"Swift,Git,Docker",Frontend Developer
+Frontend Developer,Beginner,4,"Angular,TensorFlow,Pandas",Frontend Developer
+Frontend Developer,Beginner,5,"Linux,CSS,GCP",Frontend Developer
+Frontend Developer,Beginner,5,"Sketch,Docker,Pandas",Frontend Developer
+Frontend Developer,Beginner,5,"MongoDB,Python,Linux",Frontend Developer
+Frontend Developer,Beginner,5,"Git,React,Node.js",Frontend Developer
+Frontend Developer,Beginner,5,"CI/CD,PostgreSQL,GCP",Frontend Developer
+Frontend Developer,Beginner,5,"Linux,Security,Figma",Frontend Developer
+Frontend Developer,Beginner,5,"Kubernetes,AWS,Scikit-Learn",Frontend Developer
+Frontend Developer,Beginner,5,"CI/CD,CSS,Python",Frontend Developer
+Frontend Developer,Beginner,5,"HTML,Figma,Express",Frontend Developer
+Frontend Developer,Beginner,5,"React,Scikit-Learn,Linux",Frontend Developer
+Frontend Developer,Intermediate,1,"Azure,Pandas,PyTorch",Frontend Developer
+Frontend Developer,Intermediate,1,"Security,Figma,Sketch",Frontend Developer
+Frontend Developer,Intermediate,1,"AWS,Swift,Kotlin",Frontend Developer
+Frontend Developer,Intermediate,1,"TensorFlow,JavaScript,Scikit-Learn",Frontend Developer
+Frontend Developer,Intermediate,1,"GCP,Angular,Figma",Frontend Developer
+Frontend Developer,Intermediate,1,"Vue,NoSQL,Azure",Frontend Developer
+Frontend Developer,Intermediate,1,"GCP,Express,Security",Frontend Developer
+Frontend Developer,Intermediate,1,"CSS,APIs,NumPy",Frontend Developer
+Frontend Developer,Intermediate,1,"Node.js,CSS,AWS",Frontend Developer
+Frontend Developer,Intermediate,1,"Kotlin,Angular,Sketch",Frontend Developer
+Frontend Developer,Intermediate,2,"APIs,PyTorch,Docker",Frontend Developer
+Frontend Developer,Intermediate,2,"Git,JavaScript,Scikit-Learn",Frontend Developer
+Frontend Developer,Intermediate,2,"Azure,Scikit-Learn,HTML",Frontend Developer
+Frontend Developer,Intermediate,2,"Git,MongoDB,Security",Frontend Developer
+Frontend Developer,Intermediate,2,"NoSQL,Pandas,HTML",Frontend Developer
+Frontend Developer,Intermediate,2,"Kubernetes,AWS,Sketch",Frontend Developer
+Frontend Developer,Intermediate,2,"HTML,Microservices,TensorFlow",Frontend Developer
+Frontend Developer,Intermediate,2,"TensorFlow,HTML,Git",Frontend Developer
+Frontend Developer,Intermediate,2,"MongoDB,NumPy,React",Frontend Developer
+Frontend Developer,Intermediate,2,"Azure,Docker,Kotlin",Frontend Developer
+Frontend Developer,Intermediate,3,"Kubernetes,Scikit-Learn,JavaScript",Frontend Developer
+Frontend Developer,Intermediate,3,"CI/CD,CSS,Express",Frontend Developer
+Frontend Developer,Intermediate,3,"CI/CD,Python,Kotlin",Frontend Developer
+Frontend Developer,Intermediate,3,"Swift,Scikit-Learn,Express",Frontend Developer
+Frontend Developer,Intermediate,3,"Kotlin,AWS,NumPy",Frontend Developer
+Frontend Developer,Intermediate,3,"Sketch,Linux,Kubernetes",Frontend Developer
+Frontend Developer,Intermediate,3,"CI/CD,Kubernetes,Sketch",Frontend Developer
+Frontend Developer,Intermediate,3,"JavaScript,Pandas,React",Frontend Developer
+Frontend Developer,Intermediate,3,"Vue,NumPy,Scikit-Learn",Frontend Developer
+Frontend Developer,Intermediate,3,"CI/CD,Pandas,SQL",Frontend Developer
+Frontend Developer,Intermediate,4,"Linux,Docker,Angular",Frontend Developer
+Frontend Developer,Intermediate,4,"NoSQL,Node.js,CSS",Frontend Developer
+Frontend Developer,Intermediate,4,"CSS,JavaScript,Security",Frontend Developer
+Frontend Developer,Intermediate,4,"CSS,AWS,PostgreSQL",Frontend Developer
+Frontend Developer,Intermediate,4,"Docker,React,JavaScript",Frontend Developer
+Frontend Developer,Intermediate,4,"Python,GCP,Angular",Frontend Developer
+Frontend Developer,Intermediate,4,"AWS,PyTorch,GCP",Frontend Developer
+Frontend Developer,Intermediate,4,"React,HTML,APIs",Frontend Developer
+Frontend Developer,Intermediate,4,"Microservices,Node.js,Azure",Frontend Developer
+Frontend Developer,Intermediate,4,"Azure,NumPy,Swift",Frontend Developer
+Frontend Developer,Intermediate,5,"Figma,Microservices,Angular",Frontend Developer
+Frontend Developer,Intermediate,5,"Linux,Azure,TensorFlow",Frontend Developer
+Frontend Developer,Intermediate,5,"Docker,CSS,Node.js",Frontend Developer
+Frontend Developer,Intermediate,5,"AWS,Scikit-Learn,CSS",Frontend Developer
+Frontend Developer,Intermediate,5,"Swift,Sketch,Angular",Frontend Developer
+Frontend Developer,Intermediate,5,"Microservices,Express,CI/CD",Frontend Developer
+Frontend Developer,Intermediate,5,"Scikit-Learn,GCP,APIs",Frontend Developer
+Frontend Developer,Intermediate,5,"PyTorch,Python,Figma",Frontend Developer
+Frontend Developer,Intermediate,5,"CSS,Linux,TensorFlow",Frontend Developer
+Frontend Developer,Intermediate,5,"Kubernetes,Docker,Express",Frontend Developer
+Frontend Developer,Advanced,1,"Swift,JavaScript,Node.js",Frontend Developer
+Frontend Developer,Advanced,1,"PyTorch,Angular,CSS",Frontend Developer
+Frontend Developer,Advanced,1,"APIs,Docker,NoSQL",Frontend Developer
+Frontend Developer,Advanced,1,"NumPy,Swift,Sketch",Frontend Developer
+Frontend Developer,Advanced,1,"PyTorch,JavaScript,HTML",Frontend Developer
+Frontend Developer,Advanced,1,"NoSQL,CI/CD,NumPy",Frontend Developer
+Frontend Developer,Advanced,1,"Python,CSS,Vue",Frontend Developer
+Frontend Developer,Advanced,1,"Sketch,Docker,JavaScript",Frontend Developer
+Frontend Developer,Advanced,1,"Node.js,Scikit-Learn,Python",Frontend Developer
+Frontend Developer,Advanced,1,"SQL,Python,Vue",Frontend Developer
+Frontend Developer,Advanced,2,"Vue,Docker,Swift",Frontend Developer
+Frontend Developer,Advanced,2,"Pandas,React,Kubernetes",Frontend Developer
+Frontend Developer,Advanced,2,"Linux,GCP,Docker",Frontend Developer
+Frontend Developer,Advanced,2,"Node.js,Docker,Kotlin",Frontend Developer
+Frontend Developer,Advanced,2,"AWS,Vue,NoSQL",Frontend Developer
+Frontend Developer,Advanced,2,"NoSQL,MongoDB,Sketch",Frontend Developer
+Frontend Developer,Advanced,2,"Figma,CI/CD,Node.js",Frontend Developer
+Frontend Developer,Advanced,2,"APIs,CI/CD,SQL",Frontend Developer
+Frontend Developer,Advanced,2,"Scikit-Learn,Vue,Swift",Frontend Developer
+Frontend Developer,Advanced,2,"TensorFlow,HTML,Pandas",Frontend Developer
+Frontend Developer,Advanced,3,"TensorFlow,Express,Microservices",Frontend Developer
+Frontend Developer,Advanced,3,"GCP,Kotlin,Git",Frontend Developer
+Frontend Developer,Advanced,3,"Python,GCP,CSS",Frontend Developer
+Frontend Developer,Advanced,3,"PyTorch,Azure,CSS",Frontend Developer
+Frontend Developer,Advanced,3,"Microservices,PostgreSQL,Kubernetes",Frontend Developer
+Frontend Developer,Advanced,3,"Express,PyTorch,Node.js",Frontend Developer
+Frontend Developer,Advanced,3,"TensorFlow,APIs,Git",Frontend Developer
+Frontend Developer,Advanced,3,"Pandas,Scikit-Learn,NumPy",Frontend Developer
+Frontend Developer,Advanced,3,"NumPy,NoSQL,AWS",Frontend Developer
+Frontend Developer,Advanced,3,"Security,PyTorch,CSS",Frontend Developer
+Frontend Developer,Advanced,4,"Docker,NoSQL,APIs",Frontend Developer
+Frontend Developer,Advanced,4,"Figma,TensorFlow,PyTorch",Frontend Developer
+Frontend Developer,Advanced,4,"React,HTML,Azure",Frontend Developer
+Frontend Developer,Advanced,4,"Scikit-Learn,HTML,React",Frontend Developer
+Frontend Developer,Advanced,4,"AWS,Scikit-Learn,Azure",Frontend Developer
+Frontend Developer,Advanced,4,"Microservices,Git,Pandas",Frontend Developer
+Frontend Developer,Advanced,4,"Angular,SQL,NoSQL",Frontend Developer
+Frontend Developer,Advanced,4,"Node.js,Azure,TensorFlow",Frontend Developer
+Frontend Developer,Advanced,4,"Kotlin,TensorFlow,Python",Frontend Developer
+Frontend Developer,Advanced,4,"NoSQL,CI/CD,SQL",Frontend Developer
+Frontend Developer,Advanced,5,"HTML,APIs,PyTorch",Frontend Developer
+Frontend Developer,Advanced,5,"Git,AWS,Sketch",Frontend Developer
+Frontend Developer,Advanced,5,"Express,NoSQL,Pandas",Frontend Developer
+Frontend Developer,Advanced,5,"MongoDB,AWS,Figma",Frontend Developer
+Frontend Developer,Advanced,5,"GCP,CI/CD,Figma",Frontend Developer
+Frontend Developer,Advanced,5,"Security,HTML,PyTorch",Frontend Developer
+Frontend Developer,Advanced,5,"Security,GCP,PyTorch",Frontend Developer
+Frontend Developer,Advanced,5,"Scikit-Learn,CSS,Node.js",Frontend Developer
+Frontend Developer,Advanced,5,"Express,Kubernetes,AWS",Frontend Developer
+Frontend Developer,Advanced,5,"Docker,Vue,CSS",Frontend Developer
+Backend Developer,Beginner,1,"SQL,Docker,Sketch",Backend Developer
+Backend Developer,Beginner,1,"NoSQL,TensorFlow,Python",Backend Developer
+Backend Developer,Beginner,1,"Azure,Linux,Pandas",Backend Developer
+Backend Developer,Beginner,1,"Linux,CI/CD,Azure",Backend Developer
+Backend Developer,Beginner,1,"Scikit-Learn,Git,CI/CD",Backend Developer
+Backend Developer,Beginner,1,"MongoDB,CI/CD,Swift",Backend Developer
+Backend Developer,Beginner,1,"Scikit-Learn,Linux,AWS",Backend Developer
+Backend Developer,Beginner,1,"Docker,APIs,Sketch",Backend Developer
+Backend Developer,Beginner,1,"Git,APIs,GCP",Backend Developer
+Backend Developer,Beginner,1,"SQL,Pandas,APIs",Backend Developer
+Backend Developer,Beginner,2,"Microservices,Sketch,PyTorch",Backend Developer
+Backend Developer,Beginner,2,"SQL,Python,CSS",Backend Developer
+Backend Developer,Beginner,2,"GCP,PyTorch,MongoDB",Backend Developer
+Backend Developer,Beginner,2,"Kotlin,Figma,CSS",Backend Developer
+Backend Developer,Beginner,2,"Figma,Node.js,Git",Backend Developer
+Backend Developer,Beginner,2,"Scikit-Learn,HTML,AWS",Backend Developer
+Backend Developer,Beginner,2,"Microservices,Swift,Scikit-Learn",Backend Developer
+Backend Developer,Beginner,2,"TensorFlow,Scikit-Learn,CI/CD",Backend Developer
+Backend Developer,Beginner,2,"SQL,Swift,NumPy",Backend Developer
+Backend Developer,Beginner,2,"Python,AWS,NoSQL",Backend Developer
+Backend Developer,Beginner,3,"AWS,Python,Microservices",Backend Developer
+Backend Developer,Beginner,3,"MongoDB,AWS,SQL",Backend Developer
+Backend Developer,Beginner,3,"Kubernetes,SQL,Angular",Backend Developer
+Backend Developer,Beginner,3,"NumPy,Docker,Python",Backend Developer
+Backend Developer,Beginner,3,"Linux,SQL,Node.js",Backend Developer
+Backend Developer,Beginner,3,"Python,Microservices,AWS",Backend Developer
+Backend Developer,Beginner,3,"Security,Figma,Sketch",Backend Developer
+Backend Developer,Beginner,3,"Git,Azure,React",Backend Developer
+Backend Developer,Beginner,3,"NumPy,CI/CD,HTML",Backend Developer
+Backend Developer,Beginner,3,"MongoDB,Node.js,AWS",Backend Developer
+Backend Developer,Beginner,4,"HTML,Sketch,TensorFlow",Backend Developer
+Backend Developer,Beginner,4,"Figma,Vue,HTML",Backend Developer
+Backend Developer,Beginner,4,"Kubernetes,APIs,Express",Backend Developer
+Backend Developer,Beginner,4,"Swift,GCP,Pandas",Backend Developer
+Backend Developer,Beginner,4,"TensorFlow,Azure,Git",Backend Developer
+Backend Developer,Beginner,4,"Python,Kubernetes,PyTorch",Backend Developer
+Backend Developer,Beginner,4,"CI/CD,JavaScript,SQL",Backend Developer
+Backend Developer,Beginner,4,"PyTorch,NoSQL,Swift",Backend Developer
+Backend Developer,Beginner,4,"NumPy,Microservices,Express",Backend Developer
+Backend Developer,Beginner,4,"React,Node.js,HTML",Backend Developer
+Backend Developer,Beginner,5,"Express,Figma,Docker",Backend Developer
+Backend Developer,Beginner,5,"CSS,Docker,Vue",Backend Developer
+Backend Developer,Beginner,5,"MongoDB,Node.js,Express",Backend Developer
+Backend Developer,Beginner,5,"MongoDB,HTML,Git",Backend Developer
+Backend Developer,Beginner,5,"MongoDB,APIs,PostgreSQL",Backend Developer
+Backend Developer,Beginner,5,"MongoDB,Azure,JavaScript",Backend Developer
+Backend Developer,Beginner,5,"Pandas,PyTorch,Sketch",Backend Developer
+Backend Developer,Beginner,5,"Express,NoSQL,MongoDB",Backend Developer
+Backend Developer,Beginner,5,"Express,SQL,Kotlin",Backend Developer
+Backend Developer,Beginner,5,"Microservices,NoSQL,Git",Backend Developer
+Backend Developer,Intermediate,1,"Python,MongoDB,Kotlin",Backend Developer
+Backend Developer,Intermediate,1,"Kubernetes,Linux,Git",Backend Developer
+Backend Developer,Intermediate,1,"Swift,Python,HTML",Backend Developer
+Backend Developer,Intermediate,1,"MongoDB,Azure,CI/CD",Backend Developer
+Backend Developer,Intermediate,1,"Linux,TensorFlow,PostgreSQL",Backend Developer
+Backend Developer,Intermediate,1,"Node.js,JavaScript,Angular",Backend Developer
+Backend Developer,Intermediate,1,"SQL,Swift,AWS",Backend Developer
+Backend Developer,Intermediate,1,"APIs,Sketch,Python",Backend Developer
+Backend Developer,Intermediate,1,"Kotlin,APIs,JavaScript",Backend Developer
+Backend Developer,Intermediate,1,"Sketch,APIs,Scikit-Learn",Backend Developer
+Backend Developer,Intermediate,2,"Pandas,CI/CD,React",Backend Developer
+Backend Developer,Intermediate,2,"Azure,Node.js,PyTorch",Backend Developer
+Backend Developer,Intermediate,2,"Python,Angular,AWS",Backend Developer
+Backend Developer,Intermediate,2,"Figma,Scikit-Learn,Docker",Backend Developer
+Backend Developer,Intermediate,2,"CSS,Docker,Kotlin",Backend Developer
+Backend Developer,Intermediate,2,"Express,Vue,GCP",Backend Developer
+Backend Developer,Intermediate,2,"Swift,Docker,Pandas",Backend Developer
+Backend Developer,Intermediate,2,"Pandas,MongoDB,Azure",Backend Developer
+Backend Developer,Intermediate,2,"Scikit-Learn,Swift,Sketch",Backend Developer
+Backend Developer,Intermediate,2,"Scikit-Learn,SQL,Security",Backend Developer
+Backend Developer,Intermediate,3,"Python,AWS,GCP",Backend Developer
+Backend Developer,Intermediate,3,"CSS,Scikit-Learn,Docker",Backend Developer
+Backend Developer,Intermediate,3,"Vue,Scikit-Learn,Kubernetes",Backend Developer
+Backend Developer,Intermediate,3,"SQL,Microservices,Express",Backend Developer
+Backend Developer,Intermediate,3,"Git,SQL,GCP",Backend Developer
+Backend Developer,Intermediate,3,"NoSQL,MongoDB,PyTorch",Backend Developer
+Backend Developer,Intermediate,3,"Kubernetes,React,AWS",Backend Developer
+Backend Developer,Intermediate,3,"TensorFlow,MongoDB,CI/CD",Backend Developer
+Backend Developer,Intermediate,3,"Kotlin,MongoDB,Sketch",Backend Developer
+Backend Developer,Intermediate,3,"PostgreSQL,Git,Kotlin",Backend Developer
+Backend Developer,Intermediate,4,"Angular,APIs,Kubernetes",Backend Developer
+Backend Developer,Intermediate,4,"CSS,SQL,Figma",Backend Developer
+Backend Developer,Intermediate,4,"NumPy,React,Swift",Backend Developer
+Backend Developer,Intermediate,4,"Security,PyTorch,CI/CD",Backend Developer
+Backend Developer,Intermediate,4,"JavaScript,Figma,CI/CD",Backend Developer
+Backend Developer,Intermediate,4,"CI/CD,Python,Git",Backend Developer
+Backend Developer,Intermediate,4,"Sketch,Pandas,Figma",Backend Developer
+Backend Developer,Intermediate,4,"Security,PyTorch,NoSQL",Backend Developer
+Backend Developer,Intermediate,4,"Express,Azure,NoSQL",Backend Developer
+Backend Developer,Intermediate,4,"Scikit-Learn,Angular,CSS",Backend Developer
+Backend Developer,Intermediate,5,"Pandas,NoSQL,HTML",Backend Developer
+Backend Developer,Intermediate,5,"Docker,Linux,Azure",Backend Developer
+Backend Developer,Intermediate,5,"Sketch,SQL,Scikit-Learn",Backend Developer
+Backend Developer,Intermediate,5,"Linux,Scikit-Learn,Angular",Backend Developer
+Backend Developer,Intermediate,5,"PostgreSQL,HTML,AWS",Backend Developer
+Backend Developer,Intermediate,5,"Docker,Kotlin,Express",Backend Developer
+Backend Developer,Intermediate,5,"Swift,MongoDB,GCP",Backend Developer
+Backend Developer,Intermediate,5,"Kubernetes,SQL,Linux",Backend Developer
+Backend Developer,Intermediate,5,"Sketch,MongoDB,Swift",Backend Developer
+Backend Developer,Intermediate,5,"Kotlin,Swift,Express",Backend Developer
+Backend Developer,Advanced,1,"Kotlin,Express,GCP",Backend Developer
+Backend Developer,Advanced,1,"HTML,Git,Kubernetes",Backend Developer
+Backend Developer,Advanced,1,"CSS,Vue,Kotlin",Backend Developer
+Backend Developer,Advanced,1,"NoSQL,Express,Kubernetes",Backend Developer
+Backend Developer,Advanced,1,"Sketch,AWS,Figma",Backend Developer
+Backend Developer,Advanced,1,"CI/CD,Azure,Docker",Backend Developer
+Backend Developer,Advanced,1,"React,TensorFlow,SQL",Backend Developer
+Backend Developer,Advanced,1,"Linux,GCP,TensorFlow",Backend Developer
+Backend Developer,Advanced,1,"Sketch,Kubernetes,HTML",Backend Developer
+Backend Developer,Advanced,1,"CSS,PyTorch,React",Backend Developer
+Backend Developer,Advanced,2,"Microservices,Git,AWS",Backend Developer
+Backend Developer,Advanced,2,"Python,MongoDB,APIs",Backend Developer
+Backend Developer,Advanced,2,"TensorFlow,PyTorch,Security",Backend Developer
+Backend Developer,Advanced,2,"Express,Scikit-Learn,Pandas",Backend Developer
+Backend Developer,Advanced,2,"JavaScript,CI/CD,Pandas",Backend Developer
+Backend Developer,Advanced,2,"Sketch,Vue,Python",Backend Developer
+Backend Developer,Advanced,2,"Swift,Express,AWS",Backend Developer
+Backend Developer,Advanced,2,"Kubernetes,AWS,Linux",Backend Developer
+Backend Developer,Advanced,2,"Node.js,Kubernetes,Docker",Backend Developer
+Backend Developer,Advanced,2,"TensorFlow,GCP,NumPy",Backend Developer
+Backend Developer,Advanced,3,"Linux,Python,Docker",Backend Developer
+Backend Developer,Advanced,3,"Kotlin,Microservices,Docker",Backend Developer
+Backend Developer,Advanced,3,"Python,Vue,CI/CD",Backend Developer
+Backend Developer,Advanced,3,"GCP,Pandas,CSS",Backend Developer
+Backend Developer,Advanced,3,"JavaScript,NoSQL,Python",Backend Developer
+Backend Developer,Advanced,3,"Express,SQL,Angular",Backend Developer
+Backend Developer,Advanced,3,"GCP,Azure,AWS",Backend Developer
+Backend Developer,Advanced,3,"Sketch,AWS,CSS",Backend Developer
+Backend Developer,Advanced,3,"Docker,Microservices,TensorFlow",Backend Developer
+Backend Developer,Advanced,3,"Sketch,TensorFlow,JavaScript",Backend Developer
+Backend Developer,Advanced,4,"PyTorch,Swift,MongoDB",Backend Developer
+Backend Developer,Advanced,4,"Express,Pandas,Angular",Backend Developer
+Backend Developer,Advanced,4,"Security,NoSQL,CI/CD",Backend Developer
+Backend Developer,Advanced,4,"JavaScript,TensorFlow,NumPy",Backend Developer
+Backend Developer,Advanced,4,"JavaScript,MongoDB,Linux",Backend Developer
+Backend Developer,Advanced,4,"Vue,NumPy,Figma",Backend Developer
+Backend Developer,Advanced,4,"Express,Linux,Git",Backend Developer
+Backend Developer,Advanced,4,"Figma,JavaScript,Kubernetes",Backend Developer
+Backend Developer,Advanced,4,"Pandas,MongoDB,Git",Backend Developer
+Backend Developer,Advanced,4,"JavaScript,CI/CD,NoSQL",Backend Developer
+Backend Developer,Advanced,5,"Azure,Vue,TensorFlow",Backend Developer
+Backend Developer,Advanced,5,"Vue,Angular,Swift",Backend Developer
+Backend Developer,Advanced,5,"Vue,Security,Docker",Backend Developer
+Backend Developer,Advanced,5,"JavaScript,Microservices,CI/CD",Backend Developer
+Backend Developer,Advanced,5,"AWS,Express,Swift",Backend Developer
+Backend Developer,Advanced,5,"Node.js,MongoDB,APIs",Backend Developer
+Backend Developer,Advanced,5,"Kotlin,HTML,NumPy",Backend Developer
+Backend Developer,Advanced,5,"Python,Scikit-Learn,Figma",Backend Developer
+Backend Developer,Advanced,5,"Swift,Git,Angular",Backend Developer
+Backend Developer,Advanced,5,"Pandas,JavaScript,Git",Backend Developer
+Full Stack Developer,Beginner,1,"Scikit-Learn,Figma,HTML",Full Stack Developer
+Full Stack Developer,Beginner,1,"HTML,Swift,Node.js",Full Stack Developer
+Full Stack Developer,Beginner,1,"APIs,HTML,Docker",Full Stack Developer
+Full Stack Developer,Beginner,1,"MongoDB,Angular,Scikit-Learn",Full Stack Developer
+Full Stack Developer,Beginner,1,"CSS,NumPy,Pandas",Full Stack Developer
+Full Stack Developer,Beginner,1,"Swift,Pandas,CSS",Full Stack Developer
+Full Stack Developer,Beginner,1,"Vue,AWS,PyTorch",Full Stack Developer
+Full Stack Developer,Beginner,1,"MongoDB,Microservices,Angular",Full Stack Developer
+Full Stack Developer,Beginner,1,"SQL,HTML,Azure",Full Stack Developer
+Full Stack Developer,Beginner,1,"CSS,Azure,Express",Full Stack Developer
+Full Stack Developer,Beginner,2,"Security,Scikit-Learn,NumPy",Full Stack Developer
+Full Stack Developer,Beginner,2,"NoSQL,TensorFlow,Security",Full Stack Developer
+Full Stack Developer,Beginner,2,"HTML,Scikit-Learn,Node.js",Full Stack Developer
+Full Stack Developer,Beginner,2,"APIs,Python,HTML",Full Stack Developer
+Full Stack Developer,Beginner,2,"HTML,Git,Node.js",Full Stack Developer
+Full Stack Developer,Beginner,2,"CSS,Microservices,AWS",Full Stack Developer
+Full Stack Developer,Beginner,2,"Figma,GCP,Sketch",Full Stack Developer
+Full Stack Developer,Beginner,2,"Pandas,PostgreSQL,CSS",Full Stack Developer
+Full Stack Developer,Beginner,2,"Python,React,Vue",Full Stack Developer
+Full Stack Developer,Beginner,2,"TensorFlow,Figma,Git",Full Stack Developer
+Full Stack Developer,Beginner,3,"Vue,GCP,Figma",Full Stack Developer
+Full Stack Developer,Beginner,3,"Figma,Python,Swift",Full Stack Developer
+Full Stack Developer,Beginner,3,"Git,Scikit-Learn,Sketch",Full Stack Developer
+Full Stack Developer,Beginner,3,"SQL,CSS,Node.js",Full Stack Developer
+Full Stack Developer,Beginner,3,"MongoDB,SQL,PostgreSQL",Full Stack Developer
+Full Stack Developer,Beginner,3,"Swift,Git,Pandas",Full Stack Developer
+Full Stack Developer,Beginner,3,"Node.js,CI/CD,Kotlin",Full Stack Developer
+Full Stack Developer,Beginner,3,"Kubernetes,Linux,Scikit-Learn",Full Stack Developer
+Full Stack Developer,Beginner,3,"Express,Azure,SQL",Full Stack Developer
+Full Stack Developer,Beginner,3,"Python,Sketch,Kotlin",Full Stack Developer
+Full Stack Developer,Beginner,4,"PostgreSQL,CSS,Kubernetes",Full Stack Developer
+Full Stack Developer,Beginner,4,"JavaScript,Node.js,AWS",Full Stack Developer
+Full Stack Developer,Beginner,4,"MongoDB,Scikit-Learn,Vue",Full Stack Developer
+Full Stack Developer,Beginner,4,"Pandas,CSS,Git",Full Stack Developer
+Full Stack Developer,Beginner,4,"Figma,PostgreSQL,TensorFlow",Full Stack Developer
+Full Stack Developer,Beginner,4,"Security,CI/CD,Kotlin",Full Stack Developer
+Full Stack Developer,Beginner,4,"React,Security,Figma",Full Stack Developer
+Full Stack Developer,Beginner,4,"Express,Security,HTML",Full Stack Developer
+Full Stack Developer,Beginner,4,"Kotlin,Figma,HTML",Full Stack Developer
+Full Stack Developer,Beginner,4,"Angular,Docker,React",Full Stack Developer
+Full Stack Developer,Beginner,5,"Sketch,React,GCP",Full Stack Developer
+Full Stack Developer,Beginner,5,"Microservices,Scikit-Learn,PyTorch",Full Stack Developer
+Full Stack Developer,Beginner,5,"SQL,Linux,Security",Full Stack Developer
+Full Stack Developer,Beginner,5,"Express,Angular,Git",Full Stack Developer
+Full Stack Developer,Beginner,5,"Node.js,Scikit-Learn,Git",Full Stack Developer
+Full Stack Developer,Beginner,5,"Figma,Azure,PyTorch",Full Stack Developer
+Full Stack Developer,Beginner,5,"Docker,TensorFlow,Git",Full Stack Developer
+Full Stack Developer,Beginner,5,"Kotlin,Figma,Pandas",Full Stack Developer
+Full Stack Developer,Beginner,5,"Security,PyTorch,HTML",Full Stack Developer
+Full Stack Developer,Beginner,5,"Sketch,Swift,AWS",Full Stack Developer
+Full Stack Developer,Intermediate,1,"PostgreSQL,Express,CI/CD",Full Stack Developer
+Full Stack Developer,Intermediate,1,"Node.js,TensorFlow,Figma",Full Stack Developer
+Full Stack Developer,Intermediate,1,"Kubernetes,Security,TensorFlow",Full Stack Developer
+Full Stack Developer,Intermediate,1,"Python,Swift,CSS",Full Stack Developer
+Full Stack Developer,Intermediate,1,"NoSQL,Pandas,TensorFlow",Full Stack Developer
+Full Stack Developer,Intermediate,1,"Linux,Python,MongoDB",Full Stack Developer
+Full Stack Developer,Intermediate,1,"Pandas,Kubernetes,Kotlin",Full Stack Developer
+Full Stack Developer,Intermediate,1,"Kotlin,Kubernetes,Express",Full Stack Developer
+Full Stack Developer,Intermediate,1,"HTML,JavaScript,Angular",Full Stack Developer
+Full Stack Developer,Intermediate,1,"TensorFlow,Sketch,JavaScript",Full Stack Developer
+Full Stack Developer,Intermediate,2,"Linux,Docker,Pandas",Full Stack Developer
+Full Stack Developer,Intermediate,2,"AWS,CSS,APIs",Full Stack Developer
+Full Stack Developer,Intermediate,2,"Docker,PyTorch,Security",Full Stack Developer
+Full Stack Developer,Intermediate,2,"Figma,APIs,CI/CD",Full Stack Developer
+Full Stack Developer,Intermediate,2,"Vue,Security,Angular",Full Stack Developer
+Full Stack Developer,Intermediate,2,"APIs,TensorFlow,Figma",Full Stack Developer
+Full Stack Developer,Intermediate,2,"Swift,MongoDB,Azure",Full Stack Developer
+Full Stack Developer,Intermediate,2,"React,Azure,MongoDB",Full Stack Developer
+Full Stack Developer,Intermediate,2,"MongoDB,Python,PostgreSQL",Full Stack Developer
+Full Stack Developer,Intermediate,2,"Scikit-Learn,Kotlin,AWS",Full Stack Developer
+Full Stack Developer,Intermediate,3,"SQL,Kubernetes,Swift",Full Stack Developer
+Full Stack Developer,Intermediate,3,"Microservices,Kotlin,PyTorch",Full Stack Developer
+Full Stack Developer,Intermediate,3,"Python,Express,Git",Full Stack Developer
+Full Stack Developer,Intermediate,3,"GCP,Figma,NoSQL",Full Stack Developer
+Full Stack Developer,Intermediate,3,"Pandas,NoSQL,Kubernetes",Full Stack Developer
+Full Stack Developer,Intermediate,3,"Linux,PostgreSQL,React",Full Stack Developer
+Full Stack Developer,Intermediate,3,"Python,Swift,Azure",Full Stack Developer
+Full Stack Developer,Intermediate,3,"MongoDB,Express,Docker",Full Stack Developer
+Full Stack Developer,Intermediate,3,"TensorFlow,CI/CD,GCP",Full Stack Developer
+Full Stack Developer,Intermediate,3,"Microservices,HTML,AWS",Full Stack Developer
+Full Stack Developer,Intermediate,4,"Figma,SQL,Scikit-Learn",Full Stack Developer
+Full Stack Developer,Intermediate,4,"SQL,Swift,Kubernetes",Full Stack Developer
+Full Stack Developer,Intermediate,4,"APIs,Git,Linux",Full Stack Developer
+Full Stack Developer,Intermediate,4,"PostgreSQL,Python,PyTorch",Full Stack Developer
+Full Stack Developer,Intermediate,4,"Pandas,AWS,Swift",Full Stack Developer
+Full Stack Developer,Intermediate,4,"Angular,JavaScript,PyTorch",Full Stack Developer
+Full Stack Developer,Intermediate,4,"Git,Swift,Docker",Full Stack Developer
+Full Stack Developer,Intermediate,4,"Security,NumPy,AWS",Full Stack Developer
+Full Stack Developer,Intermediate,4,"Kotlin,Linux,Swift",Full Stack Developer
+Full Stack Developer,Intermediate,4,"PyTorch,CI/CD,Sketch",Full Stack Developer
+Full Stack Developer,Intermediate,5,"Security,Python,Sketch",Full Stack Developer
+Full Stack Developer,Intermediate,5,"Swift,HTML,TensorFlow",Full Stack Developer
+Full Stack Developer,Intermediate,5,"APIs,Sketch,HTML",Full Stack Developer
+Full Stack Developer,Intermediate,5,"AWS,Linux,Python",Full Stack Developer
+Full Stack Developer,Intermediate,5,"JavaScript,HTML,Sketch",Full Stack Developer
+Full Stack Developer,Intermediate,5,"JavaScript,Git,PostgreSQL",Full Stack Developer
+Full Stack Developer,Intermediate,5,"NumPy,HTML,MongoDB",Full Stack Developer
+Full Stack Developer,Intermediate,5,"AWS,React,Vue",Full Stack Developer
+Full Stack Developer,Intermediate,5,"Kubernetes,Node.js,NumPy",Full Stack Developer
+Full Stack Developer,Intermediate,5,"Figma,SQL,HTML",Full Stack Developer
+Full Stack Developer,Advanced,1,"JavaScript,NoSQL,APIs",Full Stack Developer
+Full Stack Developer,Advanced,1,"Sketch,Docker,Python",Full Stack Developer
+Full Stack Developer,Advanced,1,"Swift,Sketch,APIs",Full Stack Developer
+Full Stack Developer,Advanced,1,"NumPy,Linux,Python",Full Stack Developer
+Full Stack Developer,Advanced,1,"Git,Scikit-Learn,Linux",Full Stack Developer
+Full Stack Developer,Advanced,1,"CI/CD,NumPy,Kubernetes",Full Stack Developer
+Full Stack Developer,Advanced,1,"GCP,NoSQL,Kotlin",Full Stack Developer
+Full Stack Developer,Advanced,1,"Azure,Security,Swift",Full Stack Developer
+Full Stack Developer,Advanced,1,"NumPy,Node.js,Kotlin",Full Stack Developer
+Full Stack Developer,Advanced,1,"CI/CD,JavaScript,CSS",Full Stack Developer
+Full Stack Developer,Advanced,2,"Kubernetes,GCP,SQL",Full Stack Developer
+Full Stack Developer,Advanced,2,"HTML,GCP,NumPy",Full Stack Developer
+Full Stack Developer,Advanced,2,"Scikit-Learn,Sketch,Linux",Full Stack Developer
+Full Stack Developer,Advanced,2,"APIs,Kubernetes,React",Full Stack Developer
+Full Stack Developer,Advanced,2,"Vue,Express,JavaScript",Full Stack Developer
+Full Stack Developer,Advanced,2,"Vue,NumPy,SQL",Full Stack Developer
+Full Stack Developer,Advanced,2,"HTML,Figma,Microservices",Full Stack Developer
+Full Stack Developer,Advanced,2,"APIs,Kubernetes,Sketch",Full Stack Developer
+Full Stack Developer,Advanced,2,"Scikit-Learn,TensorFlow,Kubernetes",Full Stack Developer
+Full Stack Developer,Advanced,2,"APIs,AWS,Python",Full Stack Developer
+Full Stack Developer,Advanced,3,"NoSQL,GCP,MongoDB",Full Stack Developer
+Full Stack Developer,Advanced,3,"JavaScript,Python,Git",Full Stack Developer
+Full Stack Developer,Advanced,3,"Figma,HTML,TensorFlow",Full Stack Developer
+Full Stack Developer,Advanced,3,"Angular,PyTorch,Python",Full Stack Developer
+Full Stack Developer,Advanced,3,"SQL,Git,Azure",Full Stack Developer
+Full Stack Developer,Advanced,3,"AWS,Azure,TensorFlow",Full Stack Developer
+Full Stack Developer,Advanced,3,"GCP,Microservices,SQL",Full Stack Developer
+Full Stack Developer,Advanced,3,"CSS,HTML,Sketch",Full Stack Developer
+Full Stack Developer,Advanced,3,"HTML,AWS,CSS",Full Stack Developer
+Full Stack Developer,Advanced,3,"CSS,Azure,Express",Full Stack Developer
+Full Stack Developer,Advanced,4,"Pandas,Security,SQL",Full Stack Developer
+Full Stack Developer,Advanced,4,"PyTorch,Node.js,Git",Full Stack Developer
+Full Stack Developer,Advanced,4,"CI/CD,Kubernetes,Figma",Full Stack Developer
+Full Stack Developer,Advanced,4,"SQL,Pandas,MongoDB",Full Stack Developer
+Full Stack Developer,Advanced,4,"Security,Git,NoSQL",Full Stack Developer
+Full Stack Developer,Advanced,4,"Vue,GCP,Angular",Full Stack Developer
+Full Stack Developer,Advanced,4,"Docker,Vue,Sketch",Full Stack Developer
+Full Stack Developer,Advanced,4,"HTML,NumPy,Python",Full Stack Developer
+Full Stack Developer,Advanced,4,"Scikit-Learn,Git,Sketch",Full Stack Developer
+Full Stack Developer,Advanced,4,"APIs,Express,Microservices",Full Stack Developer
+Full Stack Developer,Advanced,5,"Git,MongoDB,NoSQL",Full Stack Developer
+Full Stack Developer,Advanced,5,"Pandas,Vue,Kotlin",Full Stack Developer
+Full Stack Developer,Advanced,5,"Express,Pandas,NoSQL",Full Stack Developer
+Full Stack Developer,Advanced,5,"Kotlin,AWS,Angular",Full Stack Developer
+Full Stack Developer,Advanced,5,"Express,NumPy,MongoDB",Full Stack Developer
+Full Stack Developer,Advanced,5,"AWS,JavaScript,Sketch",Full Stack Developer
+Full Stack Developer,Advanced,5,"SQL,JavaScript,Sketch",Full Stack Developer
+Full Stack Developer,Advanced,5,"Figma,MongoDB,Python",Full Stack Developer
+Full Stack Developer,Advanced,5,"Docker,Figma,APIs",Full Stack Developer
+Full Stack Developer,Advanced,5,"PyTorch,GCP,Microservices",Full Stack Developer
+Data Scientist,Beginner,1,"CI/CD,Microservices,Kubernetes",Data Scientist
+Data Scientist,Beginner,1,"Kotlin,Linux,Microservices",Data Scientist
+Data Scientist,Beginner,1,"Figma,PostgreSQL,AWS",Data Scientist
+Data Scientist,Beginner,1,"Sketch,CI/CD,SQL",Data Scientist
+Data Scientist,Beginner,1,"AWS,Node.js,TensorFlow",Data Scientist
+Data Scientist,Beginner,1,"PostgreSQL,Git,Docker",Data Scientist
+Data Scientist,Beginner,1,"Swift,SQL,HTML",Data Scientist
+Data Scientist,Beginner,1,"TensorFlow,Security,Node.js",Data Scientist
+Data Scientist,Beginner,1,"Python,SQL,HTML",Data Scientist
+Data Scientist,Beginner,1,"CI/CD,Kubernetes,Angular",Data Scientist
+Data Scientist,Beginner,2,"Node.js,Sketch,HTML",Data Scientist
+Data Scientist,Beginner,2,"Express,CSS,Docker",Data Scientist
+Data Scientist,Beginner,2,"Azure,React,NoSQL",Data Scientist
+Data Scientist,Beginner,2,"Kotlin,Kubernetes,GCP",Data Scientist
+Data Scientist,Beginner,2,"NoSQL,Security,NumPy",Data Scientist
+Data Scientist,Beginner,2,"Scikit-Learn,TensorFlow,Docker",Data Scientist
+Data Scientist,Beginner,2,"APIs,CSS,HTML",Data Scientist
+Data Scientist,Beginner,2,"Angular,React,NoSQL",Data Scientist
+Data Scientist,Beginner,2,"React,CSS,Docker",Data Scientist
+Data Scientist,Beginner,2,"Git,GCP,Security",Data Scientist
+Data Scientist,Beginner,3,"TensorFlow,PyTorch,Figma",Data Scientist
+Data Scientist,Beginner,3,"HTML,Microservices,Docker",Data Scientist
+Data Scientist,Beginner,3,"Express,MongoDB,Angular",Data Scientist
+Data Scientist,Beginner,3,"Express,Python,JavaScript",Data Scientist
+Data Scientist,Beginner,3,"Sketch,Kotlin,NumPy",Data Scientist
+Data Scientist,Beginner,3,"CI/CD,APIs,TensorFlow",Data Scientist
+Data Scientist,Beginner,3,"Docker,CSS,Security",Data Scientist
+Data Scientist,Beginner,3,"Node.js,APIs,AWS",Data Scientist
+Data Scientist,Beginner,3,"Pandas,Azure,Figma",Data Scientist
+Data Scientist,Beginner,3,"PyTorch,Python,GCP",Data Scientist
+Data Scientist,Beginner,4,"Azure,HTML,Scikit-Learn",Data Scientist
+Data Scientist,Beginner,4,"AWS,APIs,Swift",Data Scientist
+Data Scientist,Beginner,4,"JavaScript,TensorFlow,Sketch",Data Scientist
+Data Scientist,Beginner,4,"React,Microservices,HTML",Data Scientist
+Data Scientist,Beginner,4,"Linux,PyTorch,Scikit-Learn",Data Scientist
+Data Scientist,Beginner,4,"React,Git,TensorFlow",Data Scientist
+Data Scientist,Beginner,4,"Express,Vue,GCP",Data Scientist
+Data Scientist,Beginner,4,"React,AWS,Azure",Data Scientist
+Data Scientist,Beginner,4,"Azure,Kotlin,NoSQL",Data Scientist
+Data Scientist,Beginner,4,"Pandas,Figma,Docker",Data Scientist
+Data Scientist,Beginner,5,"Docker,CSS,Scikit-Learn",Data Scientist
+Data Scientist,Beginner,5,"Azure,APIs,Kotlin",Data Scientist
+Data Scientist,Beginner,5,"Docker,Figma,MongoDB",Data Scientist
+Data Scientist,Beginner,5,"Node.js,Azure,Kotlin",Data Scientist
+Data Scientist,Beginner,5,"NumPy,NoSQL,SQL",Data Scientist
+Data Scientist,Beginner,5,"PostgreSQL,Figma,Pandas",Data Scientist
+Data Scientist,Beginner,5,"SQL,PyTorch,Git",Data Scientist
+Data Scientist,Beginner,5,"Scikit-Learn,Figma,Docker",Data Scientist
+Data Scientist,Beginner,5,"CI/CD,Vue,React",Data Scientist
+Data Scientist,Beginner,5,"Sketch,Azure,Kotlin",Data Scientist
+Data Scientist,Intermediate,1,"SQL,NumPy,CI/CD",Data Scientist
+Data Scientist,Intermediate,1,"Swift,Kubernetes,NoSQL",Data Scientist
+Data Scientist,Intermediate,1,"CSS,PyTorch,JavaScript",Data Scientist
+Data Scientist,Intermediate,1,"AWS,MongoDB,CI/CD",Data Scientist
+Data Scientist,Intermediate,1,"Azure,NoSQL,Vue",Data Scientist
+Data Scientist,Intermediate,1,"GCP,APIs,React",Data Scientist
+Data Scientist,Intermediate,1,"Sketch,PyTorch,HTML",Data Scientist
+Data Scientist,Intermediate,1,"Swift,GCP,Kotlin",Data Scientist
+Data Scientist,Intermediate,1,"APIs,Linux,Docker",Data Scientist
+Data Scientist,Intermediate,1,"AWS,Express,PyTorch",Data Scientist
+Data Scientist,Intermediate,2,"CI/CD,Kotlin,NoSQL",Data Scientist
+Data Scientist,Intermediate,2,"SQL,NumPy,HTML",Data Scientist
+Data Scientist,Intermediate,2,"React,PyTorch,CI/CD",Data Scientist
+Data Scientist,Intermediate,2,"Python,NoSQL,CSS",Data Scientist
+Data Scientist,Intermediate,2,"Security,Figma,JavaScript",Data Scientist
+Data Scientist,Intermediate,2,"Angular,Security,Kubernetes",Data Scientist
+Data Scientist,Intermediate,2,"Angular,Pandas,Python",Data Scientist
+Data Scientist,Intermediate,2,"SQL,JavaScript,Vue",Data Scientist
+Data Scientist,Intermediate,2,"JavaScript,TensorFlow,Security",Data Scientist
+Data Scientist,Intermediate,2,"React,HTML,PyTorch",Data Scientist
+Data Scientist,Intermediate,3,"PyTorch,Express,GCP",Data Scientist
+Data Scientist,Intermediate,3,"Figma,React,Scikit-Learn",Data Scientist
+Data Scientist,Intermediate,3,"React,NoSQL,NumPy",Data Scientist
+Data Scientist,Intermediate,3,"Express,Azure,HTML",Data Scientist
+Data Scientist,Intermediate,3,"Kotlin,CI/CD,APIs",Data Scientist
+Data Scientist,Intermediate,3,"Azure,Kotlin,GCP",Data Scientist
+Data Scientist,Intermediate,3,"Sketch,Python,Git",Data Scientist
+Data Scientist,Intermediate,3,"MongoDB,NumPy,Vue",Data Scientist
+Data Scientist,Intermediate,3,"PostgreSQL,React,JavaScript",Data Scientist
+Data Scientist,Intermediate,3,"GCP,SQL,Vue",Data Scientist
+Data Scientist,Intermediate,4,"PyTorch,Swift,Express",Data Scientist
+Data Scientist,Intermediate,4,"Linux,Kubernetes,Python",Data Scientist
+Data Scientist,Intermediate,4,"Node.js,GCP,Sketch",Data Scientist
+Data Scientist,Intermediate,4,"Sketch,TensorFlow,PyTorch",Data Scientist
+Data Scientist,Intermediate,4,"Scikit-Learn,React,Azure",Data Scientist
+Data Scientist,Intermediate,4,"Pandas,NoSQL,Docker",Data Scientist
+Data Scientist,Intermediate,4,"HTML,Vue,SQL",Data Scientist
+Data Scientist,Intermediate,4,"Docker,Linux,PostgreSQL",Data Scientist
+Data Scientist,Intermediate,4,"Microservices,TensorFlow,Angular",Data Scientist
+Data Scientist,Intermediate,4,"PostgreSQL,Security,AWS",Data Scientist
+Data Scientist,Intermediate,5,"PostgreSQL,Security,Pandas",Data Scientist
+Data Scientist,Intermediate,5,"Node.js,JavaScript,Angular",Data Scientist
+Data Scientist,Intermediate,5,"CI/CD,React,MongoDB",Data Scientist
+Data Scientist,Intermediate,5,"CI/CD,GCP,NumPy",Data Scientist
+Data Scientist,Intermediate,5,"Figma,CSS,Swift",Data Scientist
+Data Scientist,Intermediate,5,"Figma,Swift,SQL",Data Scientist
+Data Scientist,Intermediate,5,"HTML,Linux,Python",Data Scientist
+Data Scientist,Intermediate,5,"Angular,Node.js,NumPy",Data Scientist
+Data Scientist,Intermediate,5,"Azure,JavaScript,Figma",Data Scientist
+Data Scientist,Intermediate,5,"APIs,NoSQL,Security",Data Scientist
+Data Scientist,Advanced,1,"Docker,Sketch,Azure",Data Scientist
+Data Scientist,Advanced,1,"Azure,Express,PyTorch",Data Scientist
+Data Scientist,Advanced,1,"Figma,SQL,CSS",Data Scientist
+Data Scientist,Advanced,1,"Security,PostgreSQL,Git",Data Scientist
+Data Scientist,Advanced,1,"NoSQL,MongoDB,GCP",Data Scientist
+Data Scientist,Advanced,1,"Microservices,JavaScript,Node.js",Data Scientist
+Data Scientist,Advanced,1,"CI/CD,React,Microservices",Data Scientist
+Data Scientist,Advanced,1,"Pandas,Vue,NumPy",Data Scientist
+Data Scientist,Advanced,1,"Kubernetes,MongoDB,NumPy",Data Scientist
+Data Scientist,Advanced,1,"Angular,SQL,GCP",Data Scientist
+Data Scientist,Advanced,2,"TensorFlow,Security,MongoDB",Data Scientist
+Data Scientist,Advanced,2,"Pandas,AWS,CI/CD",Data Scientist
+Data Scientist,Advanced,2,"Node.js,Kotlin,Figma",Data Scientist
+Data Scientist,Advanced,2,"Express,Security,JavaScript",Data Scientist
+Data Scientist,Advanced,2,"Security,AWS,APIs",Data Scientist
+Data Scientist,Advanced,2,"Git,Figma,Swift",Data Scientist
+Data Scientist,Advanced,2,"CSS,APIs,Angular",Data Scientist
+Data Scientist,Advanced,2,"Microservices,React,PostgreSQL",Data Scientist
+Data Scientist,Advanced,2,"Kotlin,Angular,Figma",Data Scientist
+Data Scientist,Advanced,2,"NumPy,CSS,Figma",Data Scientist
+Data Scientist,Advanced,3,"CI/CD,PostgreSQL,Security",Data Scientist
+Data Scientist,Advanced,3,"Express,JavaScript,Sketch",Data Scientist
+Data Scientist,Advanced,3,"Kotlin,AWS,NoSQL",Data Scientist
+Data Scientist,Advanced,3,"Microservices,Node.js,JavaScript",Data Scientist
+Data Scientist,Advanced,3,"TensorFlow,Security,Docker",Data Scientist
+Data Scientist,Advanced,3,"CSS,Linux,Express",Data Scientist
+Data Scientist,Advanced,3,"Scikit-Learn,Swift,React",Data Scientist
+Data Scientist,Advanced,3,"CI/CD,APIs,PostgreSQL",Data Scientist
+Data Scientist,Advanced,3,"Docker,Scikit-Learn,React",Data Scientist
+Data Scientist,Advanced,3,"NumPy,React,Express",Data Scientist
+Data Scientist,Advanced,4,"NumPy,Git,PostgreSQL",Data Scientist
+Data Scientist,Advanced,4,"Node.js,APIs,CI/CD",Data Scientist
+Data Scientist,Advanced,4,"Linux,NoSQL,PyTorch",Data Scientist
+Data Scientist,Advanced,4,"Swift,Express,MongoDB",Data Scientist
+Data Scientist,Advanced,4,"Angular,Figma,Python",Data Scientist
+Data Scientist,Advanced,4,"PyTorch,Pandas,TensorFlow",Data Scientist
+Data Scientist,Advanced,4,"PostgreSQL,Azure,JavaScript",Data Scientist
+Data Scientist,Advanced,4,"Sketch,CI/CD,Git",Data Scientist
+Data Scientist,Advanced,4,"MongoDB,PyTorch,Python",Data Scientist
+Data Scientist,Advanced,4,"CI/CD,Vue,React",Data Scientist
+Data Scientist,Advanced,5,"Vue,Linux,Pandas",Data Scientist
+Data Scientist,Advanced,5,"TensorFlow,JavaScript,Sketch",Data Scientist
+Data Scientist,Advanced,5,"PyTorch,Vue,Figma",Data Scientist
+Data Scientist,Advanced,5,"TensorFlow,Kubernetes,Microservices",Data Scientist
+Data Scientist,Advanced,5,"AWS,Security,CSS",Data Scientist
+Data Scientist,Advanced,5,"Azure,AWS,Kubernetes",Data Scientist
+Data Scientist,Advanced,5,"PyTorch,Kotlin,Linux",Data Scientist
+Data Scientist,Advanced,5,"Angular,Sketch,Scikit-Learn",Data Scientist
+Data Scientist,Advanced,5,"CSS,Python,APIs",Data Scientist
+Data Scientist,Advanced,5,"Figma,NumPy,AWS",Data Scientist
+AI Engineer,Beginner,1,"CSS,APIs,Azure",AI Engineer
+AI Engineer,Beginner,1,"NumPy,MongoDB,GCP",AI Engineer
+AI Engineer,Beginner,1,"SQL,React,Docker",AI Engineer
+AI Engineer,Beginner,1,"Security,Node.js,NumPy",AI Engineer
+AI Engineer,Beginner,1,"Pandas,NoSQL,CSS",AI Engineer
+AI Engineer,Beginner,1,"MongoDB,Git,Microservices",AI Engineer
+AI Engineer,Beginner,1,"Security,HTML,PostgreSQL",AI Engineer
+AI Engineer,Beginner,1,"APIs,Figma,Git",AI Engineer
+AI Engineer,Beginner,1,"Node.js,CI/CD,AWS",AI Engineer
+AI Engineer,Beginner,1,"NoSQL,APIs,Kotlin",AI Engineer
+AI Engineer,Beginner,2,"Node.js,Docker,PyTorch",AI Engineer
+AI Engineer,Beginner,2,"Security,APIs,HTML",AI Engineer
+AI Engineer,Beginner,2,"Kotlin,Docker,Express",AI Engineer
+AI Engineer,Beginner,2,"Kotlin,Kubernetes,GCP",AI Engineer
+AI Engineer,Beginner,2,"MongoDB,Kubernetes,Express",AI Engineer
+AI Engineer,Beginner,2,"CSS,NoSQL,Kotlin",AI Engineer
+AI Engineer,Beginner,2,"SQL,PyTorch,HTML",AI Engineer
+AI Engineer,Beginner,2,"Azure,Python,PyTorch",AI Engineer
+AI Engineer,Beginner,2,"TensorFlow,APIs,NoSQL",AI Engineer
+AI Engineer,Beginner,2,"Git,Swift,Microservices",AI Engineer
+AI Engineer,Beginner,3,"Express,JavaScript,PyTorch",AI Engineer
+AI Engineer,Beginner,3,"Node.js,GCP,Linux",AI Engineer
+AI Engineer,Beginner,3,"Scikit-Learn,PostgreSQL,Node.js",AI Engineer
+AI Engineer,Beginner,3,"PostgreSQL,CSS,Azure",AI Engineer
+AI Engineer,Beginner,3,"NumPy,React,CSS",AI Engineer
+AI Engineer,Beginner,3,"MongoDB,CI/CD,SQL",AI Engineer
+AI Engineer,Beginner,3,"CSS,Python,Pandas",AI Engineer
+AI Engineer,Beginner,3,"React,Swift,TensorFlow",AI Engineer
+AI Engineer,Beginner,3,"Pandas,APIs,Python",AI Engineer
+AI Engineer,Beginner,3,"React,APIs,HTML",AI Engineer
+AI Engineer,Beginner,4,"Kubernetes,Security,Node.js",AI Engineer
+AI Engineer,Beginner,4,"JavaScript,Node.js,SQL",AI Engineer
+AI Engineer,Beginner,4,"SQL,Figma,Swift",AI Engineer
+AI Engineer,Beginner,4,"NumPy,CI/CD,TensorFlow",AI Engineer
+AI Engineer,Beginner,4,"JavaScript,TensorFlow,Linux",AI Engineer
+AI Engineer,Beginner,4,"JavaScript,Microservices,MongoDB",AI Engineer
+AI Engineer,Beginner,4,"Swift,MongoDB,Angular",AI Engineer
+AI Engineer,Beginner,4,"NoSQL,Security,Express",AI Engineer
+AI Engineer,Beginner,4,"Azure,Kotlin,Microservices",AI Engineer
+AI Engineer,Beginner,4,"NoSQL,React,Sketch",AI Engineer
+AI Engineer,Beginner,5,"PostgreSQL,TensorFlow,Node.js",AI Engineer
+AI Engineer,Beginner,5,"Swift,Figma,Python",AI Engineer
+AI Engineer,Beginner,5,"Microservices,Express,Azure",AI Engineer
+AI Engineer,Beginner,5,"HTML,Figma,Linux",AI Engineer
+AI Engineer,Beginner,5,"Node.js,NumPy,PostgreSQL",AI Engineer
+AI Engineer,Beginner,5,"Linux,Angular,Git",AI Engineer
+AI Engineer,Beginner,5,"Kotlin,React,Pandas",AI Engineer
+AI Engineer,Beginner,5,"Vue,HTML,Sketch",AI Engineer
+AI Engineer,Beginner,5,"NumPy,Git,Sketch",AI Engineer
+AI Engineer,Beginner,5,"Sketch,AWS,Kubernetes",AI Engineer
+AI Engineer,Intermediate,1,"MongoDB,Sketch,Microservices",AI Engineer
+AI Engineer,Intermediate,1,"Git,React,Azure",AI Engineer
+AI Engineer,Intermediate,1,"NumPy,Docker,TensorFlow",AI Engineer
+AI Engineer,Intermediate,1,"AWS,Kotlin,Security",AI Engineer
+AI Engineer,Intermediate,1,"Python,Azure,Figma",AI Engineer
+AI Engineer,Intermediate,1,"Sketch,SQL,PostgreSQL",AI Engineer
+AI Engineer,Intermediate,1,"Sketch,Kubernetes,Docker",AI Engineer
+AI Engineer,Intermediate,1,"TensorFlow,JavaScript,CSS",AI Engineer
+AI Engineer,Intermediate,1,"Docker,Microservices,Scikit-Learn",AI Engineer
+AI Engineer,Intermediate,1,"TensorFlow,Swift,Figma",AI Engineer
+AI Engineer,Intermediate,2,"Node.js,CI/CD,CSS",AI Engineer
+AI Engineer,Intermediate,2,"NoSQL,Microservices,Azure",AI Engineer
+AI Engineer,Intermediate,2,"Express,Kotlin,Node.js",AI Engineer
+AI Engineer,Intermediate,2,"APIs,CI/CD,Git",AI Engineer
+AI Engineer,Intermediate,2,"JavaScript,React,Kubernetes",AI Engineer
+AI Engineer,Intermediate,2,"GCP,Pandas,SQL",AI Engineer
+AI Engineer,Intermediate,2,"Pandas,Swift,React",AI Engineer
+AI Engineer,Intermediate,2,"Node.js,Figma,CI/CD",AI Engineer
+AI Engineer,Intermediate,2,"CSS,Security,Scikit-Learn",AI Engineer
+AI Engineer,Intermediate,2,"Angular,SQL,Pandas",AI Engineer
+AI Engineer,Intermediate,3,"MongoDB,NoSQL,PostgreSQL",AI Engineer
+AI Engineer,Intermediate,3,"SQL,MongoDB,Linux",AI Engineer
+AI Engineer,Intermediate,3,"CI/CD,Swift,Figma",AI Engineer
+AI Engineer,Intermediate,3,"Sketch,Kubernetes,NoSQL",AI Engineer
+AI Engineer,Intermediate,3,"Docker,Linux,JavaScript",AI Engineer
+AI Engineer,Intermediate,3,"Figma,Pandas,Git",AI Engineer
+AI Engineer,Intermediate,3,"Azure,Kubernetes,NumPy",AI Engineer
+AI Engineer,Intermediate,3,"APIs,Scikit-Learn,CI/CD",AI Engineer
+AI Engineer,Intermediate,3,"JavaScript,Python,TensorFlow",AI Engineer
+AI Engineer,Intermediate,3,"NumPy,Swift,Docker",AI Engineer
+AI Engineer,Intermediate,4,"Linux,Scikit-Learn,JavaScript",AI Engineer
+AI Engineer,Intermediate,4,"Kubernetes,JavaScript,Security",AI Engineer
+AI Engineer,Intermediate,4,"Security,PyTorch,SQL",AI Engineer
+AI Engineer,Intermediate,4,"CI/CD,Scikit-Learn,Git",AI Engineer
+AI Engineer,Intermediate,4,"Linux,Pandas,CI/CD",AI Engineer
+AI Engineer,Intermediate,4,"Pandas,Express,TensorFlow",AI Engineer
+AI Engineer,Intermediate,4,"Angular,HTML,Express",AI Engineer
+AI Engineer,Intermediate,4,"Sketch,Azure,CI/CD",AI Engineer
+AI Engineer,Intermediate,4,"Express,Azure,NumPy",AI Engineer
+AI Engineer,Intermediate,4,"PostgreSQL,SQL,Kotlin",AI Engineer
+AI Engineer,Intermediate,5,"PostgreSQL,React,Security",AI Engineer
+AI Engineer,Intermediate,5,"JavaScript,GCP,Kotlin",AI Engineer
+AI Engineer,Intermediate,5,"Git,Sketch,PyTorch",AI Engineer
+AI Engineer,Intermediate,5,"Kubernetes,Swift,NoSQL",AI Engineer
+AI Engineer,Intermediate,5,"Python,Vue,AWS",AI Engineer
+AI Engineer,Intermediate,5,"NumPy,HTML,Azure",AI Engineer
+AI Engineer,Intermediate,5,"HTML,PyTorch,Pandas",AI Engineer
+AI Engineer,Intermediate,5,"Kotlin,TensorFlow,Security",AI Engineer
+AI Engineer,Intermediate,5,"HTML,Pandas,Security",AI Engineer
+AI Engineer,Intermediate,5,"TensorFlow,Git,Azure",AI Engineer
+AI Engineer,Advanced,1,"SQL,APIs,AWS",AI Engineer
+AI Engineer,Advanced,1,"TensorFlow,SQL,NoSQL",AI Engineer
+AI Engineer,Advanced,1,"Kotlin,Express,Azure",AI Engineer
+AI Engineer,Advanced,1,"SQL,Swift,Security",AI Engineer
+AI Engineer,Advanced,1,"HTML,Microservices,CSS",AI Engineer
+AI Engineer,Advanced,1,"Linux,CI/CD,JavaScript",AI Engineer
+AI Engineer,Advanced,1,"GCP,NumPy,AWS",AI Engineer
+AI Engineer,Advanced,1,"Vue,Sketch,MongoDB",AI Engineer
+AI Engineer,Advanced,1,"Pandas,Scikit-Learn,Linux",AI Engineer
+AI Engineer,Advanced,1,"Swift,Python,APIs",AI Engineer
+AI Engineer,Advanced,2,"Express,GCP,React",AI Engineer
+AI Engineer,Advanced,2,"Microservices,Docker,Kotlin",AI Engineer
+AI Engineer,Advanced,2,"Angular,Git,CI/CD",AI Engineer
+AI Engineer,Advanced,2,"PostgreSQL,Pandas,Azure",AI Engineer
+AI Engineer,Advanced,2,"Linux,Node.js,Express",AI Engineer
+AI Engineer,Advanced,2,"Express,Linux,PostgreSQL",AI Engineer
+AI Engineer,Advanced,2,"NoSQL,Security,Kotlin",AI Engineer
+AI Engineer,Advanced,2,"Security,CI/CD,Figma",AI Engineer
+AI Engineer,Advanced,2,"CSS,SQL,Sketch",AI Engineer
+AI Engineer,Advanced,2,"Pandas,Angular,React",AI Engineer
+AI Engineer,Advanced,3,"Scikit-Learn,Git,Swift",AI Engineer
+AI Engineer,Advanced,3,"Linux,Scikit-Learn,Python",AI Engineer
+AI Engineer,Advanced,3,"SQL,Security,APIs",AI Engineer
+AI Engineer,Advanced,3,"Vue,Angular,Docker",AI Engineer
+AI Engineer,Advanced,3,"Sketch,Pandas,CSS",AI Engineer
+AI Engineer,Advanced,3,"CSS,CI/CD,PostgreSQL",AI Engineer
+AI Engineer,Advanced,3,"Git,Figma,Python",AI Engineer
+AI Engineer,Advanced,3,"Swift,Linux,HTML",AI Engineer
+AI Engineer,Advanced,3,"APIs,Pandas,Scikit-Learn",AI Engineer
+AI Engineer,Advanced,3,"Angular,Scikit-Learn,Python",AI Engineer
+AI Engineer,Advanced,4,"GCP,React,NoSQL",AI Engineer
+AI Engineer,Advanced,4,"Git,Pandas,APIs",AI Engineer
+AI Engineer,Advanced,4,"Security,MongoDB,TensorFlow",AI Engineer
+AI Engineer,Advanced,4,"CI/CD,Python,Pandas",AI Engineer
+AI Engineer,Advanced,4,"GCP,Docker,HTML",AI Engineer
+AI Engineer,Advanced,4,"Python,Kotlin,Linux",AI Engineer
+AI Engineer,Advanced,4,"SQL,Docker,Figma",AI Engineer
+AI Engineer,Advanced,4,"Vue,NoSQL,Security",AI Engineer
+AI Engineer,Advanced,4,"Azure,Docker,Microservices",AI Engineer
+AI Engineer,Advanced,4,"Node.js,TensorFlow,CI/CD",AI Engineer
+AI Engineer,Advanced,5,"CI/CD,Sketch,NumPy",AI Engineer
+AI Engineer,Advanced,5,"Security,CSS,Kotlin",AI Engineer
+AI Engineer,Advanced,5,"Pandas,HTML,Figma",AI Engineer
+AI Engineer,Advanced,5,"NoSQL,Kubernetes,React",AI Engineer
+AI Engineer,Advanced,5,"Swift,Pandas,React",AI Engineer
+AI Engineer,Advanced,5,"Vue,Linux,Express",AI Engineer
+AI Engineer,Advanced,5,"PostgreSQL,Security,Node.js",AI Engineer
+AI Engineer,Advanced,5,"SQL,MongoDB,Python",AI Engineer
+AI Engineer,Advanced,5,"Express,PyTorch,NumPy",AI Engineer
+AI Engineer,Advanced,5,"Kotlin,Node.js,Security",AI Engineer
+Machine Learning Engineer,Beginner,1,"TensorFlow,Docker,HTML",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"Docker,React,Linux",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"PyTorch,Kotlin,SQL",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"TensorFlow,HTML,PyTorch",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"GCP,Vue,Python",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"Swift,SQL,PyTorch",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"MongoDB,Node.js,GCP",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"Git,TensorFlow,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"Scikit-Learn,Pandas,PyTorch",Machine Learning Engineer
+Machine Learning Engineer,Beginner,1,"Security,React,Angular",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"CSS,HTML,AWS",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"APIs,Express,CI/CD",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"Vue,CI/CD,MongoDB",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"NumPy,Angular,PostgreSQL",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"JavaScript,Sketch,Angular",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"Swift,Kubernetes,MongoDB",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"Pandas,Kubernetes,PostgreSQL",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"SQL,Kotlin,AWS",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"React,Docker,Git",Machine Learning Engineer
+Machine Learning Engineer,Beginner,2,"PostgreSQL,Vue,Security",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"SQL,Scikit-Learn,CI/CD",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"JavaScript,Docker,Kubernetes",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"Scikit-Learn,Pandas,NumPy",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"JavaScript,Python,React",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"Figma,Express,APIs",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"SQL,Pandas,GCP",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"Azure,Docker,Python",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"Sketch,MongoDB,Swift",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"Swift,HTML,TensorFlow",Machine Learning Engineer
+Machine Learning Engineer,Beginner,3,"APIs,CSS,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"Docker,Express,APIs",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"React,Vue,Express",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"Pandas,NoSQL,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"Git,TensorFlow,NumPy",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"AWS,APIs,Docker",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"Sketch,TensorFlow,Azure",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"Figma,CSS,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"Figma,Python,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"GCP,Python,Node.js",Machine Learning Engineer
+Machine Learning Engineer,Beginner,4,"APIs,SQL,Azure",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"Pandas,AWS,GCP",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"Azure,Angular,Microservices",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"CSS,NoSQL,PyTorch",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"Node.js,GCP,Linux",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"Kotlin,AWS,GCP",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"CI/CD,HTML,JavaScript",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"Pandas,SQL,CSS",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"PyTorch,PostgreSQL,Figma",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"NumPy,Kubernetes,Security",Machine Learning Engineer
+Machine Learning Engineer,Beginner,5,"APIs,Kotlin,React",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"Figma,Kubernetes,Sketch",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"MongoDB,React,PostgreSQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"Angular,Swift,GCP",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"Kotlin,PostgreSQL,CSS",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"PyTorch,Kubernetes,Pandas",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"SQL,MongoDB,Linux",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"Sketch,Azure,APIs",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"TensorFlow,Swift,Kotlin",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"React,Azure,MongoDB",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,1,"Python,NumPy,PyTorch",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"Kotlin,Vue,SQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"Figma,Kotlin,Microservices",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"Kotlin,JavaScript,PostgreSQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"SQL,Docker,CSS",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"CSS,TensorFlow,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"Pandas,Python,Security",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"NumPy,APIs,Vue",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"PyTorch,Linux,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"Python,PyTorch,APIs",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,2,"Angular,PostgreSQL,SQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"JavaScript,Express,Linux",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"Python,CI/CD,Vue",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"Pandas,Swift,NoSQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"Express,AWS,NumPy",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"Figma,GCP,TensorFlow",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"GCP,PostgreSQL,CI/CD",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"Azure,PyTorch,CSS",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"Figma,GCP,MongoDB",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"Linux,APIs,Figma",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,3,"Kubernetes,PostgreSQL,React",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"APIs,React,NoSQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"Microservices,CI/CD,JavaScript",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"HTML,SQL,Vue",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"React,Python,Figma",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"Kubernetes,Pandas,SQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"AWS,Vue,Pandas",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"Node.js,CI/CD,TensorFlow",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"Security,Vue,Swift",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"Git,React,Microservices",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,4,"Angular,Azure,NoSQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"Vue,Sketch,Git",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"Node.js,Python,CSS",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"Pandas,NumPy,Git",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"Kubernetes,MongoDB,CI/CD",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"Linux,TensorFlow,CI/CD",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"PostgreSQL,CI/CD,SQL",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"SQL,Azure,Angular",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"PyTorch,Microservices,Figma",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"CSS,Swift,Pandas",Machine Learning Engineer
+Machine Learning Engineer,Intermediate,5,"Swift,Security,SQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"TensorFlow,Angular,CI/CD",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"CSS,AWS,Kotlin",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"Swift,Figma,HTML",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"PyTorch,Node.js,Microservices",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"Node.js,APIs,NoSQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"AWS,GCP,NoSQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"TensorFlow,JavaScript,Swift",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"Kubernetes,CI/CD,Docker",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"HTML,Angular,Git",Machine Learning Engineer
+Machine Learning Engineer,Advanced,1,"PostgreSQL,Scikit-Learn,TensorFlow",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"PostgreSQL,MongoDB,Figma",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"Pandas,GCP,Angular",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"NumPy,Kotlin,Microservices",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"GCP,Vue,NumPy",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"CSS,Azure,HTML",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"Azure,Sketch,Figma",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"Azure,CI/CD,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"Vue,PostgreSQL,Azure",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"React,Azure,GCP",Machine Learning Engineer
+Machine Learning Engineer,Advanced,2,"Express,Git,Docker",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"NoSQL,Angular,Linux",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"Kotlin,MongoDB,Figma",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"Git,CSS,Vue",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"NoSQL,Node.js,CI/CD",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"NumPy,AWS,Node.js",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"CI/CD,HTML,React",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"Azure,Kubernetes,Git",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"JavaScript,NoSQL,Python",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"Vue,HTML,CSS",Machine Learning Engineer
+Machine Learning Engineer,Advanced,3,"Swift,NoSQL,Kotlin",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"AWS,NoSQL,Angular",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"Figma,CI/CD,SQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"Linux,Express,CSS",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"Figma,Security,Git",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"JavaScript,Docker,SQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"Azure,APIs,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"NoSQL,Linux,Scikit-Learn",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"Express,Python,PostgreSQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"Node.js,Python,HTML",Machine Learning Engineer
+Machine Learning Engineer,Advanced,4,"NumPy,CI/CD,CSS",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"Linux,PostgreSQL,HTML",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"React,Azure,NumPy",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"Kubernetes,JavaScript,Linux",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"JavaScript,Python,SQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"Docker,Node.js,NoSQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"Git,Pandas,PostgreSQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"HTML,Git,Kotlin",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"GCP,AWS,Linux",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"Figma,APIs,NoSQL",Machine Learning Engineer
+Machine Learning Engineer,Advanced,5,"HTML,Azure,Node.js",Machine Learning Engineer
+Cybersecurity Analyst,Beginner,1,"Express,SQL,CI/CD",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"Swift,TensorFlow,Sketch",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"React,Angular,NoSQL",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"React,SQL,PyTorch",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"HTML,Git,Linux",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"Docker,React,CI/CD",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"NumPy,PyTorch,Kotlin",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"Docker,PostgreSQL,SQL",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"Microservices,Git,Figma",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,1,"GCP,Git,Figma",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"Scikit-Learn,React,Pandas",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"PyTorch,Python,Scikit-Learn",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"AWS,Security,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"Figma,Sketch,AWS",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"HTML,NumPy,Git",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"APIs,Sketch,PyTorch",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"Pandas,GCP,Vue",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"HTML,GCP,Swift",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"Git,Docker,Pandas",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,2,"Linux,Microservices,Kubernetes",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"NumPy,Kotlin,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"MongoDB,PyTorch,Express",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"GCP,AWS,CI/CD",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"Docker,Swift,Git",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"Figma,Sketch,GCP",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"Kotlin,GCP,CI/CD",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"Linux,Swift,AWS",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"Scikit-Learn,SQL,Pandas",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"GCP,Kotlin,Docker",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,3,"Pandas,React,Kotlin",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"APIs,Swift,PyTorch",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"Linux,Security,Express",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"React,Git,SQL",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"NumPy,Docker,Linux",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"Kubernetes,React,Express",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"SQL,PostgreSQL,React",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"Microservices,Swift,HTML",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"CSS,SQL,APIs",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"Kubernetes,Pandas,Kotlin",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,4,"HTML,Git,Azure",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"Scikit-Learn,NoSQL,Node.js",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"React,Scikit-Learn,Pandas",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"Azure,APIs,Git",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"React,PostgreSQL,Docker",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"Linux,PyTorch,Sketch",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"PyTorch,React,MongoDB",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"Vue,HTML,Docker",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"SQL,NumPy,Linux",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"GCP,Figma,MongoDB",Cybersecurity Analyst
+Cybersecurity Analyst,Beginner,5,"NoSQL,Figma,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"Docker,JavaScript,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"CSS,JavaScript,MongoDB",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"Vue,Security,Python",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"HTML,NoSQL,CI/CD",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"Swift,Microservices,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"Swift,TensorFlow,NoSQL",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"Kubernetes,TensorFlow,HTML",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"Microservices,Express,SQL",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"GCP,React,Kotlin",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,1,"Express,Sketch,AWS",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"PostgreSQL,PyTorch,Vue",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"CSS,Security,Git",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"TensorFlow,Node.js,Microservices",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"React,JavaScript,Figma",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"Kotlin,Docker,Kubernetes",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"CSS,NoSQL,CI/CD",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"NoSQL,MongoDB,GCP",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"Sketch,Node.js,Security",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"Express,Swift,SQL",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,2,"JavaScript,NumPy,Sketch",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"Security,APIs,Docker",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"React,MongoDB,NumPy",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"Azure,Vue,NumPy",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"Swift,Express,AWS",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"Swift,Node.js,CI/CD",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"MongoDB,Angular,Vue",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"NoSQL,GCP,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"Vue,NoSQL,AWS",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"AWS,Swift,CSS",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,3,"Azure,React,Node.js",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"MongoDB,NumPy,HTML",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"Python,Docker,APIs",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"CSS,Docker,Azure",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"Scikit-Learn,Express,Linux",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"Scikit-Learn,Kotlin,Docker",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"PostgreSQL,Figma,HTML",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"GCP,CI/CD,SQL",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"React,Swift,Express",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"SQL,Kubernetes,Kotlin",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,4,"Node.js,GCP,JavaScript",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"CSS,APIs,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"JavaScript,Sketch,Kubernetes",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"MongoDB,Angular,PostgreSQL",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"Swift,Docker,HTML",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"MongoDB,CI/CD,Azure",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"Pandas,Docker,Vue",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"CI/CD,Node.js,Python",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"Scikit-Learn,HTML,CSS",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"Azure,AWS,GCP",Cybersecurity Analyst
+Cybersecurity Analyst,Intermediate,5,"Pandas,Git,React",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"GCP,Linux,Kubernetes",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"Figma,PostgreSQL,Kotlin",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"Microservices,Kotlin,Kubernetes",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"GCP,Docker,Kubernetes",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"NumPy,HTML,Angular",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"Express,Python,Docker",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"HTML,React,NoSQL",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"SQL,Git,NumPy",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"NoSQL,HTML,PostgreSQL",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,1,"MongoDB,NumPy,HTML",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"Git,TensorFlow,Scikit-Learn",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"Node.js,Git,Linux",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"Scikit-Learn,Linux,HTML",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"Angular,CI/CD,Swift",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"CSS,JavaScript,Linux",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"PyTorch,Security,APIs",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"Microservices,Security,Kubernetes",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"GCP,Node.js,Azure",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"NoSQL,Node.js,React",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,2,"NoSQL,NumPy,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"Express,Pandas,NumPy",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"PostgreSQL,TensorFlow,Docker",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"Pandas,Node.js,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"Vue,Angular,CSS",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"CSS,Azure,NoSQL",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"PostgreSQL,Git,Pandas",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"MongoDB,React,Python",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"CI/CD,Express,Azure",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"Scikit-Learn,Kubernetes,Angular",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,3,"Pandas,NoSQL,CI/CD",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"React,Angular,Sketch",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"Swift,NoSQL,NumPy",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"JavaScript,Sketch,PostgreSQL",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"React,Angular,JavaScript",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"Azure,Node.js,Pandas",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"Docker,Figma,TensorFlow",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"HTML,Figma,NumPy",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"NoSQL,NumPy,Angular",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"APIs,CSS,PyTorch",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,4,"Pandas,Sketch,PyTorch",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"JavaScript,Swift,Angular",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"AWS,TensorFlow,GCP",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"Swift,NoSQL,Security",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"Sketch,Angular,Pandas",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"APIs,Scikit-Learn,Docker",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"MongoDB,PostgreSQL,SQL",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"Vue,Sketch,APIs",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"Python,NoSQL,SQL",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"HTML,Express,AWS",Cybersecurity Analyst
+Cybersecurity Analyst,Advanced,5,"Node.js,Sketch,Kotlin",Cybersecurity Analyst
+DevOps Engineer,Beginner,1,"SQL,Sketch,Security",DevOps Engineer
+DevOps Engineer,Beginner,1,"TensorFlow,Figma,NoSQL",DevOps Engineer
+DevOps Engineer,Beginner,1,"Sketch,Kotlin,Vue",DevOps Engineer
+DevOps Engineer,Beginner,1,"JavaScript,Python,Microservices",DevOps Engineer
+DevOps Engineer,Beginner,1,"Scikit-Learn,GCP,NumPy",DevOps Engineer
+DevOps Engineer,Beginner,1,"Python,Node.js,PostgreSQL",DevOps Engineer
+DevOps Engineer,Beginner,1,"HTML,Docker,CI/CD",DevOps Engineer
+DevOps Engineer,Beginner,1,"Express,SQL,CI/CD",DevOps Engineer
+DevOps Engineer,Beginner,1,"Express,React,HTML",DevOps Engineer
+DevOps Engineer,Beginner,1,"JavaScript,GCP,Express",DevOps Engineer
+DevOps Engineer,Beginner,2,"React,Sketch,HTML",DevOps Engineer
+DevOps Engineer,Beginner,2,"Python,Express,AWS",DevOps Engineer
+DevOps Engineer,Beginner,2,"Linux,Microservices,AWS",DevOps Engineer
+DevOps Engineer,Beginner,2,"NoSQL,Vue,TensorFlow",DevOps Engineer
+DevOps Engineer,Beginner,2,"React,CSS,Express",DevOps Engineer
+DevOps Engineer,Beginner,2,"CI/CD,Pandas,Microservices",DevOps Engineer
+DevOps Engineer,Beginner,2,"NumPy,Git,Swift",DevOps Engineer
+DevOps Engineer,Beginner,2,"Swift,Microservices,PyTorch",DevOps Engineer
+DevOps Engineer,Beginner,2,"NumPy,Vue,Git",DevOps Engineer
+DevOps Engineer,Beginner,2,"React,Docker,Angular",DevOps Engineer
+DevOps Engineer,Beginner,3,"PostgreSQL,Python,MongoDB",DevOps Engineer
+DevOps Engineer,Beginner,3,"Linux,TensorFlow,SQL",DevOps Engineer
+DevOps Engineer,Beginner,3,"SQL,Vue,CI/CD",DevOps Engineer
+DevOps Engineer,Beginner,3,"Scikit-Learn,JavaScript,Microservices",DevOps Engineer
+DevOps Engineer,Beginner,3,"Linux,Git,Python",DevOps Engineer
+DevOps Engineer,Beginner,3,"PostgreSQL,Express,Python",DevOps Engineer
+DevOps Engineer,Beginner,3,"Swift,Vue,Security",DevOps Engineer
+DevOps Engineer,Beginner,3,"SQL,Microservices,Python",DevOps Engineer
+DevOps Engineer,Beginner,3,"Pandas,Scikit-Learn,Sketch",DevOps Engineer
+DevOps Engineer,Beginner,3,"CI/CD,Security,AWS",DevOps Engineer
+DevOps Engineer,Beginner,4,"Linux,Pandas,JavaScript",DevOps Engineer
+DevOps Engineer,Beginner,4,"Swift,Scikit-Learn,Angular",DevOps Engineer
+DevOps Engineer,Beginner,4,"NumPy,Microservices,SQL",DevOps Engineer
+DevOps Engineer,Beginner,4,"Vue,NumPy,Microservices",DevOps Engineer
+DevOps Engineer,Beginner,4,"PyTorch,Figma,NoSQL",DevOps Engineer
+DevOps Engineer,Beginner,4,"Git,Pandas,Express",DevOps Engineer
+DevOps Engineer,Beginner,4,"Sketch,CSS,Python",DevOps Engineer
+DevOps Engineer,Beginner,4,"MongoDB,GCP,SQL",DevOps Engineer
+DevOps Engineer,Beginner,4,"SQL,GCP,Python",DevOps Engineer
+DevOps Engineer,Beginner,4,"Express,Git,JavaScript",DevOps Engineer
+DevOps Engineer,Beginner,5,"Sketch,Azure,Kotlin",DevOps Engineer
+DevOps Engineer,Beginner,5,"Swift,Kubernetes,Python",DevOps Engineer
+DevOps Engineer,Beginner,5,"MongoDB,SQL,Angular",DevOps Engineer
+DevOps Engineer,Beginner,5,"CSS,Azure,Linux",DevOps Engineer
+DevOps Engineer,Beginner,5,"JavaScript,CSS,Express",DevOps Engineer
+DevOps Engineer,Beginner,5,"PostgreSQL,Security,Pandas",DevOps Engineer
+DevOps Engineer,Beginner,5,"CSS,APIs,HTML",DevOps Engineer
+DevOps Engineer,Beginner,5,"CSS,Pandas,GCP",DevOps Engineer
+DevOps Engineer,Beginner,5,"TensorFlow,PyTorch,Kotlin",DevOps Engineer
+DevOps Engineer,Beginner,5,"NoSQL,Express,React",DevOps Engineer
+DevOps Engineer,Intermediate,1,"Docker,PostgreSQL,React",DevOps Engineer
+DevOps Engineer,Intermediate,1,"React,AWS,NoSQL",DevOps Engineer
+DevOps Engineer,Intermediate,1,"Git,Sketch,AWS",DevOps Engineer
+DevOps Engineer,Intermediate,1,"Pandas,Azure,NumPy",DevOps Engineer
+DevOps Engineer,Intermediate,1,"TensorFlow,GCP,Swift",DevOps Engineer
+DevOps Engineer,Intermediate,1,"MongoDB,AWS,Linux",DevOps Engineer
+DevOps Engineer,Intermediate,1,"TensorFlow,APIs,Node.js",DevOps Engineer
+DevOps Engineer,Intermediate,1,"JavaScript,Microservices,Linux",DevOps Engineer
+DevOps Engineer,Intermediate,1,"AWS,Vue,GCP",DevOps Engineer
+DevOps Engineer,Intermediate,1,"Docker,Git,Node.js",DevOps Engineer
+DevOps Engineer,Intermediate,2,"PyTorch,Angular,APIs",DevOps Engineer
+DevOps Engineer,Intermediate,2,"Microservices,JavaScript,TensorFlow",DevOps Engineer
+DevOps Engineer,Intermediate,2,"Security,Linux,React",DevOps Engineer
+DevOps Engineer,Intermediate,2,"Microservices,Pandas,Swift",DevOps Engineer
+DevOps Engineer,Intermediate,2,"Git,Angular,GCP",DevOps Engineer
+DevOps Engineer,Intermediate,2,"PyTorch,Docker,Kubernetes",DevOps Engineer
+DevOps Engineer,Intermediate,2,"Azure,React,CI/CD",DevOps Engineer
+DevOps Engineer,Intermediate,2,"Microservices,HTML,CSS",DevOps Engineer
+DevOps Engineer,Intermediate,2,"NoSQL,PyTorch,CI/CD",DevOps Engineer
+DevOps Engineer,Intermediate,2,"Kubernetes,Sketch,React",DevOps Engineer
+DevOps Engineer,Intermediate,3,"PostgreSQL,HTML,Microservices",DevOps Engineer
+DevOps Engineer,Intermediate,3,"Angular,PyTorch,Security",DevOps Engineer
+DevOps Engineer,Intermediate,3,"Express,Linux,NumPy",DevOps Engineer
+DevOps Engineer,Intermediate,3,"Kubernetes,Pandas,Express",DevOps Engineer
+DevOps Engineer,Intermediate,3,"Figma,MongoDB,NumPy",DevOps Engineer
+DevOps Engineer,Intermediate,3,"Security,Linux,Python",DevOps Engineer
+DevOps Engineer,Intermediate,3,"PyTorch,Scikit-Learn,React",DevOps Engineer
+DevOps Engineer,Intermediate,3,"CSS,Azure,Sketch",DevOps Engineer
+DevOps Engineer,Intermediate,3,"Git,Pandas,React",DevOps Engineer
+DevOps Engineer,Intermediate,3,"Security,PostgreSQL,GCP",DevOps Engineer
+DevOps Engineer,Intermediate,4,"Node.js,TensorFlow,Security",DevOps Engineer
+DevOps Engineer,Intermediate,4,"NoSQL,NumPy,Swift",DevOps Engineer
+DevOps Engineer,Intermediate,4,"Pandas,Vue,APIs",DevOps Engineer
+DevOps Engineer,Intermediate,4,"GCP,Angular,AWS",DevOps Engineer
+DevOps Engineer,Intermediate,4,"Express,Figma,Pandas",DevOps Engineer
+DevOps Engineer,Intermediate,4,"MongoDB,PyTorch,Express",DevOps Engineer
+DevOps Engineer,Intermediate,4,"NoSQL,Figma,PostgreSQL",DevOps Engineer
+DevOps Engineer,Intermediate,4,"TensorFlow,Security,Vue",DevOps Engineer
+DevOps Engineer,Intermediate,4,"Python,MongoDB,AWS",DevOps Engineer
+DevOps Engineer,Intermediate,4,"SQL,Sketch,CI/CD",DevOps Engineer
+DevOps Engineer,Intermediate,5,"Kubernetes,MongoDB,NumPy",DevOps Engineer
+DevOps Engineer,Intermediate,5,"Kubernetes,Security,CI/CD",DevOps Engineer
+DevOps Engineer,Intermediate,5,"Python,Node.js,GCP",DevOps Engineer
+DevOps Engineer,Intermediate,5,"AWS,GCP,Pandas",DevOps Engineer
+DevOps Engineer,Intermediate,5,"React,Python,HTML",DevOps Engineer
+DevOps Engineer,Intermediate,5,"Angular,JavaScript,Kotlin",DevOps Engineer
+DevOps Engineer,Intermediate,5,"PyTorch,PostgreSQL,GCP",DevOps Engineer
+DevOps Engineer,Intermediate,5,"Azure,PyTorch,SQL",DevOps Engineer
+DevOps Engineer,Intermediate,5,"TensorFlow,Scikit-Learn,Kubernetes",DevOps Engineer
+DevOps Engineer,Intermediate,5,"GCP,Scikit-Learn,Linux",DevOps Engineer
+DevOps Engineer,Advanced,1,"Azure,GCP,Swift",DevOps Engineer
+DevOps Engineer,Advanced,1,"AWS,Swift,Sketch",DevOps Engineer
+DevOps Engineer,Advanced,1,"CSS,Docker,Azure",DevOps Engineer
+DevOps Engineer,Advanced,1,"Figma,Swift,APIs",DevOps Engineer
+DevOps Engineer,Advanced,1,"Scikit-Learn,CI/CD,Microservices",DevOps Engineer
+DevOps Engineer,Advanced,1,"HTML,Scikit-Learn,Microservices",DevOps Engineer
+DevOps Engineer,Advanced,1,"APIs,Kubernetes,NoSQL",DevOps Engineer
+DevOps Engineer,Advanced,1,"PyTorch,JavaScript,Angular",DevOps Engineer
+DevOps Engineer,Advanced,1,"Angular,Sketch,CI/CD",DevOps Engineer
+DevOps Engineer,Advanced,1,"Docker,Vue,GCP",DevOps Engineer
+DevOps Engineer,Advanced,2,"Security,Git,CI/CD",DevOps Engineer
+DevOps Engineer,Advanced,2,"Figma,CSS,SQL",DevOps Engineer
+DevOps Engineer,Advanced,2,"NumPy,Git,Kotlin",DevOps Engineer
+DevOps Engineer,Advanced,2,"Figma,PostgreSQL,Swift",DevOps Engineer
+DevOps Engineer,Advanced,2,"Scikit-Learn,Node.js,Microservices",DevOps Engineer
+DevOps Engineer,Advanced,2,"Linux,Angular,Azure",DevOps Engineer
+DevOps Engineer,Advanced,2,"HTML,React,JavaScript",DevOps Engineer
+DevOps Engineer,Advanced,2,"Pandas,Scikit-Learn,GCP",DevOps Engineer
+DevOps Engineer,Advanced,2,"APIs,JavaScript,Scikit-Learn",DevOps Engineer
+DevOps Engineer,Advanced,2,"Docker,Sketch,Swift",DevOps Engineer
+DevOps Engineer,Advanced,3,"Swift,HTML,GCP",DevOps Engineer
+DevOps Engineer,Advanced,3,"Azure,CSS,Swift",DevOps Engineer
+DevOps Engineer,Advanced,3,"Kubernetes,PostgreSQL,Azure",DevOps Engineer
+DevOps Engineer,Advanced,3,"TensorFlow,Microservices,JavaScript",DevOps Engineer
+DevOps Engineer,Advanced,3,"React,Docker,MongoDB",DevOps Engineer
+DevOps Engineer,Advanced,3,"Kotlin,Angular,Figma",DevOps Engineer
+DevOps Engineer,Advanced,3,"Angular,Sketch,Kubernetes",DevOps Engineer
+DevOps Engineer,Advanced,3,"AWS,GCP,Azure",DevOps Engineer
+DevOps Engineer,Advanced,3,"JavaScript,TensorFlow,AWS",DevOps Engineer
+DevOps Engineer,Advanced,3,"Swift,Docker,Figma",DevOps Engineer
+DevOps Engineer,Advanced,4,"Figma,JavaScript,TensorFlow",DevOps Engineer
+DevOps Engineer,Advanced,4,"Swift,Git,Kubernetes",DevOps Engineer
+DevOps Engineer,Advanced,4,"Vue,NumPy,AWS",DevOps Engineer
+DevOps Engineer,Advanced,4,"MongoDB,CSS,GCP",DevOps Engineer
+DevOps Engineer,Advanced,4,"HTML,PyTorch,Security",DevOps Engineer
+DevOps Engineer,Advanced,4,"Sketch,SQL,Docker",DevOps Engineer
+DevOps Engineer,Advanced,4,"Figma,Security,TensorFlow",DevOps Engineer
+DevOps Engineer,Advanced,4,"Git,MongoDB,NoSQL",DevOps Engineer
+DevOps Engineer,Advanced,4,"Kubernetes,Pandas,Sketch",DevOps Engineer
+DevOps Engineer,Advanced,4,"Kubernetes,Linux,MongoDB",DevOps Engineer
+DevOps Engineer,Advanced,5,"PostgreSQL,Sketch,Kotlin",DevOps Engineer
+DevOps Engineer,Advanced,5,"Kotlin,Microservices,GCP",DevOps Engineer
+DevOps Engineer,Advanced,5,"Python,PyTorch,AWS",DevOps Engineer
+DevOps Engineer,Advanced,5,"HTML,SQL,Figma",DevOps Engineer
+DevOps Engineer,Advanced,5,"Linux,Kubernetes,NoSQL",DevOps Engineer
+DevOps Engineer,Advanced,5,"GCP,Azure,NumPy",DevOps Engineer
+DevOps Engineer,Advanced,5,"JavaScript,Express,NumPy",DevOps Engineer
+DevOps Engineer,Advanced,5,"NoSQL,Scikit-Learn,SQL",DevOps Engineer
+DevOps Engineer,Advanced,5,"CI/CD,Security,NoSQL",DevOps Engineer
+DevOps Engineer,Advanced,5,"AWS,SQL,PostgreSQL",DevOps Engineer
+Cloud Engineer,Beginner,1,"Azure,TensorFlow,Express",Cloud Engineer
+Cloud Engineer,Beginner,1,"Vue,React,Angular",Cloud Engineer
+Cloud Engineer,Beginner,1,"GCP,React,NoSQL",Cloud Engineer
+Cloud Engineer,Beginner,1,"CI/CD,Microservices,MongoDB",Cloud Engineer
+Cloud Engineer,Beginner,1,"Python,Linux,Swift",Cloud Engineer
+Cloud Engineer,Beginner,1,"Kubernetes,React,Scikit-Learn",Cloud Engineer
+Cloud Engineer,Beginner,1,"Python,Kotlin,JavaScript",Cloud Engineer
+Cloud Engineer,Beginner,1,"Azure,Docker,Security",Cloud Engineer
+Cloud Engineer,Beginner,1,"Pandas,Sketch,Linux",Cloud Engineer
+Cloud Engineer,Beginner,1,"CSS,SQL,Scikit-Learn",Cloud Engineer
+Cloud Engineer,Beginner,2,"NumPy,Azure,Express",Cloud Engineer
+Cloud Engineer,Beginner,2,"NoSQL,Pandas,Kubernetes",Cloud Engineer
+Cloud Engineer,Beginner,2,"Express,Python,AWS",Cloud Engineer
+Cloud Engineer,Beginner,2,"Docker,Microservices,Security",Cloud Engineer
+Cloud Engineer,Beginner,2,"Docker,NumPy,Swift",Cloud Engineer
+Cloud Engineer,Beginner,2,"JavaScript,Security,React",Cloud Engineer
+Cloud Engineer,Beginner,2,"Node.js,Scikit-Learn,NumPy",Cloud Engineer
+Cloud Engineer,Beginner,2,"AWS,Microservices,Express",Cloud Engineer
+Cloud Engineer,Beginner,2,"Figma,PostgreSQL,Security",Cloud Engineer
+Cloud Engineer,Beginner,2,"Kotlin,Git,Microservices",Cloud Engineer
+Cloud Engineer,Beginner,3,"CI/CD,Swift,Python",Cloud Engineer
+Cloud Engineer,Beginner,3,"CSS,Scikit-Learn,Git",Cloud Engineer
+Cloud Engineer,Beginner,3,"Pandas,PyTorch,Scikit-Learn",Cloud Engineer
+Cloud Engineer,Beginner,3,"APIs,Git,Kubernetes",Cloud Engineer
+Cloud Engineer,Beginner,3,"Figma,SQL,MongoDB",Cloud Engineer
+Cloud Engineer,Beginner,3,"HTML,Linux,CI/CD",Cloud Engineer
+Cloud Engineer,Beginner,3,"TensorFlow,Docker,Kubernetes",Cloud Engineer
+Cloud Engineer,Beginner,3,"Azure,React,SQL",Cloud Engineer
+Cloud Engineer,Beginner,3,"NoSQL,JavaScript,Kubernetes",Cloud Engineer
+Cloud Engineer,Beginner,3,"Express,PostgreSQL,Python",Cloud Engineer
+Cloud Engineer,Beginner,4,"NoSQL,Azure,MongoDB",Cloud Engineer
+Cloud Engineer,Beginner,4,"React,Git,PyTorch",Cloud Engineer
+Cloud Engineer,Beginner,4,"Pandas,SQL,HTML",Cloud Engineer
+Cloud Engineer,Beginner,4,"Azure,Vue,Linux",Cloud Engineer
+Cloud Engineer,Beginner,4,"Scikit-Learn,JavaScript,MongoDB",Cloud Engineer
+Cloud Engineer,Beginner,4,"SQL,Kotlin,Node.js",Cloud Engineer
+Cloud Engineer,Beginner,4,"Angular,GCP,NoSQL",Cloud Engineer
+Cloud Engineer,Beginner,4,"Figma,Git,Azure",Cloud Engineer
+Cloud Engineer,Beginner,4,"GCP,Figma,Vue",Cloud Engineer
+Cloud Engineer,Beginner,4,"Sketch,Scikit-Learn,AWS",Cloud Engineer
+Cloud Engineer,Beginner,5,"Kubernetes,Git,PostgreSQL",Cloud Engineer
+Cloud Engineer,Beginner,5,"GCP,JavaScript,Python",Cloud Engineer
+Cloud Engineer,Beginner,5,"React,Pandas,Security",Cloud Engineer
+Cloud Engineer,Beginner,5,"Python,Docker,Kotlin",Cloud Engineer
+Cloud Engineer,Beginner,5,"Scikit-Learn,GCP,HTML",Cloud Engineer
+Cloud Engineer,Beginner,5,"Figma,APIs,Kotlin",Cloud Engineer
+Cloud Engineer,Beginner,5,"Python,Angular,Git",Cloud Engineer
+Cloud Engineer,Beginner,5,"PyTorch,CI/CD,Angular",Cloud Engineer
+Cloud Engineer,Beginner,5,"CSS,Swift,React",Cloud Engineer
+Cloud Engineer,Beginner,5,"Express,PostgreSQL,Azure",Cloud Engineer
+Cloud Engineer,Intermediate,1,"Security,CI/CD,AWS",Cloud Engineer
+Cloud Engineer,Intermediate,1,"Python,Vue,Kubernetes",Cloud Engineer
+Cloud Engineer,Intermediate,1,"Security,PyTorch,Azure",Cloud Engineer
+Cloud Engineer,Intermediate,1,"Sketch,NoSQL,CI/CD",Cloud Engineer
+Cloud Engineer,Intermediate,1,"CSS,MongoDB,Pandas",Cloud Engineer
+Cloud Engineer,Intermediate,1,"Kotlin,Kubernetes,JavaScript",Cloud Engineer
+Cloud Engineer,Intermediate,1,"Vue,Sketch,Git",Cloud Engineer
+Cloud Engineer,Intermediate,1,"Vue,Angular,Git",Cloud Engineer
+Cloud Engineer,Intermediate,1,"PostgreSQL,Security,Vue",Cloud Engineer
+Cloud Engineer,Intermediate,1,"Azure,Kotlin,TensorFlow",Cloud Engineer
+Cloud Engineer,Intermediate,2,"React,Node.js,AWS",Cloud Engineer
+Cloud Engineer,Intermediate,2,"Kotlin,Security,Vue",Cloud Engineer
+Cloud Engineer,Intermediate,2,"GCP,NumPy,Angular",Cloud Engineer
+Cloud Engineer,Intermediate,2,"Swift,Kubernetes,Sketch",Cloud Engineer
+Cloud Engineer,Intermediate,2,"NumPy,Angular,Node.js",Cloud Engineer
+Cloud Engineer,Intermediate,2,"MongoDB,CSS,Node.js",Cloud Engineer
+Cloud Engineer,Intermediate,2,"NumPy,Security,CI/CD",Cloud Engineer
+Cloud Engineer,Intermediate,2,"Swift,Figma,HTML",Cloud Engineer
+Cloud Engineer,Intermediate,2,"SQL,Figma,Kotlin",Cloud Engineer
+Cloud Engineer,Intermediate,2,"Node.js,Python,Pandas",Cloud Engineer
+Cloud Engineer,Intermediate,3,"NoSQL,Sketch,PyTorch",Cloud Engineer
+Cloud Engineer,Intermediate,3,"Sketch,NumPy,Kubernetes",Cloud Engineer
+Cloud Engineer,Intermediate,3,"Microservices,APIs,NumPy",Cloud Engineer
+Cloud Engineer,Intermediate,3,"Kubernetes,React,APIs",Cloud Engineer
+Cloud Engineer,Intermediate,3,"SQL,Security,Sketch",Cloud Engineer
+Cloud Engineer,Intermediate,3,"CSS,Security,GCP",Cloud Engineer
+Cloud Engineer,Intermediate,3,"CSS,HTML,APIs",Cloud Engineer
+Cloud Engineer,Intermediate,3,"PyTorch,HTML,Express",Cloud Engineer
+Cloud Engineer,Intermediate,3,"Vue,APIs,Express",Cloud Engineer
+Cloud Engineer,Intermediate,3,"Express,HTML,Angular",Cloud Engineer
+Cloud Engineer,Intermediate,4,"Vue,TensorFlow,Angular",Cloud Engineer
+Cloud Engineer,Intermediate,4,"JavaScript,Swift,NumPy",Cloud Engineer
+Cloud Engineer,Intermediate,4,"Express,Microservices,Swift",Cloud Engineer
+Cloud Engineer,Intermediate,4,"Vue,SQL,Microservices",Cloud Engineer
+Cloud Engineer,Intermediate,4,"Python,NumPy,PyTorch",Cloud Engineer
+Cloud Engineer,Intermediate,4,"GCP,Linux,Swift",Cloud Engineer
+Cloud Engineer,Intermediate,4,"Scikit-Learn,React,Figma",Cloud Engineer
+Cloud Engineer,Intermediate,4,"JavaScript,Kubernetes,Scikit-Learn",Cloud Engineer
+Cloud Engineer,Intermediate,4,"GCP,CI/CD,Linux",Cloud Engineer
+Cloud Engineer,Intermediate,4,"APIs,Scikit-Learn,SQL",Cloud Engineer
+Cloud Engineer,Intermediate,5,"SQL,NoSQL,Linux",Cloud Engineer
+Cloud Engineer,Intermediate,5,"Python,HTML,PyTorch",Cloud Engineer
+Cloud Engineer,Intermediate,5,"SQL,TensorFlow,Azure",Cloud Engineer
+Cloud Engineer,Intermediate,5,"Node.js,React,Microservices",Cloud Engineer
+Cloud Engineer,Intermediate,5,"Kubernetes,Git,Linux",Cloud Engineer
+Cloud Engineer,Intermediate,5,"CI/CD,Node.js,JavaScript",Cloud Engineer
+Cloud Engineer,Intermediate,5,"Docker,NoSQL,Azure",Cloud Engineer
+Cloud Engineer,Intermediate,5,"Linux,Kubernetes,Vue",Cloud Engineer
+Cloud Engineer,Intermediate,5,"JavaScript,GCP,Security",Cloud Engineer
+Cloud Engineer,Intermediate,5,"HTML,Vue,AWS",Cloud Engineer
+Cloud Engineer,Advanced,1,"Angular,JavaScript,Microservices",Cloud Engineer
+Cloud Engineer,Advanced,1,"Docker,NumPy,Git",Cloud Engineer
+Cloud Engineer,Advanced,1,"MongoDB,Security,Vue",Cloud Engineer
+Cloud Engineer,Advanced,1,"Node.js,React,NumPy",Cloud Engineer
+Cloud Engineer,Advanced,1,"PyTorch,Git,Kubernetes",Cloud Engineer
+Cloud Engineer,Advanced,1,"Linux,Swift,APIs",Cloud Engineer
+Cloud Engineer,Advanced,1,"TensorFlow,APIs,CSS",Cloud Engineer
+Cloud Engineer,Advanced,1,"Python,Swift,Kotlin",Cloud Engineer
+Cloud Engineer,Advanced,1,"Security,NoSQL,Angular",Cloud Engineer
+Cloud Engineer,Advanced,1,"AWS,Scikit-Learn,Node.js",Cloud Engineer
+Cloud Engineer,Advanced,2,"MongoDB,Vue,Swift",Cloud Engineer
+Cloud Engineer,Advanced,2,"HTML,MongoDB,Security",Cloud Engineer
+Cloud Engineer,Advanced,2,"CSS,NoSQL,Git",Cloud Engineer
+Cloud Engineer,Advanced,2,"Git,CSS,Swift",Cloud Engineer
+Cloud Engineer,Advanced,2,"Node.js,MongoDB,HTML",Cloud Engineer
+Cloud Engineer,Advanced,2,"Microservices,Linux,Swift",Cloud Engineer
+Cloud Engineer,Advanced,2,"Kotlin,Git,CI/CD",Cloud Engineer
+Cloud Engineer,Advanced,2,"Vue,MongoDB,AWS",Cloud Engineer
+Cloud Engineer,Advanced,2,"SQL,Node.js,Vue",Cloud Engineer
+Cloud Engineer,Advanced,2,"Python,PostgreSQL,SQL",Cloud Engineer
+Cloud Engineer,Advanced,3,"Git,PostgreSQL,SQL",Cloud Engineer
+Cloud Engineer,Advanced,3,"Angular,PostgreSQL,CI/CD",Cloud Engineer
+Cloud Engineer,Advanced,3,"PyTorch,NumPy,AWS",Cloud Engineer
+Cloud Engineer,Advanced,3,"PyTorch,APIs,React",Cloud Engineer
+Cloud Engineer,Advanced,3,"Linux,JavaScript,NoSQL",Cloud Engineer
+Cloud Engineer,Advanced,3,"JavaScript,Linux,PostgreSQL",Cloud Engineer
+Cloud Engineer,Advanced,3,"NoSQL,TensorFlow,Security",Cloud Engineer
+Cloud Engineer,Advanced,3,"Node.js,PyTorch,SQL",Cloud Engineer
+Cloud Engineer,Advanced,3,"PyTorch,NumPy,React",Cloud Engineer
+Cloud Engineer,Advanced,3,"TensorFlow,PyTorch,Angular",Cloud Engineer
+Cloud Engineer,Advanced,4,"Angular,Security,CI/CD",Cloud Engineer
+Cloud Engineer,Advanced,4,"Microservices,AWS,HTML",Cloud Engineer
+Cloud Engineer,Advanced,4,"Sketch,Figma,NoSQL",Cloud Engineer
+Cloud Engineer,Advanced,4,"APIs,SQL,TensorFlow",Cloud Engineer
+Cloud Engineer,Advanced,4,"Pandas,AWS,Figma",Cloud Engineer
+Cloud Engineer,Advanced,4,"Node.js,TensorFlow,NoSQL",Cloud Engineer
+Cloud Engineer,Advanced,4,"Kubernetes,Scikit-Learn,Kotlin",Cloud Engineer
+Cloud Engineer,Advanced,4,"Express,Git,Node.js",Cloud Engineer
+Cloud Engineer,Advanced,4,"Python,Figma,Azure",Cloud Engineer
+Cloud Engineer,Advanced,4,"NoSQL,CI/CD,Git",Cloud Engineer
+Cloud Engineer,Advanced,5,"Node.js,SQL,AWS",Cloud Engineer
+Cloud Engineer,Advanced,5,"APIs,PyTorch,Git",Cloud Engineer
+Cloud Engineer,Advanced,5,"GCP,JavaScript,CSS",Cloud Engineer
+Cloud Engineer,Advanced,5,"Python,React,MongoDB",Cloud Engineer
+Cloud Engineer,Advanced,5,"PyTorch,AWS,NumPy",Cloud Engineer
+Cloud Engineer,Advanced,5,"APIs,HTML,PyTorch",Cloud Engineer
+Cloud Engineer,Advanced,5,"PyTorch,Git,Express",Cloud Engineer
+Cloud Engineer,Advanced,5,"Vue,PostgreSQL,Kubernetes",Cloud Engineer
+Cloud Engineer,Advanced,5,"PostgreSQL,Linux,React",Cloud Engineer
+Cloud Engineer,Advanced,5,"Docker,NumPy,JavaScript",Cloud Engineer
+UI/UX Designer,Beginner,1,"AWS,GCP,CI/CD",UI/UX Designer
+UI/UX Designer,Beginner,1,"Security,HTML,Kubernetes",UI/UX Designer
+UI/UX Designer,Beginner,1,"Figma,MongoDB,Microservices",UI/UX Designer
+UI/UX Designer,Beginner,1,"NumPy,SQL,APIs",UI/UX Designer
+UI/UX Designer,Beginner,1,"SQL,Azure,Python",UI/UX Designer
+UI/UX Designer,Beginner,1,"Sketch,Kotlin,CSS",UI/UX Designer
+UI/UX Designer,Beginner,1,"Scikit-Learn,PyTorch,Kotlin",UI/UX Designer
+UI/UX Designer,Beginner,1,"Sketch,SQL,GCP",UI/UX Designer
+UI/UX Designer,Beginner,1,"Kubernetes,Angular,TensorFlow",UI/UX Designer
+UI/UX Designer,Beginner,1,"SQL,CSS,Docker",UI/UX Designer
+UI/UX Designer,Beginner,2,"Docker,Git,NumPy",UI/UX Designer
+UI/UX Designer,Beginner,2,"Angular,Microservices,Kubernetes",UI/UX Designer
+UI/UX Designer,Beginner,2,"Swift,CSS,Python",UI/UX Designer
+UI/UX Designer,Beginner,2,"Express,Swift,Kubernetes",UI/UX Designer
+UI/UX Designer,Beginner,2,"MongoDB,Kotlin,GCP",UI/UX Designer
+UI/UX Designer,Beginner,2,"AWS,Node.js,Pandas",UI/UX Designer
+UI/UX Designer,Beginner,2,"AWS,TensorFlow,Node.js",UI/UX Designer
+UI/UX Designer,Beginner,2,"Swift,Git,PyTorch",UI/UX Designer
+UI/UX Designer,Beginner,2,"JavaScript,React,Git",UI/UX Designer
+UI/UX Designer,Beginner,2,"SQL,Node.js,AWS",UI/UX Designer
+UI/UX Designer,Beginner,3,"Azure,Swift,Pandas",UI/UX Designer
+UI/UX Designer,Beginner,3,"Microservices,PostgreSQL,NoSQL",UI/UX Designer
+UI/UX Designer,Beginner,3,"Azure,SQL,Pandas",UI/UX Designer
+UI/UX Designer,Beginner,3,"React,Scikit-Learn,HTML",UI/UX Designer
+UI/UX Designer,Beginner,3,"Figma,Vue,CI/CD",UI/UX Designer
+UI/UX Designer,Beginner,3,"Azure,Node.js,GCP",UI/UX Designer
+UI/UX Designer,Beginner,3,"Sketch,Kotlin,APIs",UI/UX Designer
+UI/UX Designer,Beginner,3,"Swift,React,Angular",UI/UX Designer
+UI/UX Designer,Beginner,3,"JavaScript,Vue,APIs",UI/UX Designer
+UI/UX Designer,Beginner,3,"Microservices,GCP,Azure",UI/UX Designer
+UI/UX Designer,Beginner,4,"PostgreSQL,React,Express",UI/UX Designer
+UI/UX Designer,Beginner,4,"Security,NoSQL,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Beginner,4,"CI/CD,Sketch,Express",UI/UX Designer
+UI/UX Designer,Beginner,4,"Express,Python,Linux",UI/UX Designer
+UI/UX Designer,Beginner,4,"Kotlin,Docker,SQL",UI/UX Designer
+UI/UX Designer,Beginner,4,"AWS,HTML,Figma",UI/UX Designer
+UI/UX Designer,Beginner,4,"Swift,MongoDB,JavaScript",UI/UX Designer
+UI/UX Designer,Beginner,4,"Azure,Git,Docker",UI/UX Designer
+UI/UX Designer,Beginner,4,"Vue,JavaScript,GCP",UI/UX Designer
+UI/UX Designer,Beginner,4,"APIs,NumPy,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Beginner,5,"Kubernetes,Linux,React",UI/UX Designer
+UI/UX Designer,Beginner,5,"SQL,Angular,Express",UI/UX Designer
+UI/UX Designer,Beginner,5,"Kubernetes,HTML,APIs",UI/UX Designer
+UI/UX Designer,Beginner,5,"AWS,Azure,PostgreSQL",UI/UX Designer
+UI/UX Designer,Beginner,5,"Angular,PostgreSQL,PyTorch",UI/UX Designer
+UI/UX Designer,Beginner,5,"Git,Docker,Security",UI/UX Designer
+UI/UX Designer,Beginner,5,"Azure,Python,Security",UI/UX Designer
+UI/UX Designer,Beginner,5,"Pandas,CI/CD,PostgreSQL",UI/UX Designer
+UI/UX Designer,Beginner,5,"PostgreSQL,CI/CD,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Beginner,5,"Microservices,JavaScript,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Intermediate,1,"Azure,Kotlin,NoSQL",UI/UX Designer
+UI/UX Designer,Intermediate,1,"Docker,Python,Azure",UI/UX Designer
+UI/UX Designer,Intermediate,1,"Docker,Microservices,Figma",UI/UX Designer
+UI/UX Designer,Intermediate,1,"PyTorch,SQL,Security",UI/UX Designer
+UI/UX Designer,Intermediate,1,"Figma,Sketch,TensorFlow",UI/UX Designer
+UI/UX Designer,Intermediate,1,"PyTorch,Pandas,React",UI/UX Designer
+UI/UX Designer,Intermediate,1,"HTML,CSS,Kubernetes",UI/UX Designer
+UI/UX Designer,Intermediate,1,"MongoDB,Figma,Kubernetes",UI/UX Designer
+UI/UX Designer,Intermediate,1,"Express,Kotlin,Python",UI/UX Designer
+UI/UX Designer,Intermediate,1,"React,Kubernetes,APIs",UI/UX Designer
+UI/UX Designer,Intermediate,2,"NumPy,Microservices,HTML",UI/UX Designer
+UI/UX Designer,Intermediate,2,"CSS,Kotlin,Node.js",UI/UX Designer
+UI/UX Designer,Intermediate,2,"Kotlin,Express,PyTorch",UI/UX Designer
+UI/UX Designer,Intermediate,2,"MongoDB,HTML,Security",UI/UX Designer
+UI/UX Designer,Intermediate,2,"SQL,CI/CD,Kotlin",UI/UX Designer
+UI/UX Designer,Intermediate,2,"HTML,JavaScript,CI/CD",UI/UX Designer
+UI/UX Designer,Intermediate,2,"Swift,NumPy,Figma",UI/UX Designer
+UI/UX Designer,Intermediate,2,"Vue,JavaScript,Docker",UI/UX Designer
+UI/UX Designer,Intermediate,2,"Sketch,JavaScript,Azure",UI/UX Designer
+UI/UX Designer,Intermediate,2,"Angular,Linux,Kubernetes",UI/UX Designer
+UI/UX Designer,Intermediate,3,"Express,CI/CD,React",UI/UX Designer
+UI/UX Designer,Intermediate,3,"MongoDB,SQL,PyTorch",UI/UX Designer
+UI/UX Designer,Intermediate,3,"HTML,Linux,NumPy",UI/UX Designer
+UI/UX Designer,Intermediate,3,"AWS,Linux,Angular",UI/UX Designer
+UI/UX Designer,Intermediate,3,"TensorFlow,SQL,Sketch",UI/UX Designer
+UI/UX Designer,Intermediate,3,"CSS,HTML,Microservices",UI/UX Designer
+UI/UX Designer,Intermediate,3,"Kubernetes,Azure,React",UI/UX Designer
+UI/UX Designer,Intermediate,3,"React,CSS,NumPy",UI/UX Designer
+UI/UX Designer,Intermediate,3,"GCP,Security,MongoDB",UI/UX Designer
+UI/UX Designer,Intermediate,3,"PyTorch,AWS,CI/CD",UI/UX Designer
+UI/UX Designer,Intermediate,4,"Node.js,PostgreSQL,Kotlin",UI/UX Designer
+UI/UX Designer,Intermediate,4,"CSS,Kotlin,Docker",UI/UX Designer
+UI/UX Designer,Intermediate,4,"Angular,PostgreSQL,Azure",UI/UX Designer
+UI/UX Designer,Intermediate,4,"AWS,HTML,GCP",UI/UX Designer
+UI/UX Designer,Intermediate,4,"Security,TensorFlow,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Intermediate,4,"Pandas,Angular,AWS",UI/UX Designer
+UI/UX Designer,Intermediate,4,"Azure,Figma,TensorFlow",UI/UX Designer
+UI/UX Designer,Intermediate,4,"NoSQL,Security,CSS",UI/UX Designer
+UI/UX Designer,Intermediate,4,"Docker,Git,APIs",UI/UX Designer
+UI/UX Designer,Intermediate,4,"Docker,Scikit-Learn,Kubernetes",UI/UX Designer
+UI/UX Designer,Intermediate,5,"Angular,HTML,Microservices",UI/UX Designer
+UI/UX Designer,Intermediate,5,"Microservices,AWS,JavaScript",UI/UX Designer
+UI/UX Designer,Intermediate,5,"Kubernetes,PostgreSQL,GCP",UI/UX Designer
+UI/UX Designer,Intermediate,5,"APIs,NumPy,PostgreSQL",UI/UX Designer
+UI/UX Designer,Intermediate,5,"Microservices,MongoDB,PyTorch",UI/UX Designer
+UI/UX Designer,Intermediate,5,"PyTorch,MongoDB,Sketch",UI/UX Designer
+UI/UX Designer,Intermediate,5,"TensorFlow,SQL,PyTorch",UI/UX Designer
+UI/UX Designer,Intermediate,5,"GCP,Microservices,CI/CD",UI/UX Designer
+UI/UX Designer,Intermediate,5,"Microservices,Scikit-Learn,PostgreSQL",UI/UX Designer
+UI/UX Designer,Intermediate,5,"PostgreSQL,React,Swift",UI/UX Designer
+UI/UX Designer,Advanced,1,"TensorFlow,PostgreSQL,Vue",UI/UX Designer
+UI/UX Designer,Advanced,1,"TensorFlow,GCP,Azure",UI/UX Designer
+UI/UX Designer,Advanced,1,"JavaScript,Swift,Azure",UI/UX Designer
+UI/UX Designer,Advanced,1,"Kotlin,CSS,Azure",UI/UX Designer
+UI/UX Designer,Advanced,1,"APIs,PostgreSQL,GCP",UI/UX Designer
+UI/UX Designer,Advanced,1,"Angular,Python,PostgreSQL",UI/UX Designer
+UI/UX Designer,Advanced,1,"Python,PyTorch,CI/CD",UI/UX Designer
+UI/UX Designer,Advanced,1,"Git,Pandas,PostgreSQL",UI/UX Designer
+UI/UX Designer,Advanced,1,"Swift,JavaScript,Angular",UI/UX Designer
+UI/UX Designer,Advanced,1,"AWS,Vue,NoSQL",UI/UX Designer
+UI/UX Designer,Advanced,2,"Azure,Sketch,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Advanced,2,"NumPy,Microservices,PyTorch",UI/UX Designer
+UI/UX Designer,Advanced,2,"Git,Node.js,Linux",UI/UX Designer
+UI/UX Designer,Advanced,2,"Scikit-Learn,Docker,Angular",UI/UX Designer
+UI/UX Designer,Advanced,2,"React,GCP,PyTorch",UI/UX Designer
+UI/UX Designer,Advanced,2,"Kotlin,CI/CD,Security",UI/UX Designer
+UI/UX Designer,Advanced,2,"Sketch,Angular,NoSQL",UI/UX Designer
+UI/UX Designer,Advanced,2,"Angular,Git,PyTorch",UI/UX Designer
+UI/UX Designer,Advanced,2,"CI/CD,NoSQL,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Advanced,2,"Express,Node.js,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Advanced,3,"CSS,PyTorch,Python",UI/UX Designer
+UI/UX Designer,Advanced,3,"Azure,Microservices,Vue",UI/UX Designer
+UI/UX Designer,Advanced,3,"Vue,CI/CD,Sketch",UI/UX Designer
+UI/UX Designer,Advanced,3,"CI/CD,NumPy,PostgreSQL",UI/UX Designer
+UI/UX Designer,Advanced,3,"NumPy,PyTorch,Vue",UI/UX Designer
+UI/UX Designer,Advanced,3,"CI/CD,CSS,Microservices",UI/UX Designer
+UI/UX Designer,Advanced,3,"Swift,NumPy,HTML",UI/UX Designer
+UI/UX Designer,Advanced,3,"GCP,MongoDB,Express",UI/UX Designer
+UI/UX Designer,Advanced,3,"SQL,Kubernetes,GCP",UI/UX Designer
+UI/UX Designer,Advanced,3,"Microservices,TensorFlow,Swift",UI/UX Designer
+UI/UX Designer,Advanced,4,"JavaScript,HTML,AWS",UI/UX Designer
+UI/UX Designer,Advanced,4,"Python,Linux,Git",UI/UX Designer
+UI/UX Designer,Advanced,4,"CI/CD,Linux,HTML",UI/UX Designer
+UI/UX Designer,Advanced,4,"Scikit-Learn,NoSQL,SQL",UI/UX Designer
+UI/UX Designer,Advanced,4,"NumPy,TensorFlow,Vue",UI/UX Designer
+UI/UX Designer,Advanced,4,"SQL,MongoDB,Linux",UI/UX Designer
+UI/UX Designer,Advanced,4,"Angular,Vue,TensorFlow",UI/UX Designer
+UI/UX Designer,Advanced,4,"Microservices,Kubernetes,Security",UI/UX Designer
+UI/UX Designer,Advanced,4,"CI/CD,PyTorch,JavaScript",UI/UX Designer
+UI/UX Designer,Advanced,4,"JavaScript,GCP,NoSQL",UI/UX Designer
+UI/UX Designer,Advanced,5,"Pandas,HTML,AWS",UI/UX Designer
+UI/UX Designer,Advanced,5,"Pandas,Scikit-Learn,HTML",UI/UX Designer
+UI/UX Designer,Advanced,5,"MongoDB,Kotlin,Docker",UI/UX Designer
+UI/UX Designer,Advanced,5,"Pandas,MongoDB,PyTorch",UI/UX Designer
+UI/UX Designer,Advanced,5,"Security,Scikit-Learn,Node.js",UI/UX Designer
+UI/UX Designer,Advanced,5,"AWS,Docker,JavaScript",UI/UX Designer
+UI/UX Designer,Advanced,5,"NoSQL,Node.js,Angular",UI/UX Designer
+UI/UX Designer,Advanced,5,"APIs,Security,Sketch",UI/UX Designer
+UI/UX Designer,Advanced,5,"HTML,Azure,Scikit-Learn",UI/UX Designer
+UI/UX Designer,Advanced,5,"Vue,JavaScript,Git",UI/UX Designer
+Android Developer,Beginner,1,"JavaScript,Linux,CSS",Android Developer
+Android Developer,Beginner,1,"MongoDB,Python,React",Android Developer
+Android Developer,Beginner,1,"Git,PostgreSQL,Python",Android Developer
+Android Developer,Beginner,1,"Angular,Figma,MongoDB",Android Developer
+Android Developer,Beginner,1,"CSS,Python,React",Android Developer
+Android Developer,Beginner,1,"CSS,PyTorch,Angular",Android Developer
+Android Developer,Beginner,1,"Scikit-Learn,PostgreSQL,Kubernetes",Android Developer
+Android Developer,Beginner,1,"Linux,Swift,PostgreSQL",Android Developer
+Android Developer,Beginner,1,"MongoDB,Angular,Scikit-Learn",Android Developer
+Android Developer,Beginner,1,"TensorFlow,Linux,HTML",Android Developer
+Android Developer,Beginner,2,"Angular,Python,APIs",Android Developer
+Android Developer,Beginner,2,"Sketch,Vue,Linux",Android Developer
+Android Developer,Beginner,2,"HTML,JavaScript,CSS",Android Developer
+Android Developer,Beginner,2,"Node.js,GCP,CSS",Android Developer
+Android Developer,Beginner,2,"JavaScript,Git,Node.js",Android Developer
+Android Developer,Beginner,2,"Angular,Azure,Vue",Android Developer
+Android Developer,Beginner,2,"Azure,Linux,Python",Android Developer
+Android Developer,Beginner,2,"CI/CD,Microservices,JavaScript",Android Developer
+Android Developer,Beginner,2,"Python,Figma,CSS",Android Developer
+Android Developer,Beginner,2,"AWS,Azure,Angular",Android Developer
+Android Developer,Beginner,3,"Python,Git,Figma",Android Developer
+Android Developer,Beginner,3,"Kubernetes,Swift,PyTorch",Android Developer
+Android Developer,Beginner,3,"SQL,Linux,TensorFlow",Android Developer
+Android Developer,Beginner,3,"Kotlin,PyTorch,NoSQL",Android Developer
+Android Developer,Beginner,3,"Azure,APIs,Figma",Android Developer
+Android Developer,Beginner,3,"APIs,SQL,Figma",Android Developer
+Android Developer,Beginner,3,"Kotlin,Kubernetes,AWS",Android Developer
+Android Developer,Beginner,3,"Docker,Express,GCP",Android Developer
+Android Developer,Beginner,3,"APIs,Azure,Sketch",Android Developer
+Android Developer,Beginner,3,"Docker,MongoDB,PostgreSQL",Android Developer
+Android Developer,Beginner,4,"Security,Microservices,PyTorch",Android Developer
+Android Developer,Beginner,4,"Node.js,GCP,HTML",Android Developer
+Android Developer,Beginner,4,"Kubernetes,Swift,Node.js",Android Developer
+Android Developer,Beginner,4,"JavaScript,SQL,NumPy",Android Developer
+Android Developer,Beginner,4,"React,Swift,AWS",Android Developer
+Android Developer,Beginner,4,"Python,Express,PostgreSQL",Android Developer
+Android Developer,Beginner,4,"Python,TensorFlow,SQL",Android Developer
+Android Developer,Beginner,4,"Docker,GCP,NoSQL",Android Developer
+Android Developer,Beginner,4,"Microservices,Azure,Kotlin",Android Developer
+Android Developer,Beginner,4,"PostgreSQL,Microservices,PyTorch",Android Developer
+Android Developer,Beginner,5,"Microservices,CI/CD,SQL",Android Developer
+Android Developer,Beginner,5,"Scikit-Learn,PostgreSQL,NumPy",Android Developer
+Android Developer,Beginner,5,"Azure,APIs,HTML",Android Developer
+Android Developer,Beginner,5,"SQL,Swift,Express",Android Developer
+Android Developer,Beginner,5,"CSS,NumPy,Node.js",Android Developer
+Android Developer,Beginner,5,"Scikit-Learn,Docker,GCP",Android Developer
+Android Developer,Beginner,5,"Scikit-Learn,CSS,MongoDB",Android Developer
+Android Developer,Beginner,5,"APIs,HTML,Git",Android Developer
+Android Developer,Beginner,5,"Figma,HTML,Python",Android Developer
+Android Developer,Beginner,5,"TensorFlow,HTML,Sketch",Android Developer
+Android Developer,Intermediate,1,"Python,Kotlin,Microservices",Android Developer
+Android Developer,Intermediate,1,"Angular,Figma,GCP",Android Developer
+Android Developer,Intermediate,1,"TensorFlow,Swift,HTML",Android Developer
+Android Developer,Intermediate,1,"Swift,Security,CI/CD",Android Developer
+Android Developer,Intermediate,1,"CSS,AWS,NumPy",Android Developer
+Android Developer,Intermediate,1,"Azure,GCP,NumPy",Android Developer
+Android Developer,Intermediate,1,"MongoDB,PostgreSQL,Microservices",Android Developer
+Android Developer,Intermediate,1,"Azure,CSS,AWS",Android Developer
+Android Developer,Intermediate,1,"Azure,CI/CD,Kotlin",Android Developer
+Android Developer,Intermediate,1,"Azure,MongoDB,Sketch",Android Developer
+Android Developer,Intermediate,2,"Git,CSS,PostgreSQL",Android Developer
+Android Developer,Intermediate,2,"Node.js,React,PostgreSQL",Android Developer
+Android Developer,Intermediate,2,"JavaScript,Git,Kubernetes",Android Developer
+Android Developer,Intermediate,2,"React,Azure,Git",Android Developer
+Android Developer,Intermediate,2,"TensorFlow,PostgreSQL,APIs",Android Developer
+Android Developer,Intermediate,2,"Pandas,NoSQL,Kubernetes",Android Developer
+Android Developer,Intermediate,2,"NumPy,Pandas,PostgreSQL",Android Developer
+Android Developer,Intermediate,2,"Express,Figma,Kubernetes",Android Developer
+Android Developer,Intermediate,2,"Kubernetes,Python,Security",Android Developer
+Android Developer,Intermediate,2,"NumPy,Scikit-Learn,PyTorch",Android Developer
+Android Developer,Intermediate,3,"GCP,CI/CD,TensorFlow",Android Developer
+Android Developer,Intermediate,3,"PyTorch,JavaScript,Azure",Android Developer
+Android Developer,Intermediate,3,"Kotlin,TensorFlow,HTML",Android Developer
+Android Developer,Intermediate,3,"MongoDB,Security,Node.js",Android Developer
+Android Developer,Intermediate,3,"GCP,CSS,MongoDB",Android Developer
+Android Developer,Intermediate,3,"Pandas,MongoDB,SQL",Android Developer
+Android Developer,Intermediate,3,"SQL,APIs,Figma",Android Developer
+Android Developer,Intermediate,3,"PyTorch,Pandas,Node.js",Android Developer
+Android Developer,Intermediate,3,"Vue,GCP,Swift",Android Developer
+Android Developer,Intermediate,3,"HTML,PostgreSQL,Git",Android Developer
+Android Developer,Intermediate,4,"APIs,MongoDB,Python",Android Developer
+Android Developer,Intermediate,4,"PostgreSQL,Express,NumPy",Android Developer
+Android Developer,Intermediate,4,"APIs,Security,Kotlin",Android Developer
+Android Developer,Intermediate,4,"CI/CD,Angular,PyTorch",Android Developer
+Android Developer,Intermediate,4,"Kubernetes,PyTorch,TensorFlow",Android Developer
+Android Developer,Intermediate,4,"Scikit-Learn,Python,Vue",Android Developer
+Android Developer,Intermediate,4,"Security,Git,SQL",Android Developer
+Android Developer,Intermediate,4,"PyTorch,Vue,AWS",Android Developer
+Android Developer,Intermediate,4,"HTML,Microservices,Sketch",Android Developer
+Android Developer,Intermediate,4,"Pandas,HTML,Sketch",Android Developer
+Android Developer,Intermediate,5,"NumPy,JavaScript,Docker",Android Developer
+Android Developer,Intermediate,5,"NumPy,AWS,NoSQL",Android Developer
+Android Developer,Intermediate,5,"Express,Python,NumPy",Android Developer
+Android Developer,Intermediate,5,"GCP,Microservices,TensorFlow",Android Developer
+Android Developer,Intermediate,5,"MongoDB,Kubernetes,Kotlin",Android Developer
+Android Developer,Intermediate,5,"Git,PyTorch,TensorFlow",Android Developer
+Android Developer,Intermediate,5,"Pandas,Figma,TensorFlow",Android Developer
+Android Developer,Intermediate,5,"Python,JavaScript,CI/CD",Android Developer
+Android Developer,Intermediate,5,"Linux,Microservices,PostgreSQL",Android Developer
+Android Developer,Intermediate,5,"Git,PyTorch,Vue",Android Developer
+Android Developer,Advanced,1,"Azure,Scikit-Learn,Kubernetes",Android Developer
+Android Developer,Advanced,1,"PostgreSQL,CI/CD,Swift",Android Developer
+Android Developer,Advanced,1,"Azure,CSS,Git",Android Developer
+Android Developer,Advanced,1,"Express,MongoDB,Swift",Android Developer
+Android Developer,Advanced,1,"Node.js,APIs,Security",Android Developer
+Android Developer,Advanced,1,"TensorFlow,Microservices,AWS",Android Developer
+Android Developer,Advanced,1,"PyTorch,Swift,Node.js",Android Developer
+Android Developer,Advanced,1,"Kotlin,MongoDB,NoSQL",Android Developer
+Android Developer,Advanced,1,"Scikit-Learn,NumPy,CI/CD",Android Developer
+Android Developer,Advanced,1,"NumPy,GCP,Git",Android Developer
+Android Developer,Advanced,2,"Linux,CI/CD,AWS",Android Developer
+Android Developer,Advanced,2,"Microservices,GCP,Git",Android Developer
+Android Developer,Advanced,2,"Scikit-Learn,Angular,Microservices",Android Developer
+Android Developer,Advanced,2,"GCP,Microservices,Git",Android Developer
+Android Developer,Advanced,2,"SQL,Docker,Microservices",Android Developer
+Android Developer,Advanced,2,"Linux,SQL,Angular",Android Developer
+Android Developer,Advanced,2,"Sketch,Azure,GCP",Android Developer
+Android Developer,Advanced,2,"PostgreSQL,GCP,React",Android Developer
+Android Developer,Advanced,2,"Express,Azure,PyTorch",Android Developer
+Android Developer,Advanced,2,"Figma,JavaScript,React",Android Developer
+Android Developer,Advanced,3,"Kubernetes,Pandas,GCP",Android Developer
+Android Developer,Advanced,3,"NoSQL,Figma,Scikit-Learn",Android Developer
+Android Developer,Advanced,3,"PyTorch,Scikit-Learn,Swift",Android Developer
+Android Developer,Advanced,3,"Scikit-Learn,APIs,MongoDB",Android Developer
+Android Developer,Advanced,3,"Azure,MongoDB,Scikit-Learn",Android Developer
+Android Developer,Advanced,3,"APIs,PostgreSQL,SQL",Android Developer
+Android Developer,Advanced,3,"Kotlin,GCP,Figma",Android Developer
+Android Developer,Advanced,3,"PostgreSQL,Docker,Express",Android Developer
+Android Developer,Advanced,3,"TensorFlow,Kotlin,CSS",Android Developer
+Android Developer,Advanced,3,"JavaScript,CSS,PyTorch",Android Developer
+Android Developer,Advanced,4,"React,CI/CD,Node.js",Android Developer
+Android Developer,Advanced,4,"GCP,NoSQL,Azure",Android Developer
+Android Developer,Advanced,4,"Linux,Node.js,Kotlin",Android Developer
+Android Developer,Advanced,4,"Git,Docker,NoSQL",Android Developer
+Android Developer,Advanced,4,"Angular,NoSQL,Figma",Android Developer
+Android Developer,Advanced,4,"Security,Linux,CI/CD",Android Developer
+Android Developer,Advanced,4,"Vue,AWS,Git",Android Developer
+Android Developer,Advanced,4,"MongoDB,PostgreSQL,Sketch",Android Developer
+Android Developer,Advanced,4,"Docker,Scikit-Learn,SQL",Android Developer
+Android Developer,Advanced,4,"Swift,Pandas,React",Android Developer
+Android Developer,Advanced,5,"Express,TensorFlow,Scikit-Learn",Android Developer
+Android Developer,Advanced,5,"MongoDB,Figma,GCP",Android Developer
+Android Developer,Advanced,5,"PostgreSQL,APIs,JavaScript",Android Developer
+Android Developer,Advanced,5,"Angular,Kubernetes,HTML",Android Developer
+Android Developer,Advanced,5,"NumPy,NoSQL,MongoDB",Android Developer
+Android Developer,Advanced,5,"Sketch,CI/CD,Git",Android Developer
+Android Developer,Advanced,5,"Azure,Docker,MongoDB",Android Developer
+Android Developer,Advanced,5,"Swift,Azure,MongoDB",Android Developer
+Android Developer,Advanced,5,"TensorFlow,NumPy,Swift",Android Developer
+Android Developer,Advanced,5,"GCP,NoSQL,React",Android Developer
+iOS Developer,Beginner,1,"Angular,Docker,Express",iOS Developer
+iOS Developer,Beginner,1,"NumPy,Node.js,TensorFlow",iOS Developer
+iOS Developer,Beginner,1,"NumPy,PostgreSQL,Angular",iOS Developer
+iOS Developer,Beginner,1,"React,Git,AWS",iOS Developer
+iOS Developer,Beginner,1,"PostgreSQL,PyTorch,NumPy",iOS Developer
+iOS Developer,Beginner,1,"Docker,Node.js,NumPy",iOS Developer
+iOS Developer,Beginner,1,"Pandas,GCP,Docker",iOS Developer
+iOS Developer,Beginner,1,"PostgreSQL,JavaScript,Git",iOS Developer
+iOS Developer,Beginner,1,"SQL,AWS,JavaScript",iOS Developer
+iOS Developer,Beginner,1,"Security,Azure,AWS",iOS Developer
+iOS Developer,Beginner,2,"NoSQL,NumPy,HTML",iOS Developer
+iOS Developer,Beginner,2,"Azure,CSS,GCP",iOS Developer
+iOS Developer,Beginner,2,"React,Pandas,AWS",iOS Developer
+iOS Developer,Beginner,2,"PyTorch,CI/CD,Microservices",iOS Developer
+iOS Developer,Beginner,2,"React,HTML,Python",iOS Developer
+iOS Developer,Beginner,2,"Linux,AWS,CI/CD",iOS Developer
+iOS Developer,Beginner,2,"Azure,CSS,APIs",iOS Developer
+iOS Developer,Beginner,2,"Scikit-Learn,Node.js,Kotlin",iOS Developer
+iOS Developer,Beginner,2,"CSS,Python,NoSQL",iOS Developer
+iOS Developer,Beginner,2,"Linux,Angular,Kotlin",iOS Developer
+iOS Developer,Beginner,3,"Scikit-Learn,TensorFlow,React",iOS Developer
+iOS Developer,Beginner,3,"Scikit-Learn,Express,CI/CD",iOS Developer
+iOS Developer,Beginner,3,"Express,Pandas,Vue",iOS Developer
+iOS Developer,Beginner,3,"PostgreSQL,Figma,Linux",iOS Developer
+iOS Developer,Beginner,3,"HTML,Azure,Security",iOS Developer
+iOS Developer,Beginner,3,"Docker,Python,Linux",iOS Developer
+iOS Developer,Beginner,3,"Scikit-Learn,Vue,SQL",iOS Developer
+iOS Developer,Beginner,3,"Linux,HTML,Microservices",iOS Developer
+iOS Developer,Beginner,3,"Python,Node.js,CI/CD",iOS Developer
+iOS Developer,Beginner,3,"AWS,CSS,Kotlin",iOS Developer
+iOS Developer,Beginner,4,"JavaScript,TensorFlow,PyTorch",iOS Developer
+iOS Developer,Beginner,4,"Security,HTML,GCP",iOS Developer
+iOS Developer,Beginner,4,"Node.js,APIs,Azure",iOS Developer
+iOS Developer,Beginner,4,"MongoDB,Scikit-Learn,Git",iOS Developer
+iOS Developer,Beginner,4,"Microservices,PyTorch,CSS",iOS Developer
+iOS Developer,Beginner,4,"Swift,Sketch,Node.js",iOS Developer
+iOS Developer,Beginner,4,"Security,Microservices,PostgreSQL",iOS Developer
+iOS Developer,Beginner,4,"Sketch,Express,Security",iOS Developer
+iOS Developer,Beginner,4,"SQL,Pandas,NoSQL",iOS Developer
+iOS Developer,Beginner,4,"Vue,Figma,PostgreSQL",iOS Developer
+iOS Developer,Beginner,5,"JavaScript,MongoDB,CI/CD",iOS Developer
+iOS Developer,Beginner,5,"Git,Node.js,Python",iOS Developer
+iOS Developer,Beginner,5,"JavaScript,React,Linux",iOS Developer
+iOS Developer,Beginner,5,"APIs,React,Node.js",iOS Developer
+iOS Developer,Beginner,5,"CI/CD,HTML,Figma",iOS Developer
+iOS Developer,Beginner,5,"Angular,Docker,GCP",iOS Developer
+iOS Developer,Beginner,5,"Python,NumPy,Angular",iOS Developer
+iOS Developer,Beginner,5,"Python,Angular,PostgreSQL",iOS Developer
+iOS Developer,Beginner,5,"Linux,JavaScript,CSS",iOS Developer
+iOS Developer,Beginner,5,"React,Node.js,Kubernetes",iOS Developer
+iOS Developer,Intermediate,1,"CI/CD,PostgreSQL,Security",iOS Developer
+iOS Developer,Intermediate,1,"MongoDB,Kotlin,React",iOS Developer
+iOS Developer,Intermediate,1,"Express,TensorFlow,Swift",iOS Developer
+iOS Developer,Intermediate,1,"PyTorch,HTML,Security",iOS Developer
+iOS Developer,Intermediate,1,"JavaScript,TensorFlow,Sketch",iOS Developer
+iOS Developer,Intermediate,1,"Sketch,PyTorch,MongoDB",iOS Developer
+iOS Developer,Intermediate,1,"Express,Sketch,Node.js",iOS Developer
+iOS Developer,Intermediate,1,"GCP,Linux,Node.js",iOS Developer
+iOS Developer,Intermediate,1,"Scikit-Learn,React,PyTorch",iOS Developer
+iOS Developer,Intermediate,1,"Microservices,Scikit-Learn,JavaScript",iOS Developer
+iOS Developer,Intermediate,2,"Microservices,Angular,PyTorch",iOS Developer
+iOS Developer,Intermediate,2,"NoSQL,Docker,Git",iOS Developer
+iOS Developer,Intermediate,2,"Angular,PyTorch,Linux",iOS Developer
+iOS Developer,Intermediate,2,"APIs,Microservices,JavaScript",iOS Developer
+iOS Developer,Intermediate,2,"Kubernetes,Linux,Vue",iOS Developer
+iOS Developer,Intermediate,2,"Scikit-Learn,Figma,NoSQL",iOS Developer
+iOS Developer,Intermediate,2,"SQL,Express,Scikit-Learn",iOS Developer
+iOS Developer,Intermediate,2,"Linux,CI/CD,PyTorch",iOS Developer
+iOS Developer,Intermediate,2,"Vue,Sketch,TensorFlow",iOS Developer
+iOS Developer,Intermediate,2,"Node.js,PostgreSQL,Vue",iOS Developer
+iOS Developer,Intermediate,3,"AWS,Azure,APIs",iOS Developer
+iOS Developer,Intermediate,3,"Swift,Python,Azure",iOS Developer
+iOS Developer,Intermediate,3,"Vue,Sketch,Microservices",iOS Developer
+iOS Developer,Intermediate,3,"Swift,PostgreSQL,Kubernetes",iOS Developer
+iOS Developer,Intermediate,3,"Sketch,Microservices,Express",iOS Developer
+iOS Developer,Intermediate,3,"Sketch,AWS,NumPy",iOS Developer
+iOS Developer,Intermediate,3,"TensorFlow,Microservices,Vue",iOS Developer
+iOS Developer,Intermediate,3,"Angular,Node.js,Scikit-Learn",iOS Developer
+iOS Developer,Intermediate,3,"Security,GCP,CI/CD",iOS Developer
+iOS Developer,Intermediate,3,"Linux,APIs,PostgreSQL",iOS Developer
+iOS Developer,Intermediate,4,"Azure,Vue,React",iOS Developer
+iOS Developer,Intermediate,4,"Express,TensorFlow,AWS",iOS Developer
+iOS Developer,Intermediate,4,"Scikit-Learn,Pandas,PostgreSQL",iOS Developer
+iOS Developer,Intermediate,4,"React,Azure,Kotlin",iOS Developer
+iOS Developer,Intermediate,4,"Express,GCP,NoSQL",iOS Developer
+iOS Developer,Intermediate,4,"Scikit-Learn,Microservices,Docker",iOS Developer
+iOS Developer,Intermediate,4,"Microservices,NumPy,APIs",iOS Developer
+iOS Developer,Intermediate,4,"Scikit-Learn,Angular,Linux",iOS Developer
+iOS Developer,Intermediate,4,"Vue,Kotlin,NumPy",iOS Developer
+iOS Developer,Intermediate,4,"Azure,Security,APIs",iOS Developer
+iOS Developer,Intermediate,5,"Scikit-Learn,APIs,Kotlin",iOS Developer
+iOS Developer,Intermediate,5,"JavaScript,NoSQL,APIs",iOS Developer
+iOS Developer,Intermediate,5,"Swift,Express,CI/CD",iOS Developer
+iOS Developer,Intermediate,5,"SQL,PyTorch,Kubernetes",iOS Developer
+iOS Developer,Intermediate,5,"Docker,PostgreSQL,Kotlin",iOS Developer
+iOS Developer,Intermediate,5,"APIs,JavaScript,NoSQL",iOS Developer
+iOS Developer,Intermediate,5,"CI/CD,Vue,Security",iOS Developer
+iOS Developer,Intermediate,5,"Swift,PostgreSQL,Kotlin",iOS Developer
+iOS Developer,Intermediate,5,"TensorFlow,Swift,MongoDB",iOS Developer
+iOS Developer,Intermediate,5,"Microservices,Docker,Figma",iOS Developer
+iOS Developer,Advanced,1,"Azure,Express,TensorFlow",iOS Developer
+iOS Developer,Advanced,1,"GCP,CSS,React",iOS Developer
+iOS Developer,Advanced,1,"TensorFlow,Python,Pandas",iOS Developer
+iOS Developer,Advanced,1,"Vue,Node.js,APIs",iOS Developer
+iOS Developer,Advanced,1,"Docker,CSS,Scikit-Learn",iOS Developer
+iOS Developer,Advanced,1,"Figma,Security,Linux",iOS Developer
+iOS Developer,Advanced,1,"Express,Security,Azure",iOS Developer
+iOS Developer,Advanced,1,"PostgreSQL,Azure,GCP",iOS Developer
+iOS Developer,Advanced,1,"Git,CI/CD,Security",iOS Developer
+iOS Developer,Advanced,1,"SQL,Swift,Kotlin",iOS Developer
+iOS Developer,Advanced,2,"Swift,Git,Security",iOS Developer
+iOS Developer,Advanced,2,"GCP,React,Node.js",iOS Developer
+iOS Developer,Advanced,2,"Azure,Microservices,PostgreSQL",iOS Developer
+iOS Developer,Advanced,2,"JavaScript,Kubernetes,Figma",iOS Developer
+iOS Developer,Advanced,2,"Vue,Linux,AWS",iOS Developer
+iOS Developer,Advanced,2,"PostgreSQL,CSS,HTML",iOS Developer
+iOS Developer,Advanced,2,"Sketch,Python,Swift",iOS Developer
+iOS Developer,Advanced,2,"Angular,Scikit-Learn,Microservices",iOS Developer
+iOS Developer,Advanced,2,"PostgreSQL,Linux,Express",iOS Developer
+iOS Developer,Advanced,2,"Microservices,NoSQL,Linux",iOS Developer
+iOS Developer,Advanced,3,"Linux,TensorFlow,Vue",iOS Developer
+iOS Developer,Advanced,3,"Docker,JavaScript,MongoDB",iOS Developer
+iOS Developer,Advanced,3,"Python,JavaScript,React",iOS Developer
+iOS Developer,Advanced,3,"Node.js,MongoDB,Pandas",iOS Developer
+iOS Developer,Advanced,3,"Swift,Sketch,Azure",iOS Developer
+iOS Developer,Advanced,3,"Python,JavaScript,Linux",iOS Developer
+iOS Developer,Advanced,3,"Git,Node.js,JavaScript",iOS Developer
+iOS Developer,Advanced,3,"Vue,MongoDB,Node.js",iOS Developer
+iOS Developer,Advanced,3,"PyTorch,Azure,CI/CD",iOS Developer
+iOS Developer,Advanced,3,"Linux,HTML,Express",iOS Developer
+iOS Developer,Advanced,4,"TensorFlow,HTML,Azure",iOS Developer
+iOS Developer,Advanced,4,"TensorFlow,Node.js,Vue",iOS Developer
+iOS Developer,Advanced,4,"HTML,Microservices,PostgreSQL",iOS Developer
+iOS Developer,Advanced,4,"CSS,GCP,Kotlin",iOS Developer
+iOS Developer,Advanced,4,"Kubernetes,NoSQL,SQL",iOS Developer
+iOS Developer,Advanced,4,"Kotlin,CI/CD,Figma",iOS Developer
+iOS Developer,Advanced,4,"Swift,PostgreSQL,Pandas",iOS Developer
+iOS Developer,Advanced,4,"Scikit-Learn,GCP,Figma",iOS Developer
+iOS Developer,Advanced,4,"NumPy,Docker,Security",iOS Developer
+iOS Developer,Advanced,4,"Sketch,HTML,Microservices",iOS Developer
+iOS Developer,Advanced,5,"APIs,React,Angular",iOS Developer
+iOS Developer,Advanced,5,"JavaScript,Azure,NoSQL",iOS Developer
+iOS Developer,Advanced,5,"Azure,HTML,NoSQL",iOS Developer
+iOS Developer,Advanced,5,"Vue,Sketch,Angular",iOS Developer
+iOS Developer,Advanced,5,"Swift,MongoDB,SQL",iOS Developer
+iOS Developer,Advanced,5,"APIs,Git,Vue",iOS Developer
+iOS Developer,Advanced,5,"Kotlin,Docker,Sketch",iOS Developer
+iOS Developer,Advanced,5,"Security,AWS,Microservices",iOS Developer
+iOS Developer,Advanced,5,"Angular,Express,Kubernetes",iOS Developer
+iOS Developer,Advanced,5,"MongoDB,Kubernetes,Docker",iOS Developer
