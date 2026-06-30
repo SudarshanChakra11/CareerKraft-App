@@ -5,14 +5,14 @@ export const Day01 = {
       title: "Introduction to Programming & Python",
       videoId: "7wnove7K-ZQ",
       start: 0,
-      end: 9999
+      end: 321
     },
     {
       id: 2,
       title: "Write Your First Python Program",
       videoId: "7wnove7K-ZQ",
-      start: 0,
-      end: 9999
+      start: 322,
+      end: 643
     }
   ],
 

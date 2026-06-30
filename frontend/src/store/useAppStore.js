@@ -8,9 +8,9 @@ export const careerToPathKey = (careerInterest) => {
     "AI/ML": "ds",
     "Cloud Computing": "fsd",
     "Cybersecurity": "fsd",
-    "GATE": "fsd",
-    "GRE": "fsd",
-    "CAT": "fsd",
+    "GATE": "higher-studies",
+    "GRE": "higher-studies",
+    "CAT": "higher-studies",
   };
   return map[careerInterest] || "fsd";
 };
@@ -46,14 +46,21 @@ export const useAppStore = create(
       setLevel:  (level)  => set({ level }),
       setBadges: (badges) => set({ badges }),
       setProgress: (progress) =>
-        set({
+        set((state) => ({
           streak: progress.streak ?? 0,
           xp: progress.xp ?? 0,
           level: progress.level ?? 1,
           badges: progress.badges || [],
           completedDays: progress.completedDaysList || [],
           completedTasks: progress.completedTasks || {},
-        }),
+          onboardingData: {
+            ...state.onboardingData,
+            careerInterest: progress.careerInterest || state.onboardingData.careerInterest,
+            selectedPath: progress.selectedPath || state.onboardingData.selectedPath,
+            skillLevel: progress.skillLevel || state.onboardingData.skillLevel,
+            qualification: progress.qualification || state.onboardingData.qualification,
+          }
+        })),
       setCurrentDay: (day) => set({ currentDay: day }),
 
       // Get completed task IDs for a specific day

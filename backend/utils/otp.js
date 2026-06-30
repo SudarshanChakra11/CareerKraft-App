@@ -5,15 +5,34 @@ import axios from "axios";
 export const generateOTP = () =>
   Math.floor(100000 + Math.random() * 900000).toString();
 
-// ── Send via Email (Nodemailer + Gmail) ──────────────────
-export const sendEmailOTP = async (email, otp) => {
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: process.env.EMAIL_USER,  // your Gmail address
-      pass: process.env.EMAIL_PASS,  // Gmail App Password
-    },
+const createEmailTransport = () => {
+  const host = process.env.EMAIL_HOST || "smtp.gmail.com";
+  const port = Number(process.env.EMAIL_PORT || 587);
+  const secure = process.env.EMAIL_SECURE === "true" || port === 465;
+  const user = process.env.EMAIL_USER;
+  const pass = process.env.EMAIL_PASS;
+
+  if (!user || !pass) {
+    throw new Error("EMAIL_USER or EMAIL_PASS is missing.");
+  }
+
+  return nodemailer.createTransport({
+    host,
+    port,
+    secure,
+    auth: { user, pass },
+    requireTLS: true,
+    connectionTimeout: 15000,
+    greetingTimeout: 15000,
+    socketTimeout: 15000,
+    family: 4,
   });
+};
+
+// ── Send via Email (Nodemailer + Gmail/SMTP) ─────────────
+export const sendEmailOTP = async (email, otp) => {
+  const transporter = createEmailTransport();
+  await transporter.verify();
 
   await transporter.sendMail({
     from: `"CareerKraft" <${process.env.EMAIL_USER}>`,
@@ -32,6 +51,16 @@ export const sendEmailOTP = async (email, otp) => {
 
 // ── Send via SMS (Fast2SMS — India) ──────────────────────
 export const sendSmsOTP = async (mobile, otp) => {
+  if (!process.env.FAST2SMS_API_KEY) {
+    console.warn("FAST2SMS_API_KEY is not configured; skipping SMS OTP.");
+    return;
+  }
+
+  if (!mobile) {
+    console.warn("Mobile number missing; skipping SMS OTP.");
+    return;
+  }
+
   await axios.post(
     "https://www.fast2sms.com/dev/bulkV2",
     {
@@ -55,10 +84,9 @@ export const sendOTP = async (email, mobile, otp) => {
     sendSmsOTP(mobile, otp),
   ]);
 
-  // Log failures but don't crash
   results.forEach((r, i) => {
     if (r.status === "rejected") {
-      console.error(`OTP send failed [${i === 0 ? "email" : "sms"}]:`, r.reason?.message);
+      console.error(`OTP send failed [${i === 0 ? "email" : "sms"}]:`, r.reason?.message || r.reason);
     }
   });
 };

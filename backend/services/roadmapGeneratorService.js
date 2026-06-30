@@ -6,7 +6,7 @@ class RoadmapGeneratorService {
   constructor(apiKey) {
     this.groqApiKey = apiKey;
     this.groqBaseUrl = 'https://api.groq.com/openai/v1/chat/completions';
-    this.model = 'mixtral-8x7b-32768'; // Groq's fastest model
+    this.model = 'llama-3.3-70b-versatile'; // Groq's flagship model
   }
 
 

@@ -13,18 +13,11 @@ from text_preprocessor import flatten_text_column
 
 def build_dummy_dataset(path):
     careers = [
-        'Frontend Developer',
-        'Backend Developer',
         'Full Stack Developer',
         'Data Scientist',
-        'AI Engineer',
-        'Machine Learning Engineer',
-        'Cybersecurity Analyst',
+        'AI/ML Engineer',
         'DevOps Engineer',
         'Cloud Engineer',
-        'UI/UX Designer',
-        'Android Developer',
-        'iOS Developer',
     ]
 
     levels = ['Beginner', 'Intermediate', 'Advanced']

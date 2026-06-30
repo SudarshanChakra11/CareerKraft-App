@@ -7,6 +7,7 @@ export const getUserProgress = async (req, res) => {
     const userId = req.user.id;
 
     let progress = await Progress.findOne({ userId });
+    const user = await User.findById(userId);
 
    
     if (!progress) {
@@ -34,10 +35,10 @@ export const getUserProgress = async (req, res) => {
       badges: progress.badges,
       completedTasks: Object.fromEntries(progress.completedTasks),
       quizScores: Object.fromEntries(progress.quizScores),
-      selectedPath: progress.selectedPath,
-      careerInterest: progress.careerInterest,
-      skillLevel: progress.skillLevel,
-      qualification: progress.qualification,
+      selectedPath: progress.selectedPath || (user ? user.selectedPath : null),
+      careerInterest: progress.careerInterest || (user ? user.careerInterest : null),
+      skillLevel: progress.skillLevel || (user ? user.skillLevel : null),
+      qualification: progress.qualification || (user ? user.qualification : null),
       lastCompletionDate: progress.lastCompletionDate,
     };
 

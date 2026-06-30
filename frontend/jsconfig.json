@@ -2,12 +2,19 @@
 	"$schema": "https://json.schemastore.org/jsconfig.json",
 	"compilerOptions": {
 		"baseUrl": "",
-		"ignoreDeprecations": "6.0",
 		"paths": {
-			"@/*": ["src/*"],
-			"@ui/*": ["src/comps/ui/*"],
-			"@layout/*": ["src/layout/*"],
-			"@lib/*": ["src/lib/*"]
+			"@/*": [
+				"src/*"
+			],
+			"@ui/*": [
+				"src/comps/ui/*"
+			],
+			"@layout/*": [
+				"src/layout/*"
+			],
+			"@lib/*": [
+				"src/lib/*"
+			]
 		}
 	}
 }

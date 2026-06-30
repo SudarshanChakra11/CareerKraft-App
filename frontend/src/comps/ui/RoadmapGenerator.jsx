@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { createRoadmap, getRoadmap } from "@/services/api";
 import { getStoredUser } from "@/lib/store";
+import { useAppStore } from "@/store/useAppStore";
 import "./RoadmapGenerator.css";
 
 const RoadmapGenerator = () => {
@@ -19,6 +20,7 @@ const RoadmapGenerator = () => {
   const [selectedPhase, setSelectedPhase] = useState(null);
   const [currentDay, setCurrentDay] = useState(1);
   const [savedRoadmap, setSavedRoadmap] = useState(null);
+  const completedDays = useAppStore((s) => s.completedDays) || [];
 
   const qualifications = ['BE/BTech', 'ME/MTech'];
   const years = [1, 2, 3, 4];
@@ -31,18 +33,26 @@ const RoadmapGenerator = () => {
     'Civil',
     'Others',
   ];
-  const careerInterests = [
+  const user = getStoredUser();
+  const onboardingData = useAppStore((s) => s.onboardingData);
+  const selectedPath = user?.selectedPath || onboardingData?.selectedPath || 'placement';
+
+  const placementInterests = [
     'Full Stack Development',
     'AI/ML',
     'Data Science',
     'Cybersecurity',
     'Cloud Computing',
-    'DevOps',
-    'App Development',
-    'Others',
+    'DevOps'
   ];
 
-  const user = getStoredUser();
+  const higherStudiesInterests = [
+    'GATE',
+    'GRE',
+    'CAT'
+  ];
+
+  const careerInterests = selectedPath === 'higher-studies' ? higherStudiesInterests : placementInterests;
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -91,7 +101,7 @@ const RoadmapGenerator = () => {
 
   useEffect(() => {
     loadSavedRoadmap();
-  }, [user]);
+  }, [user?._id, user?.id]);
 
   const handleGenerateRoadmap = async (e) => {
     e.preventDefault();
@@ -231,217 +241,231 @@ const RoadmapGenerator = () => {
   );
 
 
-  const renderRoadmapDisplay = () => (
-    <div className="roadmap-display-container">
-      {/* Header */}
-      <div className="roadmap-header">
-        <h1>Your Personalized Learning Roadmap</h1>
-        {savedRoadmap && (
-          <div className="roadmap-saved-badge">
-            Saved roadmap loaded from your profile
-          </div>
-        )}
-        <div className="roadmap-meta">
-          <span className="meta-item">
-            <strong>Career Goal:</strong> {roadmap?.studentProfile?.careerInterest}
-          </span>
-          <span className="meta-item">
-            <strong>Years Remaining:</strong> {roadmap?.learningParams?.totalMonthsRemaining} months
-          </span>
-          <span className="meta-item">
-            <strong>Pace:</strong> {roadmap?.learningParams?.learningPace}
-          </span>
-        </div>
-      </div>
+  const renderRoadmapDisplay = () => {
+    // Dynamically calculate progress based on completed days
+    const totalDays = roadmap?.dailyBreakdown?.length || 100;
+    const computedProgress = Math.min(100, Math.round((completedDays.length / totalDays) * 100));
+    const displayProgress = Math.max(roadmap?.progress?.completionPercentage || 0, computedProgress);
 
-      {/* Progress Overview */}
-      <div className="progress-overview">
-        <div className="progress-stat">
-          <span className="stat-value">{roadmap?.progress?.completionPercentage || 0}%</span>
-          <span className="stat-label">Complete</span>
-        </div>
-        <div className="progress-bar">
-          <div
-            className="progress-fill"
-            style={{ width: `${roadmap?.progress?.completionPercentage || 0}%` }}
-          ></div>
-        </div>
-      </div>
-
-      {/* Phases Overview */}
-      <div className="phases-section">
-        <h2>Learning Phases</h2>
-        <div className="phases-grid">
-          {roadmap?.phases?.map((phase, index) => (
-            <div
-              key={index}
-              className={`phase-card ${selectedPhase?.phaseNumber === phase.phaseNumber ? 'active' : ''}`}
-              onClick={() => setSelectedPhase(phase)}
-            >
-              <div className="phase-number">Phase {phase.phaseNumber}</div>
-              <div className="phase-title">{phase.title}</div>
-              <div className="phase-duration">{phase.duration}</div>
-              <div className="phase-focus">{phase.focus}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Selected Phase Details */}
-      {selectedPhase && (
-        <div className="phase-details">
-          <h2>{selectedPhase.title}</h2>
-
-          {/* Objectives */}
-          <div className="detail-section">
-            <h3>Learning Objectives</h3>
-            <ul className="objectives-list">
-              {selectedPhase.objectives?.map((obj, idx) => (
-                <li key={idx}>{obj}</li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Topics */}
-          <div className="detail-section">
-            <h3>Topics to Cover</h3>
-            <div className="topics-list">
-              {selectedPhase.topics?.map((topic, idx) => (
-                <div key={idx} className="topic-item">
-                  <h4>{topic.name}</h4>
-                  <p className="duration">{topic.duration}</p>
-                  {topic.subtopics?.length > 0 && (
-                    <div className="subtopics">
-                      <strong>Subtopics:</strong>
-                      <ul>
-                        {topic.subtopics.map((sub, i) => (
-                          <li key={i}>{sub}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Projects */}
-          {selectedPhase.projects?.length > 0 && (
-            <div className="detail-section">
-              <h3>Projects</h3>
-              <ul className="projects-list">
-                {selectedPhase.projects.map((project, idx) => (
-                  <li key={idx}>{project}</li>
-                ))}
-              </ul>
+    return (
+      <div className="roadmap-display-container">
+        {/* Header */}
+        <div className="roadmap-header">
+          <h1>Your Personalized Learning Roadmap</h1>
+          {savedRoadmap && (
+            <div className="roadmap-saved-badge">
+              Saved roadmap loaded from your profile
             </div>
           )}
-
-          {/* Skills */}
-          {selectedPhase.skills?.length > 0 && (
-            <div className="detail-section">
-              <h3>Skills to Develop</h3>
-              <div className="skills-tags">
-                {selectedPhase.skills.map((skill, idx) => (
-                  <span key={idx} className="skill-tag">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
+          <div className="roadmap-meta">
+            <span className="meta-item">
+              <strong>Career Goal:</strong> {roadmap?.studentProfile?.careerInterest}
+            </span>
+            <span className="meta-item">
+              <strong>Years Remaining:</strong> {roadmap?.learningParams?.totalMonthsRemaining} months
+            </span>
+            <span className="meta-item">
+              <strong>Pace:</strong> {roadmap?.learningParams?.learningPace}
+            </span>
+          </div>
         </div>
-      )}
 
-      {/* Daily Tasks */}
-      <div className="daily-tasks-section">
-        <h2>Daily Tasks</h2>
-        <div className="daily-tasks-slider">
-          {roadmap?.dailyBreakdown?.slice(0, 5).map((day) => (
+        {/* Progress Overview */}
+        <div className="progress-overview">
+          <div className="progress-stat">
+            <span className="stat-value">{displayProgress}%</span>
+            <span className="stat-label">Complete</span>
+          </div>
+          <div className="progress-bar">
             <div
-              key={day.day}
-              className={`daily-task-card ${currentDay === day.day ? 'active' : ''}`}
-              onClick={() => setCurrentDay(day.day)}
-            >
-              <div className="day-number">Day {day.day}</div>
-              <div className="day-topic">{day.topic}</div>
-              <div className="day-tasks">{day.tasks?.length} tasks</div>
-            </div>
-          ))}
+              className="progress-fill"
+              style={{ width: `${displayProgress}%` }}
+            ></div>
+          </div>
         </div>
-      </div>
 
-      {/* Milestones */}
-      {roadmap?.milestones?.length > 0 && (
-        <div className="milestones-section">
-          <h2>Key Milestones</h2>
-          <div className="milestones-timeline">
-            {roadmap.milestones.map((milestone, idx) => (
-              <div key={idx} className="milestone-item">
-                <div className="milestone-month">Month {milestone.month}</div>
-                <div className="milestone-name">{milestone.milestone}</div>
+        {/* Phases Overview */}
+        <div className="phases-section">
+          <h2>Learning Phases</h2>
+          <div className="phases-grid">
+            {roadmap?.phases?.map((phase, index) => (
+              <div
+                key={index}
+                className={`phase-card ${selectedPhase?.phaseNumber === phase.phaseNumber ? 'active' : ''}`}
+                onClick={() => setSelectedPhase(phase)}
+              >
+                <div className="phase-number">Phase {phase.phaseNumber}</div>
+                <div className="phase-title">{phase.title}</div>
+                <div className="phase-duration">{phase.duration}</div>
+                <div className="phase-focus">{phase.focus}</div>
               </div>
             ))}
           </div>
         </div>
-      )}
 
-      {/* Recommended Resources */}
-      {roadmap?.recommendedResources && (
-        <div className="resources-section">
-          <h2>Recommended Resources</h2>
-          <div className="resources-grid">
-            {roadmap.recommendedResources.books?.length > 0 && (
-              <div className="resource-category">
-                <h3>📚 Books</h3>
-                <ul>
-                  {roadmap.recommendedResources.books.map((book, idx) => (
-                    <li key={idx}>{book}</li>
+        {/* Selected Phase Details */}
+        {selectedPhase && (
+          <div className="phase-details">
+            <h2>{selectedPhase.title}</h2>
+
+            {/* Objectives */}
+            <div className="detail-section">
+              <h3>Learning Objectives</h3>
+              <ul className="objectives-list">
+                {selectedPhase.objectives?.map((obj, idx) => (
+                  <li key={idx}>{obj}</li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Topics */}
+            <div className="detail-section">
+              <h3>Topics to Cover</h3>
+              <div className="topics-list">
+                {selectedPhase.topics?.map((topic, idx) => (
+                  <div key={idx} className="topic-item">
+                    <h4>{topic.name}</h4>
+                    <p className="duration">{topic.duration}</p>
+                    {topic.subtopics?.length > 0 && (
+                      <div className="subtopics">
+                        <strong>Subtopics:</strong>
+                        <ul>
+                          {topic.subtopics.map((sub, i) => (
+                            <li key={i}>{sub}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Projects */}
+            {selectedPhase.projects?.length > 0 && (
+              <div className="detail-section">
+                <h3>Projects</h3>
+                <ul className="projects-list">
+                  {selectedPhase.projects.map((project, idx) => (
+                    <li key={idx}>{project}</li>
                   ))}
                 </ul>
               </div>
             )}
-            {roadmap.recommendedResources.courses?.length > 0 && (
-              <div className="resource-category">
-                <h3>🎓 Courses</h3>
-                <ul>
-                  {roadmap.recommendedResources.courses.map((course, idx) => (
-                    <li key={idx}>{course}</li>
+
+            {/* Skills */}
+            {selectedPhase.skills?.length > 0 && (
+              <div className="detail-section">
+                <h3>Skills to Develop</h3>
+                <div className="skills-tags">
+                  {selectedPhase.skills.map((skill, idx) => (
+                    <span key={idx} className="skill-tag">
+                      {skill}
+                    </span>
                   ))}
-                </ul>
-              </div>
-            )}
-            {roadmap.recommendedResources.tools?.length > 0 && (
-              <div className="resource-category">
-                <h3>🛠️ Tools</h3>
-                <ul>
-                  {roadmap.recommendedResources.tools.map((tool, idx) => (
-                    <li key={idx}>{tool}</li>
-                  ))}
-                </ul>
+                </div>
               </div>
             )}
           </div>
-        </div>
-      )}
+        )}
 
-      {/* Action Buttons */}
-      <div className="action-buttons">
-        <button className="btn-start" onClick={() => navigate('/day/1')}>
-          Start Roadmap
-        </button>
-        <button
-          className="btn-download"
-          onClick={() => alert('Downloading PDF...')}
-        >
-          Download as PDF
-        </button>
-        <button className="btn-regenerate" onClick={() => setStep('form')}>
-          Regenerate Roadmap
-        </button>
+        {/* Daily Tasks */}
+        <div className="daily-tasks-section">
+          <h2>Daily Tasks</h2>
+          <div className="daily-tasks-slider">
+            {roadmap?.dailyBreakdown?.slice(0, 5).map((day) => (
+              <div
+                key={day.day}
+                className={`daily-task-card ${currentDay === day.day ? 'active' : ''}`}
+                onClick={() => navigate(`/day/${day.day}`)}
+              >
+                <div className="day-number">Day {day.day}</div>
+                <div className="day-topic">{day.topic}</div>
+                <div className="day-tasks">{day.tasks?.length} tasks</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Milestones */}
+        {roadmap?.milestones?.length > 0 && (
+          <div className="milestones-section">
+            <h2>Key Milestones</h2>
+            <div className="milestones-timeline">
+              {roadmap.milestones.map((milestone, idx) => (
+                <div key={idx} className="milestone-item">
+                  <div className="milestone-month">Month {milestone.month}</div>
+                  <div className="milestone-name">{milestone.milestone}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Recommended Resources */}
+        {roadmap?.recommendedResources && (
+          <div className="resources-section">
+            <h2>Recommended Resources</h2>
+            <div className="resources-grid">
+              {roadmap.recommendedResources.books?.length > 0 && (
+                <div className="resource-category">
+                  <h3>📚 Books</h3>
+                  <ul>
+                    {roadmap.recommendedResources.books.map((book, idx) => (
+                      <li key={idx}>{book}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {roadmap.recommendedResources.courses?.length > 0 && (
+                <div className="resource-category">
+                  <h3>🎓 Courses</h3>
+                  <ul>
+                    {roadmap.recommendedResources.courses.map((course, idx) => (
+                      <li key={idx}>{course}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {roadmap.recommendedResources.tools?.length > 0 && (
+                <div className="resource-category">
+                  <h3>🛠️ Tools</h3>
+                  <ul>
+                    {roadmap.recommendedResources.tools.map((tool, idx) => (
+                      <li key={idx}>{tool}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Action Buttons */}
+        <div className="action-buttons">
+          <button className="btn-start" onClick={() => navigate('/day/1')}>
+            Start Roadmap
+          </button>
+          <button
+            className="btn-download"
+            onClick={() => window.print()}
+          >
+            Download as PDF
+          </button>
+          <button
+            className="btn-regenerate"
+            onClick={() => {
+              if (window.confirm('Are you sure you want to regenerate your roadmap? This will overwrite your current progress.')) {
+                setStep('form');
+              }
+            }}
+          >
+            Regenerate Roadmap
+          </button>
+        </div>
       </div>
-    </div>
-  );
+    );
+  };
 
   return (
     <div className="roadmap-generator">

@@ -1,5 +1,6 @@
 import { fsdDays } from "./fsd";
 import { dsDays } from "./ds";
+import { higherStudiesDays } from "./higherStudies";
 
 export const getPathDays = (track) => {
 
@@ -24,7 +25,13 @@ export const getPathDays = (track) => {
 
     // Cyber
     cyber: fsdDays,
-    cybersecurity: fsdDays
+    cybersecurity: fsdDays,
+
+    // Higher Studies
+    "higher-studies": higherStudiesDays,
+    gate: higherStudiesDays,
+    gre: higherStudiesDays,
+    cat: higherStudiesDays,
   };
 
   if (!pathMap[normalizedTrack]) {

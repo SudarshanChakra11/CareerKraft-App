@@ -7,6 +7,9 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const createTransporter = () => {
+  const host = process.env.EMAIL_HOST || "smtp.gmail.com";
+  const port = Number(process.env.EMAIL_PORT || 587);
+  const secure = process.env.EMAIL_SECURE === "true" || port === 465;
   const user = process.env.EMAIL_USER;
   const pass = process.env.EMAIL_PASS;
 
@@ -15,13 +18,14 @@ const createTransporter = () => {
   }
 
   return nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 587,
-    secure: false, // true only for port 465
+    host,
+    port,
+    secure,
     auth: {
       user,
       pass,
     },
+    requireTLS: true,
     connectionTimeout: 15000,
     greetingTimeout: 15000,
     socketTimeout: 15000,

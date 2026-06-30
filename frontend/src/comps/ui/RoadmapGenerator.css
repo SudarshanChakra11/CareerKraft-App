@@ -627,3 +627,39 @@
     width: 100%;
   }
 }
+
+/* ==================== PRINT STYLES ==================== */
+@media print {
+  /* Hide navigation, headers, footers, and action buttons during print */
+  header, footer, .action-buttons, .btn-regenerate, .btn-download, .btn-start, nav {
+    display: none !important;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .roadmap-generator {
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .roadmap-display-container {
+    background: white;
+    color: black;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .phases-grid, .daily-tasks-slider, .resources-grid {
+    break-inside: avoid;
+  }
+  
+  .phase-card, .daily-task-card, .resource-category {
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+  }
+}

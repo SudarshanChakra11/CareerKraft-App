@@ -133,7 +133,7 @@ class RoadmapService {
     // Convert static steps to AI-like structure
     const phases = this.convertStaticStepsToPhases(careerInterest, learningParams);
     const dailyBreakdown = this.generateDailyBreakdown(phases, learningParams);
-    const milestones = this.generateMilestones(phases, learningParams);
+    const milestones = this.generateMilestones(phases, learningParams, careerInterest);
 
     return {
       id: this.generateRoadmapId(),
@@ -212,6 +212,61 @@ class RoadmapService {
 
 
   convertStaticStepsToPhases(careerInterest, learningParams) {
+    const isHigherStudies = ['GATE', 'GRE', 'CAT'].includes(careerInterest);
+
+    if (isHigherStudies) {
+      return [
+        {
+          phaseNumber: 1,
+          duration: `${learningParams.monthsPerPhase} months`,
+          title: `Phase 1: Foundations & Syllabus Coverage - ${careerInterest}`,
+          focus: 'Core syllabus topics & concepts',
+          objectives: ['Understand exam pattern', 'Cover base subjects', 'Complete fundamental syllabus'],
+          topics: [],
+          weeklyTasks: [],
+          projects: [],
+          skills: ['Theoretical Concepts', 'Analytical Skills'],
+          status: 'not-started',
+        },
+        {
+          phaseNumber: 2,
+          duration: `${learningParams.monthsPerPhase} months`,
+          title: `Phase 2: Intermediate Concepts & Topic-wise Practice - ${careerInterest}`,
+          focus: 'Sectional test preparation and numerical solving',
+          objectives: ['Attempt sectional questions', 'Clear doubts on target subjects', 'Solve previous years questions'],
+          topics: [],
+          weeklyTasks: [],
+          projects: [],
+          skills: ['Problem Solving', 'Formula Application'],
+          status: 'not-started',
+        },
+        {
+          phaseNumber: 3,
+          duration: `${learningParams.monthsPerPhase} months`,
+          title: `Phase 3: Advanced Revision & Subject Tests - ${careerInterest}`,
+          focus: 'Formulating shortcut techniques and time management',
+          objectives: ['Subject wise test series', 'Focus on weak areas', 'Optimize speed and accuracy'],
+          topics: [],
+          weeklyTasks: [],
+          projects: [],
+          skills: ['Time Management', 'Exam Strategy'],
+          status: 'not-started',
+        },
+        {
+          phaseNumber: 4,
+          duration: `${learningParams.monthsPerPhase} months`,
+          title: `Phase 4: Full-Length Mock Exams & Exam Ready - ${careerInterest}`,
+          focus: 'Simulated exam practice and final revision',
+          objectives: ['Complete full-length mock tests', 'Analyze performance reports', 'Final high-yield notes review'],
+          topics: [],
+          weeklyTasks: [],
+          projects: [],
+          skills: ['Accuracy', 'Endurance', 'Stress Management'],
+          status: 'not-started',
+        },
+      ];
+    }
+
     // This creates 4 phases from static steps
     return [
       {
@@ -296,7 +351,42 @@ class RoadmapService {
   }
 
 
-  generateMilestones(phases, learningParams) {
+  generateMilestones(phases, learningParams, careerInterest) {
+    const isHigherStudies = ['GATE', 'GRE', 'CAT'].includes(careerInterest);
+
+    if (isHigherStudies) {
+      return [
+        {
+          month: 1,
+          milestone: `Complete Phase 1 syllabus for ${careerInterest}`,
+          expectedSkills: ['Basic concepts', 'Formula understanding'],
+          projects: [],
+          completed: false,
+        },
+        {
+          month: Math.max(2, Math.ceil(learningParams.totalMonthsRemaining / 2)),
+          milestone: `Solve 50%+ of previous years questions for ${careerInterest}`,
+          expectedSkills: ['Topic-wise problem solving'],
+          projects: [],
+          completed: false,
+        },
+        {
+          month: Math.max(3, Math.ceil(learningParams.totalMonthsRemaining * 0.75)),
+          milestone: `Complete Subject-wise Mock Test series`,
+          expectedSkills: ['Topic mastery', 'Time management'],
+          projects: [],
+          completed: false,
+        },
+        {
+          month: Math.max(4, learningParams.totalMonthsRemaining),
+          milestone: `Attempt Full-Length Mock tests and achieve target score/percentile`,
+          expectedSkills: ['Exam readiness', 'Speed and accuracy'],
+          projects: [],
+          completed: false,
+        },
+      ];
+    }
+
     return [
       {
         month: 1,
