@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { createRoadmap, getRoadmap } from "@/services/api";
 import { getStoredUser } from "@/lib/store";
 import { useAppStore } from "@/store/useAppStore";
+import { getPathDays } from "@/data/pathTasks/pathMapper";
 import "./RoadmapGenerator.css";
 
 const RoadmapGenerator = () => {
@@ -21,6 +22,7 @@ const RoadmapGenerator = () => {
   const [currentDay, setCurrentDay] = useState(1);
   const [savedRoadmap, setSavedRoadmap] = useState(null);
   const completedDays = useAppStore((s) => s.completedDays) || [];
+  const getPathKey = useAppStore((s) => s.getPathKey);
 
   const qualifications = ['BE/BTech', 'ME/MTech'];
   const years = [1, 2, 3, 4];
@@ -243,9 +245,10 @@ const RoadmapGenerator = () => {
 
   const renderRoadmapDisplay = () => {
     // Dynamically calculate progress based on completed days
-    const totalDays = roadmap?.dailyBreakdown?.length || 100;
-    const computedProgress = Math.min(100, Math.round((completedDays.length / totalDays) * 100));
-    const displayProgress = Math.max(roadmap?.progress?.completionPercentage || 0, computedProgress);
+    const pathKey = getPathKey();
+    const pathDays = getPathDays(pathKey);
+    const totalDays = Object.keys(pathDays).length || 100;
+    const displayProgress = Math.min(100, Math.round((completedDays.length / totalDays) * 100));
 
     return (
       <div className="roadmap-display-container">

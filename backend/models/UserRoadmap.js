@@ -32,7 +32,7 @@ const DailyTaskSchema = new mongoose.Schema({
   duration: String,
   type: {
     type: String,
-    enum: ['theory', 'practical', 'assignment', 'project', 'quiz'],
+    enum: ['theory', 'practical', 'assignment', 'project', 'quiz', 'practice', 'coding', 'reading', 'video', 'review'],
   },
   resources: [String],
   completed: {
